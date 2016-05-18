@@ -5,6 +5,10 @@
 * [共同体](community.md)
 * [冷启动](clodstart.md)
 
+###2016
+* [适应力和资源募集](community.1.md)
+* [时间接口](timeflow.md)
+
 版权声明：
 
 1. 本库作品版权归[黄勇刚](mailto:huangyg@mars22.com)所有。

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <title>基础模型</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: Georgia, "Times New Roman", 
+             "Microsoft YaHei", "微软雅黑", 
+             STXihei, "华文细黑", 
+             serif;
+        font-weight: normal;
+      }
+      h1, h2, h3 {
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h3:last-of-type, .left-column h4:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+# press p
+???
+* p：注释
+* home、page up、page down、end、↑、 ↓：翻页
+* <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)</a>
+---
+class: center, middle, inverse
+
+# 合同
+### contract
+
+???
+1. 根据合作效率分类
+2. 整理类别的特征
+
+---
+background-image: url(contract.png)
+
+???
+基础合同（第1类）：
+1. 双方同意才能修改。
+2. 不使用某一方可以控制的条件。如果使用，另一方会按最坏情况谈判。
+
+---
+background-image: url(1.png)
+
+???
+规模大、工种多的大项目，需要多人签订1类合同。  
+通常：
+1. 不使用跨合同的条件（一份合同的条款以另一份合同执行情况为条件）
+2. 各自合同期内支付
+
+---
+background-image: url(2.png)
+
+???
+合并的多方合同（第2类）：
+1. 后续步骤可以前面步骤的完成情况作为条件。
+2. 可以共同监控收入，统一安排支付。
+3. 需要所有各方中的多数（甚至全体）同意才能修改。
+
+优点：弹性更大、启动资金更少。  
+缺点：更难适应变化。
+---
+background-image: url(3.png)
+
+???
+少数人修订的多方合同（第3类）：
+1. 可以规定修订者的产生程序、修订范围。
+2. 不同条款可以有不同的修订权限。
+3. 如果不限修订的条件和范围，理论上可以适应任何变化。
+
+优点：适应能力更强。  
+缺点：容易阶层固化。
+
+直线:讨论、签订第一版的角色。  
+箭头:除了第一版，还有权参与修改后续版本的角色。
+---
+class: center, middle, inverse
+
+# 企业
+### enterprise
+
+???
+由于第3类合同可以持续运行，在它的基础上诞生企业。
+---
+background-image: url(enterprise.png)
+
+???
+由国家总结成功实践，立法推广：
+1. 作为法人，拥有部分民事权利。
+2. 修订者的产生程序、权限不同，产生不同的企业模型（公司、合伙企业、合作社企业...）。
+3. 除了第3类合同的优缺点之外：
+	* 优点：关键条款已经整理好，学习成本低。
+	* 缺点：有税费，成本高。
+
+---
+background-image: url(3.1.png)
+
+???
+用圆形表示一个具体的企业（企业模型的一个部署）。
+---
+background-image: url(3.1.contract.png)
+
+???
+企业可以签订合同。
+
+---
+background-image: url(3.1.0.png)
+
+???
+可以成为其它企业的角色之一。
+
+---
+background-image: url(3.1.2.png)
+
+???
+退化（括号表示退化后实质模型）：
+1. 如果修订者不作为，则退化为**第2类合同**：
+	* 不修订。
+	* 仅仅跟随行业平均水平修订（即跟随多数成员的认识）。
+2. 退化后，就不再具有企业的优点。而出现第2类合同的缺点 -- 难以适应变化。
+---
+background-image: url(3.1.1.png)
+
+???
+1. 如果成员单独签订合同，合同内容替代了企业模型的功能，则退化为**第1类合同**。
+2. 退化后，就不再具有企业的优点。而出现第1类合同的缺点：
+	* 弹性更小：其它成员收窄合作条件，不接受体外合同的步骤为工作条件。
+	* 启动资金更多：其它成员收窄支付条件。
+
+---
+background-image: url(3.1.-1.png)
+
+???
+* 如果合同没有淘汰条款，它反而强化了宿主企业的缺点：阶层固化。
+* 由于汇集了第1类合同、第3类合同、企业的所有缺点，这种退化记为（-1）。
+---
+class: center, middle, inverse
+
+# 人
+### mind
+
+???
+探讨两个问题：
+1. 集权的原则
+2. 无需签订的合同、模型
+---
+background-image: url(mind.png)
+
+???
+使用简化的模型：
+1. 先由条件反射处理事件，然后才思考。
+2. 除了回应事件，行为还包括放弃（不处理）、转交他人......
+---
+background-image: url(reflex.png)
+
+???
+简化的条件反射是一个查找表。
+
+---
+background-image: url(think.png)
+
+???
+我们通过世界的简化模型进行推断，包括：
+* 未观察到的事实。
+* 预估的行动结果。
+经过一系列制订、修订，最终选出可接受的行动方案，对外输出。
+
+当所有模型推断的事实与实际观察不符时，自动产生一个新的模型。它能兼容这个例外，哪怕只能在这个样本上准确、其它都失真。
+---
+background-image: url(level.png)
+
+???
+查找表和模型有两个来源：
+1. 自我：
+	* 按查找表、模型的使用者和提供者，对自我意识划分层次。
+	* 事件和行为也经由更深层的意识传输，传输过程可以修改。
+2. 外界：通过各种媒介传入，提供者也是多元化的。
+	* 无主的。
+	* 合同、企业的成员设计的。
+
+
+---
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>

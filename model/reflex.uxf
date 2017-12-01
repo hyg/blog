@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>0</y>
+      <w>200</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+行为</panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0;180.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>60</y>
+      <w>550</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>**条件反射**
+
+
+
+
+
+
+
+
+
+fontsize=26
+valign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>40</x>
+      <y>210</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+事件</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>200</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>查找表
+Look Up Table
+--
+事件    |               行为
+--
+事件    |               行为
+--
+事件    |               行为
+--
+事件    |               行为
+--
+事件    |               行为
+--
+事件    |               行为
+--
+事件    |               行为</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

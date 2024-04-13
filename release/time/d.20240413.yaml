@@ -1,0 +1,8 @@
+date: 20240413
+time:
+  - begin: 20240413160000
+    amount: 60
+    unit: minute
+    type: work
+    subject: root
+    output: /draft/2024/04/202404131600.md

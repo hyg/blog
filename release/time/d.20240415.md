@@ -1,6 +1,6 @@
 # 20240415
 
-计划
+小结
 
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版1。
 
@@ -155,6 +155,7 @@ ego entry页面
 入口地址
 https://hyg.codeberg.page/blog/@master/release/entry.html
 http://z6b.cn/Hix8d
+https://t.cn/A6TWZQJ0
 
 下一步：在页面中显示markdown内容，以便组合多个md文件和yaml文件的内容。
 

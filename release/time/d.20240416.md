@@ -35,6 +35,7 @@
 
 ---
 
+
 [top](#top) | [index](#index)
 <a id="20240416074500"></a>
 ## 7:45~8:44
@@ -112,6 +113,7 @@ task:
 下一步：追溯到一级任务的path文件夹。
 参考：
 	- https://github.com/frappe/gantt 的甘特图json数据结构
+
 
 [top](#top) | [index](#index)
 <a id="20240416093000"></a>
@@ -403,6 +405,7 @@ log: |
 下一步的工作：
 - 根据COM的讨论和COD的执行，产生修订error、term、termset的task metadata，在ego或COD分配资源时使用，从而形成闭环。
 
+
 [top](#top) | [index](#index)
 <a id="20240416140000"></a>
 ## 14:00~14:29
@@ -417,6 +420,7 @@ draft自动生成日小结
 
 输出：D:\huangyg\git\blog\release\time.js
 - makedaylog(date)
+
 [top](#top) | [index](#index)
 <a id="20240416143000"></a>
 ## 14:30~14:59
@@ -431,6 +435,7 @@ ego entry页面显示markdown
 - 网页使用ifram读取codeberg page同域名下的日志文件，被自动下载。
 
 下一步：试试修改iframe属性，获得内容后试试onload()中解析markdown内容。
+
 [top](#top) | [index](#index)
 <a id="20240416160000"></a>
 ##  16:00~16:59

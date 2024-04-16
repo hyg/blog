@@ -29,8 +29,8 @@
 <a id="index"></a>
 - 07:45	[ego 任务管理的手写范例，metadata数据结构设计](#20240416074500)
 - 09:30	[PSMD 条款设计流程及手写范例，metadata to view 代码](#20240416093000)
-- 14:00	[ego entry页面显示markdown](#20240416140000)
-- 14:30	[xuemen 整理表单种类](#20240416143000)
+- 14:00	[draft自动生成日小结](#20240416140000)
+- 14:30	[ego entry页面显示markdown](#20240416143000)
 - 16:00	[ego draft to metadata 代码](#20240416160000)
 
 ---
@@ -407,15 +407,48 @@ log: |
 <a id="20240416140000"></a>
 ## 14:00~14:29
 
-ego entry页面显示markdown 
+draft自动生成日小结
+
+- 在draft数据结构中增加了name字段。
+- 内容末尾的回车都是紧贴内容，不带空行。是否隔行由后续内容开头决定。
+- 路径的左端不带斜杠，右端带。
+- 增加了目录。
+- 增加了top、index标签。
+
+输出：D:\huangyg\git\blog\release\time.js
+- makedaylog(date)
 [top](#top) | [index](#index)
 <a id="20240416143000"></a>
 ## 14:30~14:59
 
-xuemen 整理表单种类
+ego entry页面显示markdown 
 
+- 使用 https://marked.js.org/ 解析markdown内容
+- 网页无法跨域获得日志内容。
+    - 普通http get无效，返回status=0.
+    - jsonP无效，返回status=0.
+    - iframe无效，gitee和codeberg都拒绝iframe
+- 网页使用ifram读取codeberg page同域名下的日志文件，被自动下载。
+
+下一步：试试修改iframe属性，获得内容后试试onload()中解析markdown内容。
 [top](#top) | [index](#index)
 <a id="20240416160000"></a>
 ##  16:00~16:59
 
 ego draft to metadata 代码
+
+~~~
+node task            : task metadata to alltask metadata
+node task 2024       : draft to year stat
+node task 20240416   : draft to task metadata
+node task 1          : diff date draft to task metadata
+node task 20240101 20240401   : period draft to stat
+~~~
+
+输出：D:\huangyg\git\ego\task\task.js
+- 参数分流
+- draft to task metadata：function drafttotask(date)
+
+下一步：debug
+出现空文件或内容缺实、跳断的情况。
+已确认写入的内容是正确的，初步判断是读文件和写文件之间的同步问题。

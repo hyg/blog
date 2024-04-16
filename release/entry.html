@@ -4,11 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>entry page</title>
+    <script src="marked.min.js"></script>
     <script>
-        location.href = "https://codeberg.org/hyg/blog/src/branch/master/release/time/d."+datestr()+".md";
+        window.onload = function(){
+            var daylogurl = "https://codeberg.org/hyg/blog/raw/master/release/time/d." + datestr() + ".md";
+            getTextFileFromURL(daylogurl) 
+        }
+
+        function getTextFileFromURL(url) {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    var text = xmlhttp.responseText;
+                    alert(text);
+                    document.getElementById('daylog').innerHTML = marked.parse(text);
+                }
+            };
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send();
+        }
+
         function datestr(diff = 0) {
             var theDate = new Date();
-            //theDate.setDate(theDate.getDate() - 1);
             theDate.setDate(theDate.getDate() + diff);
 
             var year = theDate.getFullYear();
@@ -16,15 +33,13 @@
             var day = theDate.getDate() < 10 ? "0" + theDate.getDate() : theDate.getDate();
             var dateStr = year + "" + month + "" + day;
 
-            //console.log("datestr retrun:"+dateStr);
             return dateStr;
         }
     </script>
 </head>
 
 <body>
-
-
+    <div id="daylog"></div>
 </body>
 
 </html>

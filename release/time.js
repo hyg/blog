@@ -1,7 +1,10 @@
 var fs = require('fs');
 var yaml = require('js-yaml');
 
+let gitpath = "../../" ;
 let rawrepopath = "../../raw/";
+let draftrepopath = "../../draft/";
+
 let helpstr = `
 today plan: node time init 1
 day log mode: node time 20240414
@@ -71,7 +74,37 @@ function loadmetadata(){
 }
 
 function makedaylog(date){
+    var year = date.slice(0,4);
+    var month = date.slice(4,6);
+    var draftmetadatafilename = year+"/"+month+"/d."+date+".yaml";
+    var draftmetadata = yaml.load(fs.readFileSync(draftrepopath + draftmetadatafilename, 'utf8'));
 
+    var plan = draftmetadata.plan ;    
+    var planobj = yaml.load(fs.readFileSync("plan.yaml", 'utf8'));
+    var planstr = planobj.dayplan[plan].planstr ;
+
+    var daylog = "# "+date+"\n\n小结\n<a id=\"top\"></a>\n根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版"+plan+"。\n\n"+ planstr+"\n\n---\n";
+
+    var indexstr = "<a id=\"index\"></a>\n" ;
+    var logstr = "" ;
+    for(t in draftmetadata.time){
+        var timelog = draftmetadata.time[t];
+        //console.log(typeof(timelog.begin));
+        var hour = timelog.begin.toString().slice(8,10);
+        var minute = timelog.begin.toString().slice(10,12);
+        indexstr = indexstr + "- " + hour + ":" + minute + "\t[" + timelog.name + "](#" + timelog.begin + ")\n";
+
+        var outputfilename = gitpath + timelog.output ;
+        var outputstr = fs.readFileSync(outputfilename, 'utf8')
+        logstr = logstr + "\n[top](#top) | [index](#index)\n<a id=\"" + timelog.begin + "\"></a>\n" + outputstr;
+    }
+
+    var daylog = daylog + indexstr + "\n---\n" + logstr ;
+    //console.log(daylog);
+    
+    var daylogfilename = "time/d."+date+".md";
+    //console.log("dayplan file name:\n"+dayplanfilename+"\ncontent:"+dayplan);
+    fs.writeFileSync(daylogfilename, daylog);
 }
 
 function showtables(){

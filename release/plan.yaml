@@ -1,5 +1,95 @@
+timetype:
+  - name: work
+  - name: free
+  - name: discuss
+  - name: learn
+  - name: prepare
+  - name: sleep
+  - name: food
+  - name: check
 dayplan:
   1:
+    time:
+      - beginhour: 04
+        beginminute: 0
+        amount: 15
+        type: free
+        name: 休整
+      - beginhour: 04
+        beginminute: 15
+        amount: 60
+        type: prepare
+        name: 备餐、运动
+      - beginhour: 05
+        beginminute: 15
+        amount: 45
+        type: food
+        name: 早餐
+      - beginhour: 06
+        beginminute: 0
+        amount: 45
+        type: discuss
+        name: 会议、自习
+      - beginhour: 06
+        beginminute: 45
+        amount: 60
+        type: free
+        name: 休整
+      - beginhour: 07
+        beginminute: 45
+        amount: 60
+        type: work
+        name: 静默工作
+        namelink: http://simp.ly/p/xtgD4F
+      - beginhour: 08
+        beginminute: 45
+        amount: 45
+        type: free
+        name: 休整
+      - beginhour: 09
+        beginminute: 30
+        amount: 90
+        type: work
+        name: 静默工作
+        namelink: http://simp.ly/p/j1SspP
+      - beginhour: 11
+        beginminute: 00
+        amount: 180
+        type: food
+        name: 备餐、午餐午休
+      - beginhour: 14
+        beginminute: 0
+        amount: 30
+        type: work
+        name: 静默工作
+        namelink: http://simp.ly/p/8t3vlk
+      - beginhour: 14
+        beginminute: 30
+        amount: 30
+        type: work
+        name: 静默工作
+        namelink: http://simp.ly/p/5k9gJy
+      - beginhour: 15
+        beginminute: 0
+        amount: 60
+        type: free
+        name: 休整
+      - beginhour: 16
+        beginminute: 0
+        amount: 60
+        type: work
+        name: 静默工作
+        namelink: http://simp.ly/p/4QDThK
+      - beginhour: 17
+        beginminute: 00
+        amount: 120
+        type: food
+        name: 晚餐
+      - beginhour: 19
+        beginminute: 00
+        amount: 60
+        type: check
+        name: 讨论、整理提交
     planstr: |-
       | 时间片 | 时长 | 用途 |
       | --- | --- | --- |
@@ -22,6 +112,70 @@ dayplan:
       模版一采用静默工作方式。  
       希望讨论的提纲发到 [huangyg@mars22.com](mailto:huangyg@mars22.com)，通常安排在后面某天的早餐（5:15~5:59）或会议时间（6:00~6:45）。
   2:
+    time:
+      - beginhour: 04
+        beginminute: 0
+        amount: 15
+        type: free
+        name: 休整
+      - beginhour: 04
+        beginminute: 15
+        amount: 60
+        type: prepare
+        name: 备餐、运动
+      - beginhour: 05
+        beginminute: 15
+        amount: 45
+        type: food
+        name: 早餐
+      - beginhour: 06
+        beginminute: 0
+        amount: 45
+        type: discuss
+        name: 会议、自习
+      - beginhour: 06
+        beginminute: 45
+        amount: 60
+        type: free
+        name: 休整
+      - beginhour: 07
+        beginminute: 45
+        amount: 195
+        type: work
+        name: 工作
+        namelink: http://simp.ly/p/3GXNTh
+      - beginhour: 11
+        beginminute: 00
+        amount: 180
+        type: food
+        name: 备餐、午餐午休
+      - beginhour: 14
+        beginminute: 0
+        amount: 90
+        type: work
+        name: 工作
+        namelink: http://simp.ly/p/lsBYG9
+      - beginhour: 15
+        beginminute: 30
+        amount: 30
+        type: free
+        name: 休整
+      - beginhour: 16
+        beginminute: 0
+        amount: 60
+        type: work
+        name: 工作
+        namelink: http://simp.ly/p/MpcbHD
+      - beginhour: 17
+        beginminute: 00
+        amount: 120
+        type: food
+        name: 晚餐
+      - beginhour: 19
+        beginminute: 00
+        amount: 60
+        type: check
+        name: 讨论、整理提交
     planstr: |-
       | 时间片 | 时长 | 用途 |
       | --- | --- | --- |

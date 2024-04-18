@@ -61,6 +61,7 @@ function makedaydraft(date, plan) {
             timeperiod.amount = time[i].amount;
             timeperiod.type = "work";
             timeperiod.subject = "tbd";
+            timeperiod.name = "tbd";
             timeperiod.output = "draft/" + date.slice(0, 4) + "/" + date.slice(4, 6) + "/" + timeperiod.begin + ".md";
             drafttimearray.push(timeperiod);
         }

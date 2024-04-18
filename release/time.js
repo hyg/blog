@@ -122,7 +122,7 @@ function makedayplan(date) {
         var timeviewfilename = draftrepopath + date.slice(0, 4) + "/" + date.slice(4, 6) + "/" + begintime + ".md";
         console.log("time slice draft file name:"+timeviewfilename);
         console.log(timestr);
-        //fs.writeFileSync(timesliceviewfilename, timestr);
+        fs.writeFileSync(timeviewfilename, timestr);
     }
 
     var dayplanfilename = "time/d." + date + ".md";

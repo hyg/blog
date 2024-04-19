@@ -99,7 +99,7 @@ function makedayplan(date) {
 
     var planobj = yaml.load(fs.readFileSync("plan.yaml", 'utf8'));
     var planstr = planobj.dayplan[plan].planstr;
-    var dayplan = "# " + date + "\n\n计划\n\n根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版" + plan + "。\n\n" + planstr + "\n\n---\n\n";
+    var dayplan = "# " + date + "\n\n计划  \n\n根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版" + plan + "。\n\n" + planstr + "\n\n---\n\n";
 
     for (var i in draftmetadata.time) {
         var subject = draftmetadata.time[i].subject;
@@ -149,7 +149,7 @@ function makedaylog(date) {
         console.log("yaml read error！" + e);
         process.exit();
     }
-    var daylog = "# " + date + "\n\n小结\n<a id=\"top\"></a>\n";
+    var daylog = "# " + date + "\n\n小结  \n\n<a id=\"top\"></a>\n";
 
     var plan = draftmetadata.plan;
     if (plan != null) {

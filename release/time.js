@@ -173,7 +173,7 @@ function makedaylog(date) {
             taskname = "无名任务" ;
         }
 
-        indexstr = indexstr + "- " + hour + ":" + minute + "\t[" + taskname + "](#" + timelog.begin + ")\n";
+        indexstr = indexstr + "- " + hour + ":" + minute + "\t[" + taskname + "](#" + timelog.begin + ")  \n";
 
         var outputfilename = gitpath + timelog.output;
         var outputstr = fs.readFileSync(outputfilename, 'utf8')

@@ -224,7 +224,7 @@ path replace:termset.9.yaml termset.5ab2b2ba.yaml
 
 下一步：  
 - 把附件43加进去。
-- termid可能有二义性：字符串和数字。比如：2e758794 被理解为Infinity：  
+- termid可能有二义性：字符串和数字。比如：2e758794 被理解为Infinity (位置在maketermtext()开头。已解决，在yaml.load()增加参数, { schema: yaml.FAILSAFE_SCHEMA });)：  
 
 ~~~
 Error: ENOENT: no such file or directory, open 'D:\huangyg\git\PSMD\data\term.Infinity.yaml'

@@ -87,7 +87,7 @@ function makedayplan(date) {
         if (fs.existsSync(draftmetafilename)){
             draftmetadata = yaml.load(fs.readFileSync(draftmetafilename, 'utf8'));
         }else{
-            console.log("the log isn't exist:"+draftmetafilename);
+            console.log("the draft metadata isn't exist:"+draftmetafilename);
             process.exit();
         }
     }catch (e) {
@@ -98,7 +98,33 @@ function makedayplan(date) {
     var plan = draftmetadata.plan;
 
     var planobj = yaml.load(fs.readFileSync("plan.yaml", 'utf8'));
-    var planstr = planobj.dayplan[plan].planstr;
+    //var planstr = planobj.dayplan[plan].planstr;
+
+    var planstr = `| 时间片 | 时长 | 用途 | 手稿 |
+    | --- | --- | --- | --- |
+    `;
+    for(var i in planobj.dayplan[plan].time){
+        var timeslice = planobj.dayplan[plan].time[i] ;
+        var beginhour = timeslice.beginhour;
+        var beginminute = timeslice.beginminute;
+        var amount = timeslice.amount ;
+        var endhour = beginhour+ parseInt((beginminute + amount)/60);
+        var endminute = (beginminute + amount)%60;
+
+        var draftstr = "";
+        if(timeslice.namelink != null){
+            draftstr = "[在线同步]("+timeslice.namelink+")";
+        }
+        if(timeslice.type == "work"){
+            var begintime = date + beginhour.toString().padStart(2, '0') + beginminute.toString().padStart(2, '0') + "00";
+            var draftfilename = draftrepopath + date.slice(0, 4) + "/" + date.slice(4, 6) + "/" + begintime + ".md";
+            draftstr = draftstr + " [离线归档](" + draftfilename + ")";
+        }
+
+        planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " +  draftstr + " |\n" ;
+    }
+    //console.log("planstr:\n"+planstr);
+
     var dayplan = "# " + date + "\n\n计划  \n\n根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版" + plan + "。\n\n" + planstr + "\n\n---\n\n";
 
     for (var i in draftmetadata.time) {

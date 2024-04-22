@@ -158,7 +158,7 @@ readme: |
 
 - 目标条款:  如果符合附件44（执行部门陷入割据）的情况，则附件1406（1406动议）自动生效。
 
-···
+```
 
 D:\huangyg\git\PSMD\src>node term commit
 执行部门陷入割据 0ccddb29
@@ -212,7 +212,7 @@ D:\huangyg\git\PSMD\src>node term termset b3124d50
 
 ---
 
-···
+```
 
 下一步：  
 

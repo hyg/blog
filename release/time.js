@@ -100,8 +100,8 @@ function makedayplan(date) {
     var planobj = yaml.load(fs.readFileSync("plan.yaml", 'utf8'));
     //var planstr = planobj.dayplan[plan].planstr;
 
-    var planstr = `| 时间片 | 时长 | 用途 | 手稿 |
-    | --- | --- | --- | --- |
+    var planstr = `| 时间片 | 时长 | 用途 | 手稿 |  
+    | --- | --- | --- | --- |  
     `;
     for(var i in planobj.dayplan[plan].time){
         var timeslice = planobj.dayplan[plan].time[i] ;
@@ -121,7 +121,7 @@ function makedayplan(date) {
             draftstr = draftstr + " [离线归档](" + draftfilename + ")";
         }
 
-        planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " +  draftstr + " |\n" ;
+        planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " +  draftstr + " |  \n" ;
     }
     //console.log("planstr:\n"+planstr);
 

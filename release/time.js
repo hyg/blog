@@ -82,20 +82,26 @@ function makedayplan(date) {
     //console.log("wake time:"+waketime);
 
     var draftmetafilename = draftrepopath + date.slice(0, 4) + "/" + date.slice(4, 6) + "/" + "d." + date + ".yaml";
-    var draftmetadata ;
+    var draftmetadata;
     try {
-        if (fs.existsSync(draftmetafilename)){
+        if (fs.existsSync(draftmetafilename)) {
             draftmetadata = yaml.load(fs.readFileSync(draftmetafilename, 'utf8'));
-        }else{
-            console.log("the draft metadata isn't exist:"+draftmetafilename);
+        } else {
+            console.log("the draft metadata isn't exist:" + draftmetafilename);
             process.exit();
         }
-    }catch (e) {
+    } catch (e) {
         // failure
         console.log("yaml read error！" + e);
         process.exit();
     }
     var plan = draftmetadata.plan;
+
+    var timeslicename = new Object();
+    for (var i in draftmetadata.time) {
+        timeslicename[draftmetadata.time[i].begin] = draftmetadata.time[i].name;
+    }
+
 
     var planobj = yaml.load(fs.readFileSync("plan.yaml", 'utf8'));
     //var planstr = planobj.dayplan[plan].planstr;
@@ -103,25 +109,30 @@ function makedayplan(date) {
     var planstr = `| 时间片 | 时长 | 用途 | 手稿 |  
 | --- | --- | --- | --- |  
 `;
-    for(var i in planobj.dayplan[plan].time){
-        var timeslice = planobj.dayplan[plan].time[i] ;
+    for (var i in planobj.dayplan[plan].time) {
+        var timeslice = planobj.dayplan[plan].time[i];
         var beginhour = timeslice.beginhour;
         var beginminute = timeslice.beginminute;
-        var amount = timeslice.amount ;
-        var endhour = beginhour+ parseInt((beginminute + amount)/60);
-        var endminute = (beginminute + amount)%60;
+        var amount = timeslice.amount;
+        var endhour = beginhour + parseInt((beginminute + amount) / 60);
+        var endminute = (beginminute + amount) % 60;
+
+        var begintime = date + beginhour.toString().padStart(2, '0') + beginminute.toString().padStart(2, '0') + "00";
 
         var draftstr = "";
-        if(timeslice.namelink != null){
-            draftstr = "[在线同步]("+timeslice.namelink+")";
+        if (timeslicename[begintime] != null) {
+            draftstr = draftstr + timeslicename[begintime] + "  ";
         }
-        if(timeslice.type == "work"){
-            var begintime = date + beginhour.toString().padStart(2, '0') + beginminute.toString().padStart(2, '0') + "00";
+        if (timeslice.namelink != null) {
+            draftstr = draftstr + "[在线同步](" + timeslice.namelink + ")";
+        }
+        if (timeslice.type == "work") {
+
             var draftfilename = draftrepopath + date.slice(0, 4) + "/" + date.slice(4, 6) + "/" + begintime + ".md";
             draftstr = draftstr + " [离线归档](" + draftfilename + ")";
         }
 
-        planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " +  draftstr + " |  \n" ;
+        planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " + draftstr + " |  \n";
     }
     //console.log("planstr:\n"+planstr);
 
@@ -130,30 +141,30 @@ function makedayplan(date) {
     for (var i in draftmetadata.time) {
         var subject = draftmetadata.time[i].subject;
         var taskname = draftmetadata.time[i].name;
-        if(taskname === undefined){
-            taskname = "无名任务" ;
+        if (taskname === undefined) {
+            taskname = "无名任务";
         }
         var output = draftmetadata.time[i].output;
 
         dayplan = dayplan + "- task:" + subject + "  [" + taskname + "](../" + gitpath + output + ")\n";
 
-        var begintime = draftmetadata.time[i].begin ;
-        var beginhour = parseInt((begintime-parseInt(begintime/1000000)*1000000)/10000);
-        var beginminute = parseInt((begintime-parseInt(begintime/10000)*10000)/100);
+        var begintime = draftmetadata.time[i].begin;
+        var beginhour = parseInt((begintime - parseInt(begintime / 1000000) * 1000000) / 10000);
+        var beginminute = parseInt((begintime - parseInt(begintime / 10000) * 10000) / 100);
         var amount = draftmetadata.time[i].amount;
-        var endhour = beginhour+parseInt((beginminute+amount)/60) ;
-        var endminute = (beginminute + amount)%60;
+        var endhour = beginhour + parseInt((beginminute + amount) / 60);
+        var endminute = (beginminute + amount) % 60;
         //console.log(begintime,beginhour,beginminute,amount,endhour,endminute);
-        var timestr = "## "+beginhour.toString().padStart(2,"0")+":"+beginminute.toString().padStart(2,"0")+" ~ "+endhour.toString().padStart(2,"0")+":"+endminute.toString().padStart(2,"0")+"\n\n"+taskname+"\n\n";
+        var timestr = "## " + beginhour.toString().padStart(2, "0") + ":" + beginminute.toString().padStart(2, "0") + " ~ " + endhour.toString().padStart(2, "0") + ":" + endminute.toString().padStart(2, "0") + "\n\n" + taskname + "\n\n";
 
         var timeviewfilename = draftrepopath + date.slice(0, 4) + "/" + date.slice(4, 6) + "/" + begintime + ".md";
-        console.log("time slice draft file name:"+timeviewfilename);
+        console.log("time slice draft file name:" + timeviewfilename);
         console.log(timestr);
         fs.writeFileSync(timeviewfilename, timestr);
     }
 
     var dayplanfilename = "time/d." + date + ".md";
-    console.log("dayplan file name:\n"+dayplanfilename+"\ncontent:\n"+dayplan);
+    console.log("dayplan file name:\n" + dayplanfilename + "\ncontent:\n" + dayplan);
     fs.writeFileSync(dayplanfilename, dayplan);
 }
 
@@ -162,15 +173,15 @@ function makedaylog(date) {
     var month = date.slice(4, 6);
 
     var draftmetafilename = draftrepopath + date.slice(0, 4) + "/" + date.slice(4, 6) + "/" + "d." + date + ".yaml";
-    var draftmetadata ;
+    var draftmetadata;
     try {
-        if (fs.existsSync(draftmetafilename)){
+        if (fs.existsSync(draftmetafilename)) {
             draftmetadata = yaml.load(fs.readFileSync(draftmetafilename, 'utf8'));
-        }else{
-            console.log("the log isn't exist:"+draftmetafilename);
+        } else {
+            console.log("the log isn't exist:" + draftmetafilename);
             process.exit();
         }
-    }catch (e) {
+    } catch (e) {
         // failure
         console.log("yaml read error！" + e);
         process.exit();
@@ -180,9 +191,40 @@ function makedaylog(date) {
     var plan = draftmetadata.plan;
     if (plan != null) {
         var planobj = yaml.load(fs.readFileSync("plan.yaml", 'utf8'));
-        var planstr = planobj.dayplan[plan].planstr;
+        //var planstr = planobj.dayplan[plan].planstr;
 
-        daylog = daylog + "根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版" + plan + "。\n\n" + planstr ;
+
+        var timeslicename = new Object();
+        for (var i in draftmetadata.time) {
+            timeslicename[draftmetadata.time[i].begin] = draftmetadata.time[i].name;
+        }
+
+        var planstr = `| 时间片 | 时长 | 用途 | 手稿 |  
+| --- | --- | --- | --- |  
+`;
+        for (var i in planobj.dayplan[plan].time) {
+            var timeslice = planobj.dayplan[plan].time[i];
+            var beginhour = timeslice.beginhour;
+            var beginminute = timeslice.beginminute;
+            var amount = timeslice.amount;
+            var endhour = beginhour + parseInt((beginminute + amount) / 60);
+            var endminute = (beginminute + amount) % 60;
+
+            var begintime = date + beginhour.toString().padStart(2, '0') + beginminute.toString().padStart(2, '0') + "00";
+
+            var draftstr = "";
+            if ((timeslicename[begintime] != null)&(timeslice.type == "work")) {
+                draftstr = draftstr + "[" + timeslicename[begintime] + "](#" + begintime + ")" ;
+            
+
+                //var draftfilename = draftrepopath + date.slice(0, 4) + "/" + date.slice(4, 6) + "/" + begintime + ".md";
+                //draftstr = draftstr + " [离线归档](" + draftfilename + ")";
+            }
+
+            planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " + draftstr + " |  \n";
+        }
+
+        daylog = daylog + "根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版" + plan + "。\n\n" + planstr;
     } else {
         daylog = daylog + "当天未绑定时间模版"
     }
@@ -193,10 +235,10 @@ function makedaylog(date) {
         //console.log(typeof(timelog.begin));
         var hour = timelog.begin.toString().slice(8, 10);
         var minute = timelog.begin.toString().slice(10, 12);
-        var taskname = timelog.name ;
+        var taskname = timelog.name;
         //console.log(taskname);
-        if(taskname === undefined){
-            taskname = "无名任务" ;
+        if (taskname === undefined) {
+            taskname = "无名任务";
         }
 
         indexstr = indexstr + "- " + hour + ":" + minute + "\t[" + taskname + "](#" + timelog.begin + ")  \n";
@@ -210,7 +252,7 @@ function makedaylog(date) {
     //console.log(daylog);
 
     var daylogfilename = "time/d." + date + ".md";
-    //console.log("daylog file name:\n" + daylogfilename + "\ncontent:\n" + daylog);
+    console.log("daylog file name:\n" + daylogfilename + "\ncontent:\n" + daylog);
     fs.writeFileSync(daylogfilename, daylog);
 }
 

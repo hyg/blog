@@ -114,8 +114,8 @@ function makedayplan(date) {
         var beginhour = timeslice.beginhour;
         var beginminute = timeslice.beginminute;
         var amount = timeslice.amount;
-        var endhour = beginhour + parseInt((beginminute + amount) / 60);
-        var endminute = (beginminute + amount) % 60;
+        var endhour = beginhour + parseInt((beginminute + amount -1) / 60);
+        var endminute = (beginminute + amount -1) % 60;
 
         var begintime = date + beginhour.toString().padStart(2, '0') + beginminute.toString().padStart(2, '0') + "00";
 
@@ -133,7 +133,8 @@ function makedayplan(date) {
         }
 
         planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " + draftstr + " |  \n";
-    }
+    }    
+    planstr = planstr + "\n" + planobj.dayplan[plan].readme;
     //console.log("planstr:\n"+planstr);
 
     var dayplan = "# " + date + "\n\n计划  \n\n根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版" + plan + "。\n\n" + planstr + "\n\n---\n\n";
@@ -207,8 +208,8 @@ function makedaylog(date) {
             var beginhour = timeslice.beginhour;
             var beginminute = timeslice.beginminute;
             var amount = timeslice.amount;
-            var endhour = beginhour + parseInt((beginminute + amount) / 60);
-            var endminute = (beginminute + amount) % 60;
+            var endhour = beginhour + parseInt((beginminute + amount -1) / 60);
+            var endminute = (beginminute + amount -1) % 60;
 
             var begintime = date + beginhour.toString().padStart(2, '0') + beginminute.toString().padStart(2, '0') + "00";
 
@@ -223,6 +224,8 @@ function makedaylog(date) {
 
             planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " + draftstr + " |  \n";
         }
+
+        planstr = planstr + "\n" + planobj.dayplan[plan].readme;
 
         daylog = daylog + "根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版" + plan + "。\n\n" + planstr;
     } else {

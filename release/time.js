@@ -101,8 +101,8 @@ function makedayplan(date) {
     //var planstr = planobj.dayplan[plan].planstr;
 
     var planstr = `| 时间片 | 时长 | 用途 | 手稿 |  
-    | --- | --- | --- | --- |  
-    `;
+| --- | --- | --- | --- |  
+`;
     for(var i in planobj.dayplan[plan].time){
         var timeslice = planobj.dayplan[plan].time[i] ;
         var beginhour = timeslice.beginhour;

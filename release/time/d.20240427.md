@@ -34,6 +34,7 @@
 - 14:30	[eval、function、import() 范例](#20240427143000)  
 - 16:00	[整理治理相关数据结构，为自动分录做好准备。](#20240427160000)  
 
+
 ---
 
 [top](#top) | [index](#index)
@@ -75,6 +76,7 @@ dayplan1:
 dayplan2:
   another todo.yaml
 ```
+
 
 ---
 
@@ -172,7 +174,8 @@ D:\huangyg\git\PSMD\src>node term error cde3c3e2
   - 无意识的行为：应暂时停职，由相关成员自行纠偏，然后根据情况复职或者重新竞聘。
   - 有意识的行为：可以基于理性人假设，从行为偏差分析规章偏差，根据情况产生工单。如需进一步建议请联系<huang@mars22.com>
 ---
-```---
+```
+---
 
 [top](#top) | [index](#index)
 <a id="20240427140000"></a>
@@ -230,6 +233,7 @@ effect: |
     percent:
     text: |
 ```
+
 ---
 
 [top](#top) | [index](#index)
@@ -246,6 +250,7 @@ D:\huangyg\git\js.sample\codestr>node main
 data:123456
 60:60str
 ```
+
 ---
 
 [top](#top) | [index](#index)

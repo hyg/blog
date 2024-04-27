@@ -106,8 +106,8 @@ function makedayplan(date) {
     var planobj = yaml.load(fs.readFileSync("plan.yaml", 'utf8'));
     //var planstr = planobj.dayplan[plan].planstr;
 
-    var planstr = `| 时间片 | 时长 | 用途 | 手稿 |  
-| --- | --- | --- | --- |  
+    var planstr = `| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | --- | --- |
 `;
     for (var i in planobj.dayplan[plan].time) {
         var timeslice = planobj.dayplan[plan].time[i];
@@ -132,7 +132,7 @@ function makedayplan(date) {
             draftstr = draftstr + " [离线归档](" + draftfilename + ")";
         }
 
-        planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " + draftstr + " |  \n";
+        planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " + draftstr + " |\n";
     }    
     planstr = planstr + "\n" + planobj.dayplan[plan].readme;
     //console.log("planstr:\n"+planstr);
@@ -147,7 +147,7 @@ function makedayplan(date) {
         }
         var output = draftmetadata.time[i].output;
 
-        dayplan = dayplan + "- task:" + subject + "  [" + taskname + "](../" + gitpath + output + ")\n";
+        dayplan = dayplan + "- task:" + subject + "  [" + taskname + "](../" + gitpath + output + ")  \n";
 
         var begintime = draftmetadata.time[i].begin;
         var beginhour = parseInt((begintime - parseInt(begintime / 1000000) * 1000000) / 10000);
@@ -200,8 +200,8 @@ function makedaylog(date) {
             timeslicename[draftmetadata.time[i].begin] = draftmetadata.time[i].name;
         }
 
-        var planstr = `| 时间片 | 时长 | 用途 | 手稿 |  
-| --- | --- | --- | --- |  
+        var planstr = `| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | --- | --- |
 `;
         for (var i in planobj.dayplan[plan].time) {
             var timeslice = planobj.dayplan[plan].time[i];
@@ -222,7 +222,7 @@ function makedaylog(date) {
                 //draftstr = draftstr + " [离线归档](" + draftfilename + ")";
             }
 
-            planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " + draftstr + " |  \n";
+            planstr = planstr + "| " + beginhour.toString().padStart(2, '0') + ":" + beginminute.toString().padStart(2, '0') + "~" + endhour.toString().padStart(2, '0') + ":" + endminute.toString().padStart(2, '0') + " | " + amount + " | " + timeslice.name + " | " + draftstr + " |\n";
         }
 
         planstr = planstr + "\n" + planobj.dayplan[plan].readme;

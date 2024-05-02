@@ -16,7 +16,7 @@
 ---
 season stat:
 
-| task | alloc | sold | rest |
+| task | alloc | sold | hold |
 | --- | --- | --- | --- |
 | total | 13275 | 5445 | 7830 |
 | PSMD | 7000 | 3028 | 3972 |

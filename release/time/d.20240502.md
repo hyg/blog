@@ -15,6 +15,7 @@
 
 ---
 season stat:
+
 | task | alloc | sold | rest |
 | --- | --- | --- | --- |
 | total | 13275 | 5445 | 7830 |
@@ -30,27 +31,28 @@ season stat:
 
 waiting list:
 
-30分钟时间片：
-- ego的第1号事项：整理废弃git库，包括本地和远程。
-- learn的第1号事项：学习正则表达式RegExp
-- raw的第1号事项：debug-灰枣按"个"作为单位被算出很高热量。
-- ego的第2号事项：makedayplan()创建draft文件夹，合并makedayplan和makedaydraft。
 
-60分钟时间片：
-- PSMD的第1号事项：term metadata的upgradeby,depend,together,effect等字段的内容写入term view
-- js的第1号事项：Jade Language生成html view
-- xuemen的第1号事项：五月报税
-- js的第2号事项：学习测试方法和工具
+- 30分钟时间片：
+  - ego的第1号事项：整理废弃git库，包括本地和远程。
+  - learn的第1号事项：学习正则表达式RegExp
+  - raw的第1号事项：debug-灰枣按"个"作为单位被算出很高热量。
+  - ego的第2号事项：makedayplan()创建draft文件夹，合并makedayplan和makedaydraft。
 
-90分钟时间片：
-- PSMD的第2号事项：自动把旧格式转化为新格式：
-- learn的第3号事项：把PSMD的data、src部分升级到rdf，如果升级成功则作为范例。
-- PSMD的第7号事项：整理近期手稿。
+- 60分钟时间片：
+  - PSMD的第1号事项：term metadata的upgradeby,depend,together,effect等字段的内容写入term view
+  - js的第1号事项：Jade Language生成html view
+  - xuemen的第1号事项：五月报税
+  - js的第2号事项：学习测试方法和工具
 
-195分钟时间片：
-- xuemen的第2号事项：xuemen COD metadata
-- PSMD的第5号事项：term + COM matedata -> deploy metadata -> deploy view
-- ego的第5号事项：在整理近期手稿之后，修订个人模型。
+- 90分钟时间片：
+  - PSMD的第2号事项：自动把旧格式转化为新格式：
+  - learn的第3号事项：把PSMD的data、src部分升级到rdf，如果升级成功则作为范例。
+  - PSMD的第7号事项：整理近期手稿。
+
+- 195分钟时间片：
+  - xuemen的第2号事项：xuemen COD metadata
+  - PSMD的第5号事项：term + COM matedata -> deploy metadata -> deploy view
+  - ego的第5号事项：在整理近期手稿之后，修订个人模型。
 
 ---
 

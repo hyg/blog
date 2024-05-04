@@ -43,13 +43,14 @@ waiting list:
   - xuemen的第1号事项：五月报税
 
 - 90分钟时间片：
+  - PSMD的第2号事项：根据新的term metadata，重新设计COM、deploy、COD metadata，编辑出范例。
   - learn的第4号事项：把PSMD的data、src部分升级到rdf，如果升级成功则作为范例。
-  - PSMD的第6号事项：整理近期手稿。
+  - PSMD的第7号事项：整理近期手稿。
 
 - 195分钟时间片：
   - xuemen的第2号事项：xuemen COD metadata
   - ego的第3号事项：在整理近期手稿之后，修订个人模型。
-  - PSMD的第4号事项：term + COM matedata -> deploy metadata -> deploy view
+  - PSMD的第5号事项：term + COM matedata -> deploy metadata -> deploy view
 
 ---
 

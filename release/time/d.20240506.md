@@ -59,7 +59,59 @@ waiting list:
 ###  COM
 COM定义共同体的模型：placeholder替换成中性词，列出各局部的多种可以互相替换、效果相近的term。各COD的部署和运行经验汇总到COM。
 
-- 主要以权力分配为主线。利益分配、角色任免关系是否需要单独定义，或者建立索引，实际使用后回顾。
+- 主要以权力分配为主线。利益分配、角色任免关系是否需要单独定义，或者建立索引，实际使用后回顾。  
+
+实际使用：
+- loop term要不要有localid。
+    - 按修订层次排序应该固化吗，还是其中一种布局。
+    - 可互相替换的条款，肯定需要在COM而不是term中表达。
+- level0可以去掉，减少一层。
+- 可互相替换的条款，序号怎么定，互相引用关系怎么定。
+    - leveln.m
+- 新的提议：
+```
+name:
+id:
+modeler:
+  name:
+  id:
+  COM:
+  IRI: //代替其它字段
+interface:
+  <term.termid.entity.1>: value
+  <term.termid.entity.2>: value
+  <term.termid.asset.1>: value
+  <term.termid.term.1>: value
+  <term.termid.event.1>: value
+  <term.termid.localid.1>: value
+termmaker:
+  const: //不可修订条款
+    - termid:
+      map:
+      readme: |
+    - termid:
+  loop: //自修订条款
+    - termid:
+      map:
+      readme: |
+    - termid:
+  level1:
+    - upgradeby:
+      option:
+        - termid:
+          map:
+          readme: |
+        - termid:
+    - upgradeby: //对于开源信息可以解决的，可以用readme说明而不列出具体term。
+      readme:
+  level2:
+    - upgradeby:
+      option:
+        - termid:
+          map:
+          readme: |
+        - termid:
+termid: // not term maker
 ```
 
 ###  deploy

@@ -14,13 +14,13 @@ season stat:
 
 | task | alloc | sold | hold |
 | --- | --- | --- | --- |
-| total | 13275 | 5445 | 7830 |
-| PSMD | 7000 | 3028 | 3972 |
-| learn | 1000 | 222 | 778 |
-| ego | 3000 | 1731 | 1269 |
-| js | 1375 | 229 | 1146 |
-| xuemen | 600 | 90 | 510 |
-| raw | 300 | 115 | 185 |
+| total | 13275 | 7558 | 5717 |
+| PSMD | 7000 | 4146 | 2854 |
+| learn | 1000 | 312 | 688 |
+| ego | 3000 | 1994 | 1006 |
+| js | 1375 | 345 | 1030 |
+| xuemen | 600 | 581 | 19 |
+| raw | 300 | 150 | 150 |
 | infra | 0 | 30 | -30 |
 
 ---
@@ -35,10 +35,10 @@ waiting list:
   - learn的第2号事项：YARRRML
 
 - 60分钟时间片：
-  - ego的第1号事项：在node ego over时创建次日的计划，内容参考node ego plan输出。
   - js的第1号事项：学习测试方法和工具
+  - ego的第1号事项：在node ego over时创建次日的计划，内容参考node ego plan输出。
   - xuemen的第1号事项：五月报税
-  - ego的第2号事项：在season metadata中实现浮动时间表，修改日计划功能。
+  - js的第2号事项：promise对象和async/await
 
 - 90分钟时间片：
   - PSMD的第1号事项：根据新的COM、deploy、COD metadata，编辑出范例。

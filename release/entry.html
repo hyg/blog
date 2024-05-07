@@ -8,10 +8,6 @@
     <script>
 
         location.href = "https://codeberg.org/hyg/blog/src/branch/master/release/time/d."+datestr()+".md";
-        window.onload = function(){
-            var daylogurl = "https://codeberg.org/hyg/blog/raw/master/release/time/d." + datestr() + ".md";
-            getTextFileFromURL(daylogurl) 
-        }
 
         function datestr(diff = 0) {
             var theDate = new Date();

@@ -6,16 +6,16 @@
 如果绑定模版1可能安排以下任务：
 
 - 07:45	本地html调用远程git repo或者git page的metadata -js[0]
-- 09:30	整理S2状态下基本管理制度的metedata -xuemen[0]
-- 14:00	了解Rules as Code (RaC)，准备在metadata中增加code字段。 -PSMD[0]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[1]
-- 16:00	在season metadata中实现浮动时间表，修改日计划功能。 -ego[0]
+- 09:30	使用1609模型实际编写COM、deploy、COD的metadata -PSMD[0]
+- 14:00	了解XMPP协议，为自动发送通知做准备。 -learn[0]
+- 14:30	nodejs中使用微信，为协同工作做准备。 -js[1]
+- 16:00	整理DRI和夏季使用的NRV metadata -raw[0]
 
 ---
 如果绑定模版2可能安排以下任务：
 
-- 07:45	在整理近期手稿之后，修订个人模型。 -ego[4]
-- 14:00	整理S2状态下基本管理制度的metedata -xuemen[0]
+- 07:45	整理S2状态下基本管理制度 -xuemen[0]
+- 14:00	使用1609模型实际编写COM、deploy、COD的metadata -PSMD[0]
 - 16:00	本地html调用远程git repo或者git page的metadata -js[0]
 
 ---

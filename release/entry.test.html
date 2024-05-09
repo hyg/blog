@@ -9,10 +9,10 @@
 	<script>
 		var todayurl, tomorrowurl;
 
-		window.onload = function () {
+		window.onload = function () {/* 
 			alert("window.location.host: "+window.location.host);
 			alert("document.domain: "+document.domain);
-
+ */
 			if (document.domain == "hyg.codeberg.page") {
 				todayurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr() + ".md";
 				tomorrowurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr(1) + ".md";
@@ -20,7 +20,9 @@
 				todayurl = "hyg.github.io/blog/release/time/d." + datestr() + ".md";
 				tomorrowurl = "hyg.github.io/blog/release/time/d." + datestr(1) + ".md";
 			}
-
+			alert("todayurl: "+todayurl);
+			alert("tomorrowurl: "+tomorrowurl);
+			
 			getTextFileFromURL(daylogurl, "today");
 			getTextFileFromURL(tomorrowurl, "tomorrow");
 		}

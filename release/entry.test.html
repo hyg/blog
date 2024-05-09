@@ -13,10 +13,10 @@
 			alert("window.location.host: "+window.location.host);
 			alert("document.domain: "+document.domain);
 
-			if (document.domain == "codeberg.page") {
+			if (document.domain == "hyg.codeberg.page") {
 				todayurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr() + ".md";
 				tomorrowurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr(1) + ".md";
-			}else if (document.domain == "github.io") {
+			}else if (document.domain == "hyg.github.io") {
 				todayurl = "hyg.github.io/blog/release/time/d." + datestr() + ".md";
 				tomorrowurl = "hyg.github.io/blog/release/time/d." + datestr(1) + ".md";
 			}

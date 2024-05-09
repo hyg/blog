@@ -9,26 +9,23 @@
 	<script>
 		var todayurl, tomorrowurl;
 
-		window.onload = function () {/* 
-			alert("window.location.host: "+window.location.host);
-			alert("document.domain: "+document.domain);
- */
+		window.onload = function () {
 			if (document.domain == "hyg.codeberg.page") {
 				todayurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr() + ".md";
 				tomorrowurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr(1) + ".md";
 			}else if (document.domain == "hyg.github.io") {
 				todayurl = "hyg.github.io/blog/release/time/d." + datestr() + ".md";
 				tomorrowurl = "hyg.github.io/blog/release/time/d." + datestr(1) + ".md";
+			}else if (document.domain == "today.mars22.com") {
+				todayurl = "today.mars22.com/blog/release/time/d." + datestr() + ".md";
+				tomorrowurl = "today.mars22.com/blog/release/time/d." + datestr(1) + ".md";
 			}
-			alert("todayurl: "+todayurl);
-			alert("tomorrowurl: "+tomorrowurl);
 			
 			getTextFileFromURL(todayurl, "today");
 			getTextFileFromURL(tomorrowurl, "tomorrow");
 		}
 
 		function getTextFileFromURL(url, id) {
-			alert(url);
 			var xmlhttp = new XMLHttpRequest();
 			xmlhttp.onreadystatechange = function () {
 				/* alert(xmlhttp.readyState);
@@ -59,7 +56,7 @@
 
 <body>
 	<div id="today"></div>
-	<hr />
+	<br /><br /><hr /><br /><br />
 	<div id="tomorrow"></div>
 </body>
 

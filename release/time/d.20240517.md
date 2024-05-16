@@ -7,9 +7,9 @@
 
 - 07:45	整理近期手稿 -ego[0]
 - 09:30	term metadata生成按修订层级排版的COM metadata。 -PSMD[1]
-- 14:00	自动收发email。 -js[0]
-- 14:30	YARRRML -learn[0]
-- 16:00	根据过去数据给出15天内的建议。 -raw[0]
+- 14:00	YARRRML -learn[0]
+- 14:30	docker -learn[1]
+- 16:00	用imap和mailparse自动处理并回复email -js[0]
 
 ---
 如果绑定模版2可能安排以下任务：

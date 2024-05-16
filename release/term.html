@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="UTF-8">
+	<title>entry page</title>
+	<script type="text/javascript" src="yaml.min.js"></script>
+
+	<script>
+		var PSMDdataurl;
+
+		window.onload = function () {
+			if (document.domain == "hyg.codeberg.page") {
+				PSMDdataurl = "https://hyg.codeberg.page/PSMD/@master/data";
+			}else if (document.domain == "hyg.github.io") {
+                PSMDdataurl = "http://hyg.github.io/PSMD/data";
+			}else if (document.domain == "today.mars22.com") {
+                PSMDdataurl = "http://hyg.github.io/PSMD/data";
+			}
+			
+			getTextFileFromURL(PSMDdataurl+"/term.d0111eb4.yaml", "term");
+			//getTextFileFromURL(tomorrowurl, "readme");
+		}
+
+		function getTextFileFromURL(url, id) {
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function () {
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+					var text = xmlhttp.responseText;
+					document.getElementById(id).innerHTML = text;
+                    var termobj = YAML.parse(text);
+                    for(var i in termobj.term){
+                        confirm("是否符合："+termobj.item[i].text);
+                    }
+				}
+			};
+			xmlhttp.open("GET", url, true);
+			xmlhttp.send();
+		}
+
+		function datestr(diff = 0) {
+			var theDate = new Date();
+			theDate.setDate(theDate.getDate() + diff);
+
+			var year = theDate.getFullYear();
+			var month = theDate.getMonth() + 1 < 10 ? "0" + (theDate.getMonth() + 1) : theDate.getMonth() + 1;
+			var day = theDate.getDate() < 10 ? "0" + theDate.getDate() : theDate.getDate();
+			var dateStr = year + "" + month + "" + day;
+
+			return dateStr;
+		}
+	</script>
+</head>
+
+<body>
+	<div id="term"></div>
+	<br /><br /><hr /><br /><br />
+	<div id="readme"></div>
+</body>
+
+</html>

@@ -29,7 +29,7 @@
 					var text = xmlhttp.responseText;
 					document.getElementById(id).innerHTML = text;
                     var termobj = YAML.parse(text);
-                    for(var i in termobj.term){
+                    for(var i in termobj.item){
                         confirm("是否符合："+termobj.item[i].text);
                     }
 				}

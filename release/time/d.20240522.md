@@ -9,12 +9,12 @@
 - 09:30	重新设计PSMD自助、互助、委托合同 -PSMD[0]
 - 14:00	了解jami api -js[0]
 - 14:30	检查etable递归过程是否累加amount字段而未检查unit字段的。 -raw[0]
-- 16:00	task之间结算体系设计。 -ego[0]
+- 16:00	整理kernel、ISU、JPU之间的关系，厘清概念。 -xuemen[0]
 
 ---
 如果绑定模版2可能安排以下任务：
 
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[2]
+- 07:45	新版个人模型 -ego[0]
 - 14:00	重新设计PSMD自助、互助、委托合同 -PSMD[0]
 - 16:00	在util库进行单元测试，在实践中学习。 -learn[0]
 

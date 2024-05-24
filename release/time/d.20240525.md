@@ -6,16 +6,16 @@
 如果绑定模版1可能安排以下任务：
 
 - 07:45	PSMD新合同的metadata -PSMD[0]
-- 09:30	把PSMD的data、src部分升级到rdf，如果升级成功则作为范例。 -learn[3]
+- 09:30	cypher and neo4j arua -learn[0]
 - 14:00	了解jami api -js[0]
-- 14:30	Document-Oriented数据库 -learn[0]
+- 14:30	检查etable递归过程是否累加amount字段而未检查unit字段的。 -raw[0]
 - 16:00	整理kernel、ISU、JPU之间的关系，厘清概念。 -xuemen[0]
 
 ---
 如果绑定模版2可能安排以下任务：
 
 - 07:45	新版个人模型的metadata -ego[0]
-- 14:00	把PSMD的data、src部分升级到rdf，如果升级成功则作为范例。 -learn[3]
+- 14:00	cypher and neo4j arua -learn[0]
 - 16:00	PSMD新合同的metadata -PSMD[0]
 
 ---

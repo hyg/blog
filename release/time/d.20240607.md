@@ -5,18 +5,18 @@
 ---
 如果绑定模版1可能安排以下任务：
 
-- 07:45	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[1]
-- 09:30	重新设计S2状态下的学门基本管理制度 -xuemen[0]
+- 07:45	重新设计S2状态下的学门基本管理制度 -xuemen[0]
+- 09:30	编写浮动时间表代码 -ego[0]
 - 14:00	ESM(ESModule) -js[0]
 - 14:30	检查etable递归过程是否累加amount字段而未检查unit字段的。 -raw[0]
-- 16:00	用js代码完成日小结后的git操作。 -ego[1]
+- 16:00	熟悉知识库语法 -learn[0]
 
 ---
 如果绑定模版2可能安排以下任务：
 
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	重新设计S2状态下的学门基本管理制度 -xuemen[0]
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[1]
+- 07:45	entify, ego draft -PSMD[0]
+- 14:00	编写浮动时间表代码 -ego[0]
+- 16:00	重新设计S2状态下的学门基本管理制度 -xuemen[0]
 
 ---
 对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2024.06.07.任务排序的建议&body=date: 20240607%0D%0Afile: ../../blog/release/time/d.20240607.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。

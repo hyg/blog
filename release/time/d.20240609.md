@@ -5,8 +5,8 @@
 ---
 如果绑定模版1可能安排以下任务：
 
-- 07:45	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
-- 09:30	根据ego对外信息接口编写页面代码 -ego[0]
+- 07:45	entity draft -PSMD[0]
+- 09:30	ego draft -ego[0]
 - 14:00	https://www.npmjs.com/package/commander -js[0]
 - 14:30	选择有价值的数据显示到entry页面 -raw[0]
 - 16:00	linkml, yaml-ld -learn[0]
@@ -14,9 +14,9 @@
 ---
 如果绑定模版2可能安排以下任务：
 
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	根据ego对外信息接口编写页面代码 -ego[0]
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
+- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[1]
+- 14:00	ego draft -ego[0]
+- 16:00	entity draft -PSMD[0]
 
 ---
 对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2024.06.09.任务排序的建议&body=date: 20240609%0D%0Afile: ../../blog/release/time/d.20240609.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。

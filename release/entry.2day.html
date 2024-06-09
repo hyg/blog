@@ -34,6 +34,7 @@
 			getTextFileFromURL(todayurl, "today");
 			getTextFileFromURL(tomorrowurl, "tomorrow");
 			if (seasonurl != '') {
+				alert(seasonurl);
 				getTododataFromURL(seasonurl, "todo");
 			}
 		}
@@ -46,7 +47,7 @@
 				alert(xmlhttp.responseText); */
 				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
 					var seaonobj = YAML.parse(xmlhttp.responseText);
-					/* alert(seaonobj.time.alloc);  */
+					alert(seaonobj.time.alloc);
 					var statobj = new Object();
 					statobj.total = { alloc: 0, sold: 0, hold: 0, todo: 0 };
 					for (var task in seasonobj.time.alloc) {

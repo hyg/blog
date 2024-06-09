@@ -5,24 +5,135 @@
 	<meta charset="UTF-8">
 	<title>entry page</title>
 	<script src="marked.min.js"></script>
+	<script type="text/javascript" src="yaml.min.js"></script>
 
 	<script>
 		var todayurl, tomorrowurl;
+		var seasonurl;
+
+		var year = datestr().slice(0, 4);
+		var month = datestr().slice(4, 6);
+		var season = Math.ceil(parseInt(month) / 3);
+		var seasonpath = "data/season/" + year + "S" + season + ".yaml";
 
 		window.onload = function () {
 			if (document.domain == "hyg.codeberg.page") {
 				todayurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr() + ".md";
 				tomorrowurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr(1) + ".md";
-			}else if (document.domain == "hyg.github.io") {
+				seasonurl = '';
+			} else if (document.domain == "hyg.github.io") {
 				todayurl = "http://hyg.github.io/blog/release/time/d." + datestr() + ".md";
 				tomorrowurl = "http://hyg.github.io/blog/release/time/d." + datestr(1) + ".md";
-			}else if (document.domain == "today.mars22.com") {
+				seasonurl = "http://hyg.github.io/ego/" + seasonpath;
+			} else if (document.domain == "today.mars22.com") {
 				todayurl = "http://today.mars22.com/blog/release/time/d." + datestr() + ".md";
 				tomorrowurl = "http://today.mars22.com/blog/release/time/d." + datestr(1) + ".md";
+				seasonurl = "http://today.mars22.com/ego/" + seasonpath;
 			}
-			
+
 			getTextFileFromURL(todayurl, "today");
 			getTextFileFromURL(tomorrowurl, "tomorrow");
+			if (seasonurl != '') {
+				getTododataFromURL(seasonurl, "todo");
+			}
+		}
+
+		function getTododataFromURL(url, id) {
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function () {
+				/* alert(xmlhttp.readyState);
+				alert(xmlhttp.status);
+				alert(xmlhttp.responseText); */
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+					var seaonobj = YAML.parse(xmlhttp.responseText);
+					/* alert(seaonobj.time.alloc);  */
+					var statobj = new Object();
+					statobj.total = { alloc: 0, sold: 0, hold: 0, todo: 0 };
+					for (var task in seasonobj.time.alloc) {
+						statobj[task] = new Object();
+						statobj[task].alloc = parseInt(seasonobj.time.alloc[task]);
+						if (seasonobj.time.sold[task] != null) {
+							statobj[task].sold = parseInt(seasonobj.time.sold[task]);
+						} else {
+							statobj[task].sold = 0;
+						}
+						statobj[task].hold = statobj[task].alloc - statobj[task].sold;
+
+						statobj.total.alloc = statobj.total.alloc + statobj[task].alloc;
+						statobj.total.sold = statobj.total.sold + statobj[task].sold;
+						statobj[task].todo = 0;
+					}
+					for (var task in seasonobj.time.sold) {
+						if (statobj[task] == null) {
+							statobj[task] = new Object();
+							statobj[task].alloc = 0;
+							statobj[task].sold = parseInt(seasonobj.time.sold[task]);
+							statobj[task].hold = statobj[task].alloc - statobj[task].sold;
+
+							statobj.total.alloc = statobj.total.alloc + statobj[task].alloc;
+							statobj.total.sold = statobj.total.sold + statobj[task].sold;
+							statobj[task].todo = 0;
+						}
+					}
+					statobj.total.hold = statobj.total.alloc - statobj.total.sold;
+					for (var task in seasonobj.todo) {
+						statobj[task].todo = this.todosum(seasonobj.todo[task]);
+						statobj.total.todo = statobj.total.todo + statobj[task].todo;
+					}
+
+					const tbl = document.createElement("table");
+					const tblBody = document.createElement("tbody");
+					const row = document.createElement("tr");
+					const cell = document.createElement("td");
+					cell.appendChild("task");
+					row.appendChild(cell);
+
+					cell = document.createElement("td");
+					cell.appendChild("alloc");
+					row.appendChild(cell);
+
+					cell = document.createElement("td");
+					cell.appendChild("sold");
+					row.appendChild(cell);
+
+					cell = document.createElement("td");
+					cell.appendChild("hold");
+					row.appendChild(cell);
+
+					cell = document.createElement("td");
+					cell.appendChild("todo");
+					row.appendChild(cell);
+					tblBody.appendChild(row);
+
+					for (var task in statobj) {
+						row = document.createElement("tr");
+						cell = document.createElement("td");
+						cell.appendChild(task);
+						row.appendChild(cell);
+
+						cell = document.createElement("td");
+						cell.appendChild(statobj[task].alloc);
+						row.appendChild(cell);
+
+						cell = document.createElement("td");
+						cell.appendChild(statobj[task].sold);
+						row.appendChild(cell);
+
+						cell = document.createElement("td");
+						cell.appendChild(statobj[task].hold);
+						row.appendChild(cell);
+						
+						cell = document.createElement("td");
+						cell.appendChild(statobj[task].todo);
+						row.appendChild(cell);
+						tblBody.appendChild(row);
+					}
+					tbl.appendChild(tblBody);
+					document.getElementById(id).appendChild(tbl);
+				}
+			};
+			xmlhttp.open("GET", url, true);
+			xmlhttp.send();
 		}
 
 		function getTextFileFromURL(url, id) {
@@ -56,8 +167,12 @@
 
 <body>
 	<div id="today"></div>
-	<br /><br /><hr /><br /><br />
+	<br /><br />
+	<hr /><br /><br />
 	<div id="tomorrow"></div>
+	<br /><br />
+	<hr /><br /><br />
+	<div id="todo"></div>
 </body>
 
 </html>

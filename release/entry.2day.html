@@ -49,7 +49,6 @@
 					var statobj = new Object();
 					statobj.total = { alloc: 0, sold: 0, hold: 0, todo: 0 };
 					for (var task in seasonobj.time.alloc) {
-						alert(task);
 						statobj[task] = new Object();
 						statobj[task].alloc = parseInt(seasonobj.time.alloc[task]);
 						if (seasonobj.time.sold[task] != null) {
@@ -80,7 +79,9 @@
 						statobj[task].todo = todosum(seasonobj.todo[task]);
 						statobj.total.todo = statobj.total.todo + statobj[task].todo;
 					}
-					alert(YAML.stringify(statobj));
+
+					document.getElementById("todo1").innerHTML = createTableHTML(statobj);
+
 					const tbl = document.createElement("table");
 					const tblBody = document.createElement("tbody");
 					const row = document.createElement("tr");
@@ -179,6 +180,28 @@
 
 			return sum;
 		}
+
+		function createTableHTML(data) {
+            let tableHTML = '<table border="1"><tr>';
+ 
+            Object.keys(data[0]).forEach(key => {
+                tableHTML += `<th>${key}</th>`;
+            });
+ 
+            tableHTML += '</tr>';
+ 
+            data.forEach(item => {
+                tableHTML += '<tr>';
+                Object.values(item).forEach(value => {
+                    tableHTML += `<td>${value}</td>`;
+                });
+                tableHTML += '</tr>';
+            });
+ 
+            tableHTML += '</table>';
+ 
+            return tableHTML;
+        }
 	</script>
 </head>
 
@@ -190,6 +213,7 @@
 	<br /><br />
 	<hr /><br /><br />
 	<div id="todo"></div>
+	<div id="todo1"></div>
 </body>
 
 </html>

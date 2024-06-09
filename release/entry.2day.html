@@ -190,9 +190,11 @@
 			tableHTML += '</tr>';
 
 			data.forEach(item => {
+				alert(item);
 				tableHTML += `<tr><td>${item}</td>`;
 				alert(tableHTML);
 				Object.values(item).forEach(value => {
+					alert(value);
 					tableHTML += `<td>${value}</td>`;
 					alert(tableHTML);
 				});

@@ -45,11 +45,9 @@
 				alert(xmlhttp.status);
 				alert(xmlhttp.responseText); */
 				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-					var seaonobj = YAML.parse(xmlhttp.responseText);
+					var seasonobj = YAML.parse(xmlhttp.responseText);
 					var statobj = new Object();
 					statobj.total = { alloc: 0, sold: 0, hold: 0, todo: 0 };
-					alert(seasonobj.time.alloc);
-					alert(seasonobj.time.alloc["PSMD"]);
 					for (var task in seasonobj.time.alloc) {
 						alert(task);
 						statobj[task] = new Object();

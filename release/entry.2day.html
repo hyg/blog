@@ -48,7 +48,8 @@
 					var seaonobj = YAML.parse(xmlhttp.responseText);
 					var statobj = new Object();
 					statobj.total = { alloc: 0, sold: 0, hold: 0, todo: 0 };
-					alert(statobj.total.alloc);
+					alert(seasonobj.time.alloc);
+					alert(seasonobj.time.alloc["PSMD"]);
 					for (var task in seasonobj.time.alloc) {
 						alert(task);
 						statobj[task] = new Object();
@@ -124,7 +125,7 @@
 						cell = document.createElement("td");
 						cell.appendChild(statobj[task].hold);
 						row.appendChild(cell);
-						
+
 						cell = document.createElement("td");
 						cell.appendChild(statobj[task].todo);
 						row.appendChild(cell);
@@ -166,20 +167,20 @@
 		}
 
 		function todosum(todoarray) {
-        var sum = 0;
+			var sum = 0;
 
-        for (var i in todoarray) {
-            for (var key in todoarray[i]) {
-                if (!isNaN(parseInt(key))) {
-                    sum = sum + parseInt(key);
-                } else if (key == "bind") {
-                    sum = sum + todosum(todoarray[i][key]);
-                }
-            }
-        }
+			for (var i in todoarray) {
+				for (var key in todoarray[i]) {
+					if (!isNaN(parseInt(key))) {
+						sum = sum + parseInt(key);
+					} else if (key == "bind") {
+						sum = sum + todosum(todoarray[i][key]);
+					}
+				}
+			}
 
-        return sum;
-    }
+			return sum;
+		}
 	</script>
 </head>
 

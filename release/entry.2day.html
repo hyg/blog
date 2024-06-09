@@ -187,13 +187,14 @@
 			Object.keys(data.PSMD).forEach(key => {
 				tableHTML += `<th>${key}</th>`;
 			});
-			alert(tableHTML);
 			tableHTML += '</tr>';
 
 			data.forEach(item => {
-				tableHTML += '<tr>';
+				tableHTML += `<tr><td>${item}</td>`;
+				alert(tableHTML);
 				Object.values(item).forEach(value => {
 					tableHTML += `<td>${value}</td>`;
+					alert(tableHTML);
 				});
 				tableHTML += '</tr>';
 			});

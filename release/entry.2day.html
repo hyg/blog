@@ -189,20 +189,15 @@
 			});
 			tableHTML += '</tr>';
 
-			data.forEach(item => {
-				alert(item);
-				tableHTML += `<tr><td>${item}</td>`;
-				alert(tableHTML);
-				Object.values(item).forEach(value => {
-					alert(value);
-					tableHTML += `<td>${value}</td>`;
-					alert(tableHTML);
-				});
+			for(var task in data){
+				tableHTML += '<tr><td>' + task +'</td>';
+				for(var item in data[task]){
+					tableHTML += '<td>' + data[task][item] + '</td>';
+				}
 				tableHTML += '</tr>';
-			});
+			}
 
 			tableHTML += '</table>';
-			alert(tableHTML);
 			return tableHTML;
 		}
 	</script>

@@ -86,23 +86,23 @@
 					const tblBody = document.createElement("tbody");
 					const row = document.createElement("tr");
 					const cell = document.createElement("td");
-					cell.appendChild("task");
+					cell.appendChild(document.createTextNode("task"));
 					row.appendChild(cell);
 
 					cell = document.createElement("td");
-					cell.appendChild("alloc");
+					cell.appendChild(document.createTextNode("alloc"));
 					row.appendChild(cell);
 
 					cell = document.createElement("td");
-					cell.appendChild("sold");
+					cell.appendChild(document.createTextNode("sold"));
 					row.appendChild(cell);
 
 					cell = document.createElement("td");
-					cell.appendChild("hold");
+					cell.appendChild(document.createTextNode("hold"));
 					row.appendChild(cell);
 
 					cell = document.createElement("td");
-					cell.appendChild("todo");
+					cell.appendChild(document.createTextNode("todo"));
 					row.appendChild(cell);
 					tblBody.appendChild(row);
 
@@ -110,23 +110,23 @@
 						alert(task);
 						row = document.createElement("tr");
 						cell = document.createElement("td");
-						cell.appendChild(task);
+						cell.appendChild(document.createTextNode(task));
 						row.appendChild(cell);
 
 						cell = document.createElement("td");
-						cell.appendChild(statobj[task].alloc);
+						cell.appendChild(document.createTextNode(statobj[task].alloc));
 						row.appendChild(cell);
 
 						cell = document.createElement("td");
-						cell.appendChild(statobj[task].sold);
+						cell.appendChild(document.createTextNode(statobj[task].sold));
 						row.appendChild(cell);
 
 						cell = document.createElement("td");
-						cell.appendChild(statobj[task].hold);
+						cell.appendChild(document.createTextNode(statobj[task].hold));
 						row.appendChild(cell);
 
 						cell = document.createElement("td");
-						cell.appendChild(statobj[task].todo);
+						cell.appendChild(document.createTextNode(statobj[task].todo));
 						row.appendChild(cell);
 						tblBody.appendChild(row);
 					}

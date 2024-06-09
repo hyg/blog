@@ -183,8 +183,7 @@
 
 		function createTableHTML(data) {
 			let tableHTML = '<table border="1"><tr>';
-			alert(tableHTML);
-			Object.keys(data[0]).forEach(key => {
+			Object.keys(data).forEach(key => {
 				tableHTML += `<th>${key}</th>`;
 			});
 			alert(tableHTML);

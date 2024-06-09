@@ -182,26 +182,26 @@
 		}
 
 		function createTableHTML(data) {
-            let tableHTML = '<table border="1"><tr>';
- 
-            Object.keys(data[0]).forEach(key => {
-                tableHTML += `<th>${key}</th>`;
-            });
- 
-            tableHTML += '</tr>';
- 
-            data.forEach(item => {
-                tableHTML += '<tr>';
-                Object.values(item).forEach(value => {
-                    tableHTML += `<td>${value}</td>`;
-                });
-                tableHTML += '</tr>';
-            });
- 
-            tableHTML += '</table>';
+			let tableHTML = '<table border="1"><tr>';
 			alert(tableHTML);
-            return tableHTML;
-        }
+			Object.keys(data[0]).forEach(key => {
+				tableHTML += `<th>${key}</th>`;
+			});
+			alert(tableHTML);
+			tableHTML += '</tr>';
+
+			data.forEach(item => {
+				tableHTML += '<tr>';
+				Object.values(item).forEach(value => {
+					tableHTML += `<td>${value}</td>`;
+				});
+				tableHTML += '</tr>';
+			});
+
+			tableHTML += '</table>';
+			alert(tableHTML);
+			return tableHTML;
+		}
 	</script>
 </head>
 

@@ -48,6 +48,7 @@
 					var seaonobj = YAML.parse(xmlhttp.responseText);
 					var statobj = new Object();
 					statobj.total = { alloc: 0, sold: 0, hold: 0, todo: 0 };
+					alert(statobj.total.alloc);
 					for (var task in seasonobj.time.alloc) {
 						alert(task);
 						statobj[task] = new Object();

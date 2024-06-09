@@ -49,6 +49,7 @@
 					var statobj = new Object();
 					statobj.total = { alloc: 0, sold: 0, hold: 0, todo: 0 };
 					for (var task in seasonobj.time.alloc) {
+						alert(task);
 						statobj[task] = new Object();
 						statobj[task].alloc = parseInt(seasonobj.time.alloc[task]);
 						if (seasonobj.time.sold[task] != null) {
@@ -76,7 +77,7 @@
 					}
 					statobj.total.hold = statobj.total.alloc - statobj.total.sold;
 					for (var task in seasonobj.todo) {
-						statobj[task].todo = this.todosum(seasonobj.todo[task]);
+						statobj[task].todo = todosum(seasonobj.todo[task]);
 						statobj.total.todo = statobj.total.todo + statobj[task].todo;
 					}
 					alert(YAML.stringify(statobj));
@@ -162,6 +163,22 @@
 
 			return dateStr;
 		}
+
+		function todosum(todoarray) {
+        var sum = 0;
+
+        for (var i in todoarray) {
+            for (var key in todoarray[i]) {
+                if (!isNaN(parseInt(key))) {
+                    sum = sum + parseInt(key);
+                } else if (key == "bind") {
+                    sum = sum + todosum(todoarray[i][key]);
+                }
+            }
+        }
+
+        return sum;
+    }
 	</script>
 </head>
 

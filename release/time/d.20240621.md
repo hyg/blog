@@ -1,9 +1,9 @@
 # 2024.06.21.
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，六月中上旬补足前两月缺勤。每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，六月下旬安排休整和总结。
 
 ---
-如果绑定模版1可能安排以下任务：
+下一个工作日如果绑定模版1可能安排以下任务：
 
 - 07:45	git sample -js[1]
 - 09:30	根据ego对外信息接口编写页面代码 -ego[0]
@@ -12,7 +12,7 @@
 - 16:00	设计subtask与todo的关系，保持工作的持续连贯。 -ego[1]
 
 ---
-如果绑定模版2可能安排以下任务：
+下一个工作日如果绑定模版2可能安排以下任务：
 
 - 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
 - 14:00	根据ego对外信息接口编写页面代码 -ego[0]

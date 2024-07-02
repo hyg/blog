@@ -5,45 +5,45 @@
 ---
 如果绑定模版2可能安排以下任务：
 
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[1]
-- 14:00	根据ego对外信息接口编写页面代码 -ego[0]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 07:45	重新设计S2状态下的学门基本管理制度 -xuemen[1]
+- 14:00	day plan, day log, waiting list -ego[0]
+- 16:00	用yaml写json schema并且验证。 -PSMD[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	用linkml编写一套标准模型 -PSMD[0]
-- 09:30	根据ego对外信息接口编写页面代码 -ego[0]
+- 07:45	用yaml写json schema并且验证。 -PSMD[0]
+- 09:30	day plan, day log, waiting list -ego[0]
 - 14:00	寻找可编程的,去中心化的信息发布方式 -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
+- 14:30	了解免安装web im的机制 -learn[4]
 - 16:00	linkml, yaml-ld -learn[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	根据ego对外信息接口编写页面代码 -ego[0]
+- 09:30	day plan, day log, waiting list -ego[0]
 - 14:00	寻找可编程的,去中心化的信息发布方式 -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 14:30	了解免安装web im的机制 -learn[4]
+- 16:00	用yaml写json schema并且验证。 -PSMD[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	寻找可编程的,去中心化的信息发布方式 -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 14:30	了解免安装web im的机制 -learn[4]
+- 16:00	用yaml写json schema并且验证。 -PSMD[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	寻找可编程的,去中心化的信息发布方式 -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 14:30	了解免安装web im的机制 -learn[4]
+- 16:00	用yaml写json schema并且验证。 -PSMD[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 16:00	用yaml写json schema并且验证。 -PSMD[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

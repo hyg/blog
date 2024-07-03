@@ -5,45 +5,45 @@
 ---
 如果绑定模版2可能安排以下任务：
 
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[1]
-- 14:00	根据ego对外信息接口编写页面代码 -ego[0]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 07:45	data -> schema 迭代范例 -PSMD[0]
+- 14:00	day plan, day log, waiting list -ego[0]
+- 16:00	metadata中自带处理代码的范例 -infra[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	用linkml编写一套标准模型 -PSMD[0]
-- 09:30	根据ego对外信息接口编写页面代码 -ego[0]
+- 07:45	metadata中自带处理代码的范例 -infra[0]
+- 09:30	day plan, day log, waiting list -ego[0]
 - 14:00	github project -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
+- 14:30	trello api -learn[4]
 - 16:00	linkml, yaml-ld -learn[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	根据ego对外信息接口编写页面代码 -ego[0]
+- 09:30	day plan, day log, waiting list -ego[0]
 - 14:00	github project -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 14:30	trello api -learn[4]
+- 16:00	metadata中自带处理代码的范例 -infra[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	github project -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 14:30	trello api -learn[4]
+- 16:00	metadata中自带处理代码的范例 -infra[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	github project -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 14:30	trello api -learn[4]
+- 16:00	metadata中自带处理代码的范例 -infra[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 16:00	metadata中自带处理代码的范例 -infra[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

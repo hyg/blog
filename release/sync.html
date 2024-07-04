@@ -33,19 +33,19 @@
 			}
 
 			getTextFileFromURL(drafturl, "draft");
-			getTextFileFromURL(todayurl, "today");
-			getTextFileFromURL(tomorrowurl, "tomorrow");
+			//getTextFileFromURL(todayurl, "today");
+			//getTextFileFromURL(tomorrowurl, "tomorrow");
 			if (seasonurl != '') {
-				getTododataFromURL(seasonurl, "todo");
+				//getTododataFromURL(seasonurl, "todo");
 			}
 		}
 
 		function getTododataFromURL(url, id) {
 			var xmlhttp = new XMLHttpRequest();
 			xmlhttp.onreadystatechange = function () {
-				/* alert(xmlhttp.readyState);
+				alert(xmlhttp.readyState);
 				alert(xmlhttp.status);
-				alert(xmlhttp.responseText); */
+				alert(xmlhttp.responseText);
 				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
 					var seasonobj = YAML.parse(xmlhttp.responseText);
 					var statobj = new Object();

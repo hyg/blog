@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="UTF-8">
+	<title>entry page</title>
+	<script src="marked.min.js"></script>
+	<script type="text/javascript" src="yaml.min.js"></script>
+
+	<script>
+		var todayurl, tomorrowurl;
+		var seasonurl;
+		var drafturl = "https://simp.ly/p/j1SspP";
+
+		var year = datestr().slice(0, 4);
+		var month = datestr().slice(4, 6);
+		var season = Math.ceil(parseInt(month) / 3);
+		var seasonpath = "data/season/" + year + "S" + season + ".yaml";
+
+		window.onload = function () {
+			if (document.domain == "hyg.codeberg.page") {
+				todayurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr() + ".md";
+				tomorrowurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr(1) + ".md";
+				seasonurl = '';
+			} else if (document.domain == "hyg.github.io") {
+				todayurl = "http://hyg.github.io/blog/release/time/d." + datestr() + ".md";
+				tomorrowurl = "http://hyg.github.io/blog/release/time/d." + datestr(1) + ".md";
+				seasonurl = "http://hyg.github.io/ego/" + seasonpath;
+			} else if (document.domain == "today.mars22.com") {
+				todayurl = "http://today.mars22.com/blog/release/time/d." + datestr() + ".md";
+				tomorrowurl = "http://today.mars22.com/blog/release/time/d." + datestr(1) + ".md";
+				seasonurl = "http://today.mars22.com/ego/" + seasonpath;
+			}
+
+			getTextFileFromURL(drafturl, "draft");
+			getTextFileFromURL(todayurl, "today");
+			getTextFileFromURL(tomorrowurl, "tomorrow");
+			if (seasonurl != '') {
+				getTododataFromURL(seasonurl, "todo");
+			}
+		}
+
+		function getTododataFromURL(url, id) {
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function () {
+				/* alert(xmlhttp.readyState);
+				alert(xmlhttp.status);
+				alert(xmlhttp.responseText); */
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+					var seasonobj = YAML.parse(xmlhttp.responseText);
+					var statobj = new Object();
+					statobj.total = { alloc: 0, sold: 0, hold: 0, todo: 0 };
+					for (var task in seasonobj.time.alloc) {
+						statobj[task] = new Object();
+						statobj[task].alloc = parseInt(seasonobj.time.alloc[task]);
+						if (seasonobj.time.sold[task] != null) {
+							statobj[task].sold = parseInt(seasonobj.time.sold[task]);
+						} else {
+							statobj[task].sold = 0;
+						}
+						statobj[task].hold = statobj[task].alloc - statobj[task].sold;
+
+						statobj.total.alloc = statobj.total.alloc + statobj[task].alloc;
+						statobj.total.sold = statobj.total.sold + statobj[task].sold;
+						statobj[task].todo = 0;
+					}
+					for (var task in seasonobj.time.sold) {
+						if (statobj[task] == null) {
+							statobj[task] = new Object();
+							statobj[task].alloc = 0;
+							statobj[task].sold = parseInt(seasonobj.time.sold[task]);
+							statobj[task].hold = statobj[task].alloc - statobj[task].sold;
+
+							statobj.total.alloc = statobj.total.alloc + statobj[task].alloc;
+							statobj.total.sold = statobj.total.sold + statobj[task].sold;
+							statobj[task].todo = 0;
+						}
+					}
+					statobj.total.hold = statobj.total.alloc - statobj.total.sold;
+					for (var task in seasonobj.todo) {
+						statobj[task].todo = todosum(seasonobj.todo[task]);
+						statobj.total.todo = statobj.total.todo + statobj[task].todo;
+					}
+
+					document.getElementById(id).innerHTML = createTableHTML(statobj);
+				}
+			};
+			xmlhttp.open("GET", url, true);
+			xmlhttp.send();
+		}
+
+		function getTextFileFromURL(url, id) {
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function () {
+				/* alert(xmlhttp.readyState);
+				alert(xmlhttp.status);
+				alert(xmlhttp.responseText); */
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+					var text = xmlhttp.responseText;
+					document.getElementById(id).innerHTML = marked.parse(text);
+				}
+			};
+			xmlhttp.open("GET", url, true);
+			xmlhttp.send();
+		}
+
+		function datestr(diff = 0) {
+			var theDate = new Date();
+			theDate.setDate(theDate.getDate() + diff);
+
+			var year = theDate.getFullYear();
+			var month = theDate.getMonth() + 1 < 10 ? "0" + (theDate.getMonth() + 1) : theDate.getMonth() + 1;
+			var day = theDate.getDate() < 10 ? "0" + theDate.getDate() : theDate.getDate();
+			var dateStr = year + "" + month + "" + day;
+
+			return dateStr;
+		}
+
+		function todosum(todoarray) {
+			var sum = 0;
+
+			for (var i in todoarray) {
+				for (var key in todoarray[i]) {
+					if (!isNaN(parseInt(key))) {
+						sum = sum + parseInt(key);
+					} else if (key == "bind") {
+						sum = sum + todosum(todoarray[i][key]);
+					}
+				}
+			}
+
+			return sum;
+		}
+
+		function createTableHTML(data) {
+			let tableHTML = '<table border="1"><tr>';
+			tableHTML += `<th>task</th>`;
+			Object.keys(data.PSMD).forEach(key => {
+				tableHTML += `<th>${key}</th>`;
+			});
+			tableHTML += '</tr>';
+
+			for(var task in data){
+				tableHTML += '<tr><td>' + task +'</td>';
+				for(var item in data[task]){
+					tableHTML += '<td>' + data[task][item] + '</td>';
+				}
+				tableHTML += '</tr>';
+			}
+
+			tableHTML += '</table>';
+			return tableHTML;
+		}
+	</script>
+</head>
+
+<body>
+	<div id="draft"></div>
+	<br /><br />
+	<hr /><br /><br />
+	<div id="today"></div>
+	<br /><br />
+	<hr /><br /><br />
+	<div id="tomorrow"></div>
+	<br /><br />
+	<hr /><br />
+	season stat:<br />
+	<div id="todo"></div>
+</body>
+
+</html>

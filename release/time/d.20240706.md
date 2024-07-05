@@ -5,45 +5,45 @@
 ---
 如果绑定模版2可能安排以下任务：
 
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[1]
-- 14:00	根据ego对外信息接口编写页面代码 -ego[0]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 07:45	data -> schema 迭代范例 -PSMD[0]
+- 14:00	相关代码整理到day.js, season.js, waitinglist.js -ego[0]
+- 16:00	月度季度报告的报表统一到新格式 -raw[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	用linkml编写一套标准模型 -PSMD[0]
-- 09:30	根据ego对外信息接口编写页面代码 -ego[0]
-- 14:00	trello api -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
-- 16:00	linkml, yaml-ld -learn[0]
+- 07:45	月度季度报告的报表统一到新格式 -raw[0]
+- 09:30	相关代码整理到day.js, season.js, waitinglist.js -ego[0]
+- 14:00	js minify tools -js[3]
+- 14:30	trello api -learn[4]
+- 16:00	用linkml编写一套标准模型 -PSMD[1]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	根据ego对外信息接口编写页面代码 -ego[0]
-- 14:00	trello api -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 09:30	相关代码整理到day.js, season.js, waitinglist.js -ego[0]
+- 14:00	js minify tools -js[3]
+- 14:30	trello api -learn[4]
+- 16:00	月度季度报告的报表统一到新格式 -raw[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	trello api -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 14:00	js minify tools -js[3]
+- 14:30	trello api -learn[4]
+- 16:00	月度季度报告的报表统一到新格式 -raw[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	trello api -learn[3]
-- 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[4]
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 14:00	js minify tools -js[3]
+- 14:30	trello api -learn[4]
+- 16:00	月度季度报告的报表统一到新格式 -raw[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	用linkml编写一套标准模型 -PSMD[0]
+- 16:00	月度季度报告的报表统一到新格式 -raw[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

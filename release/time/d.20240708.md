@@ -6,44 +6,44 @@
 如果绑定模版2可能安排以下任务：
 
 - 07:45	data -> schema 迭代范例 -PSMD[0]
-- 14:00	kernel模型升级 -xuemen[0]
-- 16:00	相关代码整理到season.js -ego[0]
+- 14:00	pear sample -learn[0]
+- 16:00	完成day.js中table、index等string -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	相关代码整理到season.js -ego[0]
-- 09:30	kernel模型升级 -xuemen[0]
+- 07:45	完成day.js中table、index等string -ego[0]
+- 09:30	pear sample -learn[0]
 - 14:00	trello api -learn[4]
 - 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[5]
-- 16:00	用linkml编写一套标准模型 -PSMD[1]
+- 16:00	相关代码整理到season.js -ego[1]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	kernel模型升级 -xuemen[0]
+- 09:30	pear sample -learn[0]
 - 14:00	trello api -learn[4]
 - 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[5]
-- 16:00	相关代码整理到season.js -ego[0]
+- 16:00	完成day.js中table、index等string -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	trello api -learn[4]
 - 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[5]
-- 16:00	相关代码整理到season.js -ego[0]
+- 16:00	完成day.js中table、index等string -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	trello api -learn[4]
 - 14:30	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD[5]
-- 16:00	相关代码整理到season.js -ego[0]
+- 16:00	完成day.js中table、index等string -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	相关代码整理到season.js -ego[0]
+- 16:00	完成day.js中table、index等string -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

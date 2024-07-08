@@ -508,7 +508,7 @@ learn: [trello api]
         - 打开一张卡片，滚动到底端“共享”，导出为json，搜索idList。
         - 或者用REST方式拿到看板下所有list的id：https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-id-lists-get
         - 使用addcard api插入一张新卡片，执行成功：
-    ```
+```
     D:\huangyg\git\js.sample\trello>node learntrello
 Added card: {
   id: '668b8f16db80d2b6ac9849eb',

@@ -7,43 +7,43 @@
 
 - 07:45	data -> schema 迭代范例 -PSMD[0]
 - 14:00	peerjs sample -js[0]
-- 16:00	相关代码整理到season.js -ego[0]
+- 16:00	相关代码整理到season.js -ego[1]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	相关代码整理到season.js -ego[0]
+- 07:45	相关代码整理到season.js -ego[1]
 - 09:30	peerjs sample -js[0]
-- 14:00	Document-Oriented数据库 -learn[4]
+- 14:00	完成day.js中index等string -ego[0]
 - 14:30	重新思考term metadata种的upgradeby，是否需要显示内容和id两种。 -PSMD[5]
-- 16:00	schema in ipld -learn[0]
+- 16:00	dat sample for root metadata -js[1]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	peerjs sample -js[0]
-- 14:00	Document-Oriented数据库 -learn[4]
+- 14:00	完成day.js中index等string -ego[0]
 - 14:30	重新思考term metadata种的upgradeby，是否需要显示内容和id两种。 -PSMD[5]
-- 16:00	相关代码整理到season.js -ego[0]
+- 16:00	相关代码整理到season.js -ego[1]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	Document-Oriented数据库 -learn[4]
+- 14:00	完成day.js中index等string -ego[0]
 - 14:30	重新思考term metadata种的upgradeby，是否需要显示内容和id两种。 -PSMD[5]
-- 16:00	相关代码整理到season.js -ego[0]
+- 16:00	相关代码整理到season.js -ego[1]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	Document-Oriented数据库 -learn[4]
+- 14:00	完成day.js中index等string -ego[0]
 - 14:30	重新思考term metadata种的upgradeby，是否需要显示内容和id两种。 -PSMD[5]
-- 16:00	相关代码整理到season.js -ego[0]
+- 16:00	相关代码整理到season.js -ego[1]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	相关代码整理到season.js -ego[0]
+- 16:00	相关代码整理到season.js -ego[1]
 
 ---
 如果绑定模版1f可能安排以下任务：

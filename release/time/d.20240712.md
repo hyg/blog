@@ -6,45 +6,45 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	data -> schema 迭代范例 -PSMD[0]
-- 14:00	pear api sample -learn[0]
+- 14:00	用linkml编写一套标准模型 -PSMD[1]
 - 16:00	使用新版day、season、waitinglist的ego.js -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	pear api sample -learn[0]
-- 14:00	用linkml编写一套标准模型 -PSMD[1]
+- 09:30	用linkml编写一套标准模型 -PSMD[1]
+- 14:00	根据ego对外信息接口编写页面代码 -ego[1]
 - 16:00	使用新版day、season、waitinglist的ego.js -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
 - 07:45	使用新版day、season、waitinglist的ego.js -ego[0]
-- 09:30	pear api sample -learn[0]
-- 14:00	列存储（Wide Column Store/Column-Family）数据库 -learn[5]
-- 14:30	生成waitinglist时，考虑多层todo。 -ego[6]
+- 09:30	用linkml编写一套标准模型 -PSMD[1]
+- 14:00	生成waitinglist时，考虑多层todo。 -ego[6]
+- 14:30	列存储（Wide Column Store/Column-Family）数据库 -learn[6]
 - 16:00	syncthing sample -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	pear api sample -learn[0]
-- 14:00	列存储（Wide Column Store/Column-Family）数据库 -learn[5]
-- 14:30	生成waitinglist时，考虑多层todo。 -ego[6]
+- 09:30	用linkml编写一套标准模型 -PSMD[1]
+- 14:00	生成waitinglist时，考虑多层todo。 -ego[6]
+- 14:30	列存储（Wide Column Store/Column-Family）数据库 -learn[6]
 - 16:00	使用新版day、season、waitinglist的ego.js -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	列存储（Wide Column Store/Column-Family）数据库 -learn[5]
-- 14:30	生成waitinglist时，考虑多层todo。 -ego[6]
+- 14:00	生成waitinglist时，考虑多层todo。 -ego[6]
+- 14:30	列存储（Wide Column Store/Column-Family）数据库 -learn[6]
 - 16:00	使用新版day、season、waitinglist的ego.js -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	列存储（Wide Column Store/Column-Family）数据库 -learn[5]
-- 14:30	生成waitinglist时，考虑多层todo。 -ego[6]
+- 14:00	生成waitinglist时，考虑多层todo。 -ego[6]
+- 14:30	列存储（Wide Column Store/Column-Family）数据库 -learn[6]
 - 16:00	使用新版day、season、waitinglist的ego.js -ego[0]
 
 ---

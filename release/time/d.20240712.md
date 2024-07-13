@@ -13,7 +13,7 @@
 season stat:
 
 | task | alloc | sold | hold | todo |
-| --- | --- | --- | --- | --- |
+| :---: | ---: | ---: | ---: | ---: |
 | total | 17700 | 2212 | 15488 | 3705 |
 | PSMD | 7000 | 257 | 6743 | 720 |
 | ego | 4000 | 787 | 3213 | 540 |
@@ -24,7 +24,6 @@ season stat:
 | js | 1200 | 275 | 925 | 600 |
 
 ---
-
 waiting list:
 
 
@@ -53,7 +52,6 @@ waiting list:
   - xuemen的第3号事项：重新设计S2状态下的学门基本管理制度
 
 ---
-
 <a href="mailto:huangyg@mars22.com?subject=关于2024.07.12.[生成waitinglist时，考虑多层todo。]任务&body=日期: 20240712%0D%0A序号: 0%0D%0A手稿:../../draft/2024/07/20240712140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
 <a id="20240712140000"></a>
 ## 14:00~14:29

@@ -27,30 +27,30 @@
 
 - 07:45	hypercore sample -learn[0]
 - 09:30	使用新版day、season、waitinglist的ego.js -ego[0]
-- 14:00	text->id,protobuf-javascript -js[7]
-- 14:30	用day.js改写util.js -js[8]
+- 14:00	Query fundamentals https://console.neo4j.io -learn[5]
+- 14:30	text->id,protobuf-javascript -js[7]
 - 16:00	自动从网页提取营养成分表 -raw[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	使用新版day、season、waitinglist的ego.js -ego[0]
-- 14:00	text->id,protobuf-javascript -js[7]
-- 14:30	用day.js改写util.js -js[8]
+- 14:00	Query fundamentals https://console.neo4j.io -learn[5]
+- 14:30	text->id,protobuf-javascript -js[7]
 - 16:00	hypercore sample -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	text->id,protobuf-javascript -js[7]
-- 14:30	用day.js改写util.js -js[8]
+- 14:00	Query fundamentals https://console.neo4j.io -learn[5]
+- 14:30	text->id,protobuf-javascript -js[7]
 - 16:00	hypercore sample -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	text->id,protobuf-javascript -js[7]
-- 14:30	用day.js改写util.js -js[8]
+- 14:00	Query fundamentals https://console.neo4j.io -learn[5]
+- 14:30	text->id,protobuf-javascript -js[7]
 - 16:00	hypercore sample -learn[0]
 
 ---

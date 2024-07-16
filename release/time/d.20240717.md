@@ -6,51 +6,51 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	data -> schema 迭代范例 -PSMD[0]
-- 14:00	finish.devmaketomorowinfo(tomorrow); -ego[0]
+- 14:00	pear api sample -learn[1]
 - 16:00	helia, orbitdb sample -js[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	finish.devmaketomorowinfo(tomorrow); -ego[0]
-- 14:00	pear api sample -learn[0]
+- 09:30	pear api sample -learn[1]
+- 14:00	try "@helia/ipns" sample -js[1]
 - 16:00	helia, orbitdb sample -js[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	finish.devmaketomorowinfo(tomorrow); -ego[0]
+- 14:00	pear api sample -learn[1]
 - 16:00	helia, orbitdb sample -js[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
 - 07:45	helia, orbitdb sample -js[0]
-- 09:30	finish.devmaketomorowinfo(tomorrow); -ego[0]
-- 14:00	text->id,protobuf-javascript -js[8]
-- 14:30	用day.js改写util.js -js[9]
-- 16:00	用js代码完成日小结后的git操作。 -ego[1]
+- 09:30	pear api sample -learn[1]
+- 14:00	设计ego中task的种类、设立、注销规则。 -ego[0]
+- 14:30	确定mermaid gantt语法是否能表达ego模型task关系 -learn[0]
+- 16:00	自动从网页提取营养成分表 -raw[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	finish.devmaketomorowinfo(tomorrow); -ego[0]
-- 14:00	text->id,protobuf-javascript -js[8]
-- 14:30	用day.js改写util.js -js[9]
+- 09:30	pear api sample -learn[1]
+- 14:00	设计ego中task的种类、设立、注销规则。 -ego[0]
+- 14:30	确定mermaid gantt语法是否能表达ego模型task关系 -learn[0]
 - 16:00	helia, orbitdb sample -js[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	text->id,protobuf-javascript -js[8]
-- 14:30	用day.js改写util.js -js[9]
+- 14:00	设计ego中task的种类、设立、注销规则。 -ego[0]
+- 14:30	确定mermaid gantt语法是否能表达ego模型task关系 -learn[0]
 - 16:00	helia, orbitdb sample -js[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	text->id,protobuf-javascript -js[8]
-- 14:30	用day.js改写util.js -js[9]
+- 14:00	设计ego中task的种类、设立、注销规则。 -ego[0]
+- 14:30	确定mermaid gantt语法是否能表达ego模型task关系 -learn[0]
 - 16:00	helia, orbitdb sample -js[0]
 
 ---

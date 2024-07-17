@@ -7,25 +7,25 @@
 
 - 07:45	data -> schema 迭代范例 -PSMD[0]
 - 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD[2]
-- 16:00	git sample -js[0]
+- 16:00	helia ipns sample (libp2p/keychain) -js[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	以1406为例检查知识图谱和blawx的语法 -PSMD[2]
 - 14:00	用linkml和json schema沿信息接口向内建模。 -ego[2]
-- 16:00	git sample -js[0]
+- 16:00	helia ipns sample (libp2p/keychain) -js[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD[2]
-- 16:00	git sample -js[0]
+- 16:00	helia ipns sample (libp2p/keychain) -js[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	git sample -js[0]
+- 07:45	helia ipns sample (libp2p/keychain) -js[0]
 - 09:30	以1406为例检查知识图谱和blawx的语法 -PSMD[2]
 - 14:00	设计ego中task的种类、设立、注销规则。 -ego[0]
 - 14:30	确定mermaid gantt语法是否能表达ego模型task关系 -learn[0]
@@ -37,26 +37,26 @@
 - 09:30	以1406为例检查知识图谱和blawx的语法 -PSMD[2]
 - 14:00	设计ego中task的种类、设立、注销规则。 -ego[0]
 - 14:30	确定mermaid gantt语法是否能表达ego模型task关系 -learn[0]
-- 16:00	git sample -js[0]
+- 16:00	helia ipns sample (libp2p/keychain) -js[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	设计ego中task的种类、设立、注销规则。 -ego[0]
 - 14:30	确定mermaid gantt语法是否能表达ego模型task关系 -learn[0]
-- 16:00	git sample -js[0]
+- 16:00	helia ipns sample (libp2p/keychain) -js[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	设计ego中task的种类、设立、注销规则。 -ego[0]
 - 14:30	确定mermaid gantt语法是否能表达ego模型task关系 -learn[0]
-- 16:00	git sample -js[0]
+- 16:00	helia ipns sample (libp2p/keychain) -js[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	git sample -js[0]
+- 16:00	helia ipns sample (libp2p/keychain) -js[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

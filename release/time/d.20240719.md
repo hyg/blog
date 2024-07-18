@@ -6,57 +6,57 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	data -> schema 迭代范例 -PSMD[0]
-- 14:00	用linkml和json schema沿信息接口向内建模。 -ego[0]
-- 16:00	schema in ipld -learn[0]
+- 14:00	用linkml和json schema沿信息接口向内建模。 -ego[1]
+- 16:00	实践检验一下stage、level、branch、error等task type。 -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	用linkml和json schema沿信息接口向内建模。 -ego[0]
+- 09:30	用linkml和json schema沿信息接口向内建模。 -ego[1]
 - 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD[2]
-- 16:00	schema in ipld -learn[0]
+- 16:00	实践检验一下stage、level、branch、error等task type。 -ego[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	用linkml和json schema沿信息接口向内建模。 -ego[0]
-- 16:00	schema in ipld -learn[0]
+- 14:00	用linkml和json schema沿信息接口向内建模。 -ego[1]
+- 16:00	实践检验一下stage、level、branch、error等task type。 -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	schema in ipld -learn[0]
-- 09:30	用linkml和json schema沿信息接口向内建模。 -ego[0]
-- 14:00	text->id,protobuf-javascript -js[9]
-- 14:30	用day.js改写util.js -js[10]
-- 16:00	learn Orbitdb -js[0]
+- 07:45	实践检验一下stage、level、branch、error等task type。 -ego[0]
+- 09:30	用linkml和json schema沿信息接口向内建模。 -ego[1]
+- 14:00	learn gemini protocol -learn[0]
+- 14:30	debug helia/ipns -js[1]
+- 16:00	learn ssb db -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	用linkml和json schema沿信息接口向内建模。 -ego[0]
-- 14:00	text->id,protobuf-javascript -js[9]
-- 14:30	用day.js改写util.js -js[10]
-- 16:00	schema in ipld -learn[0]
+- 09:30	用linkml和json schema沿信息接口向内建模。 -ego[1]
+- 14:00	learn gemini protocol -learn[0]
+- 14:30	debug helia/ipns -js[1]
+- 16:00	实践检验一下stage、level、branch、error等task type。 -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	text->id,protobuf-javascript -js[9]
-- 14:30	用day.js改写util.js -js[10]
-- 16:00	schema in ipld -learn[0]
+- 14:00	learn gemini protocol -learn[0]
+- 14:30	debug helia/ipns -js[1]
+- 16:00	实践检验一下stage、level、branch、error等task type。 -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	text->id,protobuf-javascript -js[9]
-- 14:30	用day.js改写util.js -js[10]
-- 16:00	schema in ipld -learn[0]
+- 14:00	learn gemini protocol -learn[0]
+- 14:30	debug helia/ipns -js[1]
+- 16:00	实践检验一下stage、level、branch、error等task type。 -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	schema in ipld -learn[0]
+- 16:00	实践检验一下stage、level、branch、error等task type。 -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

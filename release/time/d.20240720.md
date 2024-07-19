@@ -1,66 +1,27 @@
 # 2024.07.20.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版1(1b)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	关于对《北京市自动驾驶汽车条例（征求意见稿）》公开征集意见的公告 -xuemen[0]
-- 14:00	拟制说、目的财产说、实在说 -learn[2]
-- 16:00	设计term模型中event、action字段 -PSMD[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	拟制说、目的财产说、实在说 -learn[2]
-- 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD[4]
-- 16:00	设计term模型中event、action字段 -PSMD[0]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	拟制说、目的财产说、实在说 -learn[2]
-- 16:00	设计term模型中event、action字段 -PSMD[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 05:41~05:55 | 15 | 休整 |  |
+| 05:56~06:55 | 60 | 备餐、运动 |  |
+| 06:56~07:40 | 45 | 早餐 |  |
+| 07:41~08:25 | 45 | 会议、自习 |  |
+| 08:26~09:28 | 63 | 休整 |  |
+| 09:30~10:59 | 90 | 静默工作 | learn:拟制说、目的财产说、实在说 [在线](http://simp.ly/p/j1SspP) [离线](../../draft/2024/07/20240720093000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.07.20.[learn:拟制说、目的财产说、实在说]任务&body=日期: 20240720%0D%0A序号: 5%0D%0A手稿:../../draft/2024/07/20240720093000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
+| 14:00~14:29 | 30 | 静默工作 | js:text->id,protobuf-javascript [在线](http://simp.ly/p/8t3vlk) [离线](../../draft/2024/07/20240720140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.07.20.[js:text->id,protobuf-javascript]任务&body=日期: 20240720%0D%0A序号: 7%0D%0A手稿:../../draft/2024/07/20240720140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 14:30~14:59 | 30 | 静默工作 | js:用day.js改写util.js [在线](http://simp.ly/p/5k9gJy) [离线](../../draft/2024/07/20240720143000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.07.20.[js:用day.js改写util.js]任务&body=日期: 20240720%0D%0A序号: 8%0D%0A手稿:../../draft/2024/07/20240720143000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:00~15:59 | 60 | 休整 |  |
+| 16:00~16:59 | 60 | 静默工作 | PSMD:设计term模型中event、action字段 [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2024/07/20240720160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.07.20.[PSMD:设计term模型中event、action字段]任务&body=日期: 20240720%0D%0A序号: 10%0D%0A手稿:../../draft/2024/07/20240720160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	设计term模型中event、action字段 -PSMD[0]
-- 09:30	拟制说、目的财产说、实在说 -learn[2]
-- 14:00	text->id,protobuf-javascript -js[11]
-- 14:30	用day.js改写util.js -js[12]
-- 16:00	用js代码完成日小结后的git操作。 -ego[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	拟制说、目的财产说、实在说 -learn[2]
-- 14:00	text->id,protobuf-javascript -js[11]
-- 14:30	用day.js改写util.js -js[12]
-- 16:00	设计term模型中event、action字段 -PSMD[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	text->id,protobuf-javascript -js[11]
-- 14:30	用day.js改写util.js -js[12]
-- 16:00	设计term模型中event、action字段 -PSMD[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	text->id,protobuf-javascript -js[11]
-- 14:30	用day.js改写util.js -js[12]
-- 16:00	设计term模型中event、action字段 -PSMD[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	设计term模型中event、action字段 -PSMD[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2024.07.20.任务排序的建议&body=date: 2024.07.20.%0D%0Afile: ../../blog/release/time/d.20240720.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 09:30~10:59	learn: [拟制说、目的财产说、实在说](../../draft/2024/07/20240720093000.md)
+- 14:00~14:29	js: [text->id,protobuf-javascript](../../draft/2024/07/20240720140000.md)
+- 14:30~14:59	js: [用day.js改写util.js](../../draft/2024/07/20240720143000.md)
+- 16:00~16:59	PSMD: [设计term模型中event、action字段](../../draft/2024/07/20240720160000.md)

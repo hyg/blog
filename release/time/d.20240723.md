@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	schema level 2 schema for code v1 -ego[0]
-- 16:00	自动从网页提取营养成分表 -raw[0]
+- 07:45	整理新版本term的manifest code -PSMD[0]
+- 14:00	schema level 2 schema for code v1 -ego[1]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	schema level 2 schema for code v1 -ego[0]
-- 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD[1]
-- 16:00	自动从网页提取营养成分表 -raw[0]
+- 09:30	schema level 2 schema for code v1 -ego[1]
+- 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD[3]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	schema level 2 schema for code v1 -ego[0]
-- 16:00	自动从网页提取营养成分表 -raw[0]
+- 14:00	schema level 2 schema for code v1 -ego[1]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	自动从网页提取营养成分表 -raw[0]
-- 09:30	schema level 2 schema for code v1 -ego[0]
-- 14:00	linkml, yaml-ld, reading time. -learn[0]
-- 14:30	leran helia ipns,reading time. -js[0]
-- 16:00	schema manifest law v0 -ego[1]
+- 07:45	schema manifest code v0 -ego[0]
+- 09:30	schema level 2 schema for code v1 -ego[1]
+- 14:00	leran helia ipns,reading time. -js[0]
+- 14:30	linkml, yaml-ld, reading time. -learn[1]
+- 16:00	自动从网页提取营养成分表 -raw[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	schema level 2 schema for code v1 -ego[0]
-- 14:00	linkml, yaml-ld, reading time. -learn[0]
-- 14:30	leran helia ipns,reading time. -js[0]
-- 16:00	自动从网页提取营养成分表 -raw[0]
+- 09:30	schema level 2 schema for code v1 -ego[1]
+- 14:00	leran helia ipns,reading time. -js[0]
+- 14:30	linkml, yaml-ld, reading time. -learn[1]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	linkml, yaml-ld, reading time. -learn[0]
-- 14:30	leran helia ipns,reading time. -js[0]
-- 16:00	自动从网页提取营养成分表 -raw[0]
+- 14:00	leran helia ipns,reading time. -js[0]
+- 14:30	linkml, yaml-ld, reading time. -learn[1]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	linkml, yaml-ld, reading time. -learn[0]
-- 14:30	leran helia ipns,reading time. -js[0]
-- 16:00	自动从网页提取营养成分表 -raw[0]
+- 14:00	leran helia ipns,reading time. -js[0]
+- 14:30	linkml, yaml-ld, reading time. -learn[1]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	自动从网页提取营养成分表 -raw[0]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

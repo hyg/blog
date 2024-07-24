@@ -6,51 +6,51 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	新版ego, instance or model, any manifest -ego[0]
-- 14:00	整理新版本term的manifest code -PSMD[0]
+- 14:00	FPM(finite protocol machine) model -PSMD[0]
 - 16:00	learn ipld,reading time. -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD[2]
+- 09:30	FPM(finite protocol machine) model -PSMD[0]
+- 14:00	整理新版本term的manifest code -PSMD[1]
 - 16:00	learn ipld,reading time. -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理新版本term的manifest code -PSMD[0]
+- 14:00	FPM(finite protocol machine) model -PSMD[0]
 - 16:00	learn ipld,reading time. -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
 - 07:45	learn ipld,reading time. -learn[0]
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	新版raw.js的子命令-营养成分详情 -raw[0]
-- 14:30	learn ssb db,reading time. -js[0]
-- 16:00	eventemitter sample -ego[1]
+- 09:30	FPM(finite protocol machine) model -PSMD[0]
+- 14:00	learn ssb db,reading time. -js[0]
+- 14:30	linkml, yaml-ld, reading time. -learn[1]
+- 16:00	设计新版raw.js架构。 -raw[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	新版raw.js的子命令-营养成分详情 -raw[0]
-- 14:30	learn ssb db,reading time. -js[0]
+- 09:30	FPM(finite protocol machine) model -PSMD[0]
+- 14:00	learn ssb db,reading time. -js[0]
+- 14:30	linkml, yaml-ld, reading time. -learn[1]
 - 16:00	learn ipld,reading time. -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	新版raw.js的子命令-营养成分详情 -raw[0]
-- 14:30	learn ssb db,reading time. -js[0]
+- 14:00	learn ssb db,reading time. -js[0]
+- 14:30	linkml, yaml-ld, reading time. -learn[1]
 - 16:00	learn ipld,reading time. -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	新版raw.js的子命令-营养成分详情 -raw[0]
-- 14:30	learn ssb db,reading time. -js[0]
+- 14:00	learn ssb db,reading time. -js[0]
+- 14:30	linkml, yaml-ld, reading time. -learn[1]
 - 16:00	learn ipld,reading time. -learn[0]
 
 ---

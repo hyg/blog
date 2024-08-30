@@ -1,66 +1,25 @@
 # 2024.08.30.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版2(2b)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	kernel模型升级 -xuemen[0]
-- 14:00	整理新版本term的manifest text -PSMD[1]
-- 16:00	未启动todo项从day metadata中自动返回waiting list -ego[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	整理新版本term的manifest text -PSMD[1]
-- 14:00	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[1]
-- 16:00	未启动todo项从day metadata中自动返回waiting list -ego[0]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	整理新版本term的manifest text -PSMD[1]
-- 16:00	未启动todo项从day metadata中自动返回waiting list -ego[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 06:25~06:39 | 15 | 休整 |  |
+| 06:40~07:39 | 60 | 备餐、运动 |  |
+| 07:40~08:24 | 45 | 早餐 |  |
+| 08:25~09:09 | 45 | 会议、自习 |  |
+| 09:10~09:28 | 19 | 休整 |  |
+| 09:30~10:59 | 90 | 工作 | PSMD:整理新版本term的manifest text [在线](http://simp.ly/p/WZ077p) [离线](../../draft/2024/08/20240830093000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.08.30.[PSMD:整理新版本term的manifest text]任务&body=日期: 20240830%0D%0A序号: 5%0D%0A手稿:../../draft/2024/08/20240830093000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
+| 14:00~15:29 | 90 | 工作 | PSMD:整理新版本term的manifest code [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2024/08/20240830140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.08.30.[PSMD:整理新版本term的manifest code]任务&body=日期: 20240830%0D%0A序号: 7%0D%0A手稿:../../draft/2024/08/20240830140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:30~15:59 | 30 | 休整 |  |
+| 16:00~16:59 | 60 | 工作 | ego:未启动todo项从day metadata中自动返回waiting list [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2024/08/20240830160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.08.30.[ego:未启动todo项从day metadata中自动返回waiting list]任务&body=日期: 20240830%0D%0A序号: 9%0D%0A手稿:../../draft/2024/08/20240830160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	未启动todo项从day metadata中自动返回waiting list -ego[0]
-- 09:30	整理新版本term的manifest text -PSMD[1]
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	learn IPLD Codes, https://ipld.io/docs/data-model/node/ -learn[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	整理新版本term的manifest text -PSMD[1]
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	未启动todo项从day metadata中自动返回waiting list -ego[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	未启动todo项从day metadata中自动返回waiting list -ego[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	未启动todo项从day metadata中自动返回waiting list -ego[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	未启动todo项从day metadata中自动返回waiting list -ego[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2024.08.30.任务排序的建议&body=date: 2024.08.30.%0D%0Afile: ../../blog/release/time/d.20240830.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 09:30~10:59	PSMD: [整理新版本term的manifest text](../../draft/2024/08/20240830093000.md)
+- 14:00~15:29	PSMD: [整理新版本term的manifest code](../../draft/2024/08/20240830140000.md)
+- 16:00~16:59	ego: [未启动todo项从day metadata中自动返回waiting list](../../draft/2024/08/20240830160000.md)

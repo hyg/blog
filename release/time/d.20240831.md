@@ -6,51 +6,51 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	新版ego, instance or model, any manifest -ego[0]
-- 14:00	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[1]
+- 14:00	整理新版本term的manifest code -PSMD[0]
 - 16:00	learn IPLD Codes, https://ipld.io/docs/data-model/node/ -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[1]
-- 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD[3]
+- 09:30	整理新版本term的manifest code -PSMD[0]
+- 14:00	整理新版本term的manifest text -PSMD[1]
 - 16:00	learn IPLD Codes, https://ipld.io/docs/data-model/node/ -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[1]
+- 14:00	整理新版本term的manifest code -PSMD[0]
 - 16:00	learn IPLD Codes, https://ipld.io/docs/data-model/node/ -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
 - 07:45	learn IPLD Codes, https://ipld.io/docs/data-model/node/ -learn[0]
-- 09:30	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[1]
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 09:30	整理新版本term的manifest code -PSMD[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[2]
 - 16:00	js class -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[1]
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 09:30	整理新版本term的manifest code -PSMD[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[2]
 - 16:00	learn IPLD Codes, https://ipld.io/docs/data-model/node/ -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[2]
 - 16:00	learn IPLD Codes, https://ipld.io/docs/data-model/node/ -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[2]
 - 16:00	learn IPLD Codes, https://ipld.io/docs/data-model/node/ -learn[0]
 
 ---

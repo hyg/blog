@@ -6,57 +6,57 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	新版ego, instance or model, any manifest -ego[0]
-- 14:00	整理新版本term的manifest code -PSMD[0]
-- 16:00	js class -js[0]
+- 14:00	整理新版本term的manifest code -PSMD[1]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[0]
-- 16:00	js class -js[0]
+- 09:30	整理新版本term的manifest code -PSMD[1]
+- 14:00	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[1]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理新版本term的manifest code -PSMD[0]
-- 16:00	js class -js[0]
+- 14:00	整理新版本term的manifest code -PSMD[1]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	js class -js[0]
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 07:45	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
+- 09:30	整理新版本term的manifest code -PSMD[1]
+- 14:00	设计四季度时间表 -raw[0]
 - 14:30	js class framework -js[1]
-- 16:00	eventemitter sample -ego[1]
+- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 09:30	整理新版本term的manifest code -PSMD[1]
+- 14:00	设计四季度时间表 -raw[0]
 - 14:30	js class framework -js[1]
-- 16:00	js class -js[0]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:00	设计四季度时间表 -raw[0]
 - 14:30	js class framework -js[1]
-- 16:00	js class -js[0]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:00	设计四季度时间表 -raw[0]
 - 14:30	js class framework -js[1]
-- 16:00	js class -js[0]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	js class -js[0]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

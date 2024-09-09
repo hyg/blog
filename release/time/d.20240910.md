@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	新版ego, instance or model, any manifest -ego[0]
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 16:00	js class -js[0]
+- 07:45	kernel模型升级 -xuemen[0]
+- 14:00	整理新版本term的manifest code -PSMD[0]
+- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	js class -js[0]
+- 09:30	整理新版本term的manifest code -PSMD[0]
+- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[1]
+- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 16:00	js class -js[0]
+- 14:00	整理新版本term的manifest code -PSMD[0]
+- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	js class -js[0]
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:00	js class framework -js[1]
-- 14:30	熟悉内脏之间的关系 -raw[2]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
+- 07:45	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
+- 09:30	整理新版本term的manifest code -PSMD[0]
+- 14:00	整理ubuntu工作环境 -ego[0]
+- 14:30	js class framework -js[2]
+- 16:00	js class -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:00	js class framework -js[1]
-- 14:30	熟悉内脏之间的关系 -raw[2]
-- 16:00	js class -js[0]
+- 09:30	整理新版本term的manifest code -PSMD[0]
+- 14:00	整理ubuntu工作环境 -ego[0]
+- 14:30	js class framework -js[2]
+- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	js class framework -js[1]
-- 14:30	熟悉内脏之间的关系 -raw[2]
-- 16:00	js class -js[0]
+- 14:00	整理ubuntu工作环境 -ego[0]
+- 14:30	js class framework -js[2]
+- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	js class framework -js[1]
-- 14:30	熟悉内脏之间的关系 -raw[2]
-- 16:00	js class -js[0]
+- 14:00	整理ubuntu工作环境 -ego[0]
+- 14:30	js class framework -js[2]
+- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	js class -js[0]
+- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

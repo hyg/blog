@@ -1,66 +1,24 @@
 # 2024.09.10.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，九月中上旬补足前两月缺勤。今天绑定模版1(1d)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	kernel模型升级 -xuemen[0]
-- 14:00	整理新版本term的manifest code -PSMD[0]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[1]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	整理新版本term的manifest code -PSMD[0]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 07:45~07:59 | 15 | 休整 |  |
+| 08:00~08:59 | 60 | 备餐、运动 |  |
+| 09:00~09:44 | 45 | 午餐 |  |
+| 09:45~10:29 | 45 | 会议、自习 |  |
+| 10:30~13:58 | 209 | 休整 |  |
+| 14:00~14:29 | 30 | 静默工作 | ego:整理ubuntu工作环境 [在线](http://simp.ly/p/8t3vlk) [离线](../../draft/2024/09/20240910140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.09.10.[ego:整理ubuntu工作环境]任务&body=日期: 20240910%0D%0A序号: 5%0D%0A手稿:../../draft/2024/09/20240910140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 14:30~14:59 | 30 | 静默工作 | js:js class framework [在线](http://simp.ly/p/5k9gJy) [离线](../../draft/2024/09/20240910143000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.09.10.[js:js class framework]任务&body=日期: 20240910%0D%0A序号: 6%0D%0A手稿:../../draft/2024/09/20240910143000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:00~15:59 | 60 | 休整 |  |
+| 16:00~16:59 | 60 | 静默工作 | learn:https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2024/09/20240910160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.09.10.[learn:https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web]任务&body=日期: 20240910%0D%0A序号: 8%0D%0A手稿:../../draft/2024/09/20240910160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	整理ubuntu工作环境 -ego[0]
-- 14:30	js class framework -js[2]
-- 16:00	js class -js[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	整理ubuntu工作环境 -ego[0]
-- 14:30	js class framework -js[2]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	整理ubuntu工作环境 -ego[0]
-- 14:30	js class framework -js[2]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	整理ubuntu工作环境 -ego[0]
-- 14:30	js class framework -js[2]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2024.09.10.任务排序的建议&body=date: 2024.09.10.%0D%0Afile: ../../blog/release/time/d.20240910.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 14:00~14:29	ego: [整理ubuntu工作环境](../../draft/2024/09/20240910140000.md)
+- 14:30~14:59	js: [js class framework](../../draft/2024/09/20240910143000.md)
+- 16:00~16:59	learn: [https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web](../../draft/2024/09/20240910160000.md)

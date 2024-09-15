@@ -1,62 +1,23 @@
 # 2024.09.16.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，九月中上旬补足前两月缺勤。今天绑定模版2(2c)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	新版ego, instance or model, any manifest -ego[0]
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 06:46~07:00 | 15 | 休整 |  |
+| 07:01~08:00 | 60 | 备餐、运动 |  |
+| 08:01~08:45 | 45 | 早餐 |  |
+| 08:46~09:30 | 45 | 会议、自习 |  |
+| 09:31~10:58 | 88 | 休整 |  |
+| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
+| 14:00~15:29 | 90 | 工作 | PSMD:整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2024/09/20240916140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.09.16.[PSMD:整理近期讨论，按照新版manifest text提炼几个有代表性的场景。]任务&body=日期: 20240916%0D%0A序号: 6%0D%0A手稿:../../draft/2024/09/20240916140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:30~15:59 | 30 | 休整 |  |
+| 16:00~16:59 | 60 | 工作 | learn:https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2024/09/20240916160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.09.16.[learn:https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web]任务&body=日期: 20240916%0D%0A序号: 8%0D%0A手稿:../../draft/2024/09/20240916160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:00	熟悉内脏之间的关系 -raw[2]
-- 16:00	js class -js[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:00	熟悉内脏之间的关系 -raw[2]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	熟悉内脏之间的关系 -raw[2]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	熟悉内脏之间的关系 -raw[2]
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2024.09.16.任务排序的建议&body=date: 2024.09.16.%0D%0Afile: ../../blog/release/time/d.20240916.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 14:00~15:29	PSMD: [整理近期讨论，按照新版manifest text提炼几个有代表性的场景。](../../draft/2024/09/20240916140000.md)
+- 16:00~16:59	learn: [https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web](../../draft/2024/09/20240916160000.md)

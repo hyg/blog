@@ -1,8 +1,8 @@
-# NaN.aN.aN.
+# 2024.09.20.
 日小结
 
 <a id="top"></a>
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，九月中上旬补足前两月缺勤。今天绑定模版1(1c)。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，九月补足前两月缺勤。今天绑定模版1(1c)。
 
 <a id="index"></a>
 - 14:00~14:59	ego: [ego day各参数中增加已实现的diff](#20240920140000)
@@ -14,14 +14,14 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 17700 | 11957 | 5743 | 4515 |
+| total | 17700 | 11957 | 5743 | 4635 |
 | PSMD | 7000 | 3962 | 3038 | 870 |
-| ego | 4000 | 1953 | 2047 | 825 |
+| ego | 4000 | 1953 | 2047 | 885 |
 | infra | 2000 | 200 | 1800 | 120 |
 | xuemen | 1500 | 241 | 1259 | 450 |
 | raw | 500 | 1415 | -915 | 480 |
 | learn | 1500 | 2258 | -758 | 990 |
-| js | 1200 | 1928 | -728 | 780 |
+| js | 1200 | 1928 | -728 | 840 |
 
 ---
 waiting list:
@@ -35,7 +35,7 @@ waiting list:
   - ego的第1号事项：ego day各参数中增加已实现的diff
   - js的第1号事项：js class
   - raw的第1号事项：熟悉内脏之间的关系
-  - js的第2号事项：js class
+  - ego的第2号事项：ego day各参数中增加已实现的diff
 
 - 90分钟时间片：
   - PSMD的第1号事项：整理近期讨论，按照新版manifest text提炼几个有代表性的场景。
@@ -45,8 +45,8 @@ waiting list:
 
 - 195分钟时间片：
   - xuemen的第1号事项：kernel模型升级
-  - ego的第2号事项：新版ego, instance or model, any manifest
   - xuemen的第2号事项：重新设计S2状态下的学门基本管理制度
+  - ego的第3号事项：新版ego, instance or model, any manifest
   - PSMD的第5号事项：machines model
 
 ---

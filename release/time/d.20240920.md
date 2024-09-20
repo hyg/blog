@@ -14,14 +14,14 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 17700 | 11957 | 5743 | 4635 |
+| total | 17700 | 11957 | 5743 | 4755 |
 | PSMD | 7000 | 3962 | 3038 | 870 |
-| ego | 4000 | 1953 | 2047 | 885 |
+| ego | 4000 | 1953 | 2047 | 945 |
 | infra | 2000 | 200 | 1800 | 120 |
 | xuemen | 1500 | 241 | 1259 | 450 |
 | raw | 500 | 1415 | -915 | 480 |
 | learn | 1500 | 2258 | -758 | 990 |
-| js | 1200 | 1928 | -728 | 840 |
+| js | 1200 | 1928 | -728 | 900 |
 
 ---
 waiting list:
@@ -46,14 +46,14 @@ waiting list:
 - 195分钟时间片：
   - xuemen的第1号事项：kernel模型升级
   - xuemen的第2号事项：重新设计S2状态下的学门基本管理制度
-  - ego的第3号事项：新版ego, instance or model, any manifest
+  - ego的第4号事项：新版ego, instance or model, any manifest
   - PSMD的第5号事项：machines model
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.09.20.[ego day各参数中增加已实现的diff]任务&body=日期: 2024.09.20.%0D%0A序号: 6%0D%0A手稿:../../draft/2024/09/20240920.00.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
 <a id="20240920140000"></a>
 ## 14:00 ~ 14:59
-## ego: [ego day各参数中增加已实现的diff]
+### ego: [ego day各参数中增加已实现的diff]
 
 - 增加可选参数diff报错。
 ```
@@ -116,7 +116,7 @@ error: unknown option '-1'
 <a href="mailto:huangyg@mars22.com?subject=关于2024.09.20.[day.js makedaylog() 根据日期读取正确的season obj]任务&body=日期: 2024.09.20.%0D%0A序号: 7%0D%0A手稿:../../draft/2024/09/20240920.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
 <a id="20240920143000"></a>
 ## 14:30 ~ 15:29
-## ego: [day.js makedaylog() 根据日期读取正确的season obj]
+### ego: [day.js makedaylog() 根据日期读取正确的season obj]
 
 - 修改 seasonfilename、loadseasonobj，增加datestr参数。
 - 修改util.1.js 增加str2date()
@@ -224,6 +224,6 @@ season stat:
 <a href="mailto:huangyg@mars22.com?subject=关于2024.09.20.[js class]任务&body=日期: 2024.09.20.%0D%0A序号: 9%0D%0A手稿:../../draft/2024/09/20240920.02.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
 <a id="20240920160000"></a>
 ## 16:00 ~ 16:00
-## js: [js class]
+### js: [js class]
 
 - 重装系统，任务顺延。

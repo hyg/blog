@@ -1,4 +1,4 @@
-# NaN.aN.aN.
+# 2024.09.21.
 日小结
 
 <a id="top"></a>
@@ -15,10 +15,10 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 17700 | 12177 | 5523 | 4485 |
-| PSMD | 7000 | 4092 | 2908 | 870 |
+| total | 17700 | 12177 | 5523 | 4635 |
+| PSMD | 7000 | 4092 | 2908 | 990 |
 | ego | 4000 | 2043 | 1957 | 795 |
-| infra | 2000 | 200 | 1800 | 120 |
+| infra | 2000 | 200 | 1800 | 150 |
 | xuemen | 1500 | 241 | 1259 | 450 |
 | raw | 500 | 1415 | -915 | 480 |
 | learn | 1500 | 2258 | -758 | 990 |
@@ -32,6 +32,7 @@ waiting list:
   - PSMD的第1号事项：根据近期交流情况整理入口protocol
   - infra的第1号事项：动态菜单设计。
   - ego的第2号事项：day.js maketomorrowinfo()并行增加一个函数，支持diff项。然后把plan参数转向新函数。
+  - infra的第2号事项：动态菜单设计。
 
 - 60分钟时间片：
   - js的第1号事项：js class
@@ -42,14 +43,14 @@ waiting list:
 - 90分钟时间片：
   - learn的第1号事项：learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/
   - PSMD的第2号事项：整理近期讨论，按照新版manifest text提炼几个有代表性的场景。
-  - infra的第2号事项：schema立项。
   - raw的第2号事项：整理代码，理顺food.js几个成员函数之间的调用关系
+  - infra的第3号事项：schema立项。
 
 - 195分钟时间片：
   - ego的第1号事项：新版ego, instance or model, any manifest
   - xuemen的第1号事项：kernel模型升级
   - xuemen的第2号事项：重新设计S2状态下的学门基本管理制度
-  - PSMD的第5号事项：machines model
+  - PSMD的第7号事项：machines model
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.09.21.[整理近期讨论，按照新版manifest text提炼几个有代表性的场景。]任务&body=日期: 2024.09.21.%0D%0A序号: 5%0D%0A手稿:../../draft/2024/09/20240921.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)

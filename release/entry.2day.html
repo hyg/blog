@@ -17,7 +17,7 @@
 		var seasonpath = "data/season/" + year + "S" + season + ".yaml";
 
 		window.onload = function () {
-			alert(document.domain);
+			//alert(document.domain);
 			if (document.domain == "hyg.codeberg.page") {
 				todayurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr() + ".md";
 				tomorrowurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr(1) + ".md";
@@ -42,9 +42,9 @@
 		function getTododataFromURL(url, id) {
 			var xmlhttp = new XMLHttpRequest();
 			xmlhttp.onreadystatechange = function () {
-				alert(xmlhttp.readyState);
+				/* alert(xmlhttp.readyState);
 				alert(xmlhttp.status);
-				alert(xmlhttp.responseText);
+				alert(xmlhttp.responseText); */
 				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
 					var seasonobj = YAML.parse(xmlhttp.responseText);
 					var statobj = new Object();
@@ -91,9 +91,9 @@
 		function getTextFileFromURL(url, id) {
 			var xmlhttp = new XMLHttpRequest();
 			xmlhttp.onreadystatechange = function () {
-				alert(xmlhttp.readyState);
+				/* alert(xmlhttp.readyState);
 				alert(xmlhttp.status);
-				alert(xmlhttp.responseText);
+				alert(xmlhttp.responseText); */
 				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
 					var text = xmlhttp.responseText;
 					document.getElementById(id).innerHTML = marked.parse(text);

@@ -1,58 +1,25 @@
 # 2024.09.26.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，九月补足前两月缺勤。今天绑定模版2(2a)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	新版ego, instance or model, any manifest -ego[0]
-- 14:00	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[0]
-- 16:00	整理闫岸家政能力讨论 -PSMD[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[0]
-- 14:00	整理8.28.讨论 -PSMD[1]
-- 16:00	整理闫岸家政能力讨论 -PSMD[0]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[0]
-- 16:00	整理闫岸家政能力讨论 -PSMD[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 04:36~04:50 | 15 | 休整 |  |
+| 04:51~05:50 | 60 | 备餐、运动 |  |
+| 05:51~06:35 | 45 | 早餐 |  |
+| 06:36~07:20 | 45 | 会议、自习 |  |
+| 07:21~07:43 | 23 | 休整 |  |
+| 07:45~10:59 | 195 | 工作 | PSMD:machines model [在线](http://simp.ly/p/3GXNTh) [离线](../../draft/2024/09/20240926074500.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.09.26.[PSMD:machines model]任务&body=日期: 20240926%0D%0A序号: 5%0D%0A手稿:../../draft/2024/09/20240926074500.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
+| 14:00~15:29 | 90 | 工作 | PSMD:整理8.28.讨论 [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2024/09/20240926140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.09.26.[PSMD:整理8.28.讨论]任务&body=日期: 20240926%0D%0A序号: 7%0D%0A手稿:../../draft/2024/09/20240926140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:30~15:59 | 30 | 休整 |  |
+| 16:00~16:59 | 60 | 工作 | PSMD:整理9.5.讨论和代理协议 [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2024/09/20240926160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.09.26.[PSMD:整理9.5.讨论和代理协议]任务&body=日期: 20240926%0D%0A序号: 9%0D%0A手稿:../../draft/2024/09/20240926160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	整理闫岸家政能力讨论 -PSMD[0]
-- 09:30	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[0]
-- 16:00	动态菜单设计。 -infra[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/ -learn[0]
-- 16:00	整理闫岸家政能力讨论 -PSMD[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 16:00	整理闫岸家政能力讨论 -PSMD[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 16:00	整理闫岸家政能力讨论 -PSMD[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	整理闫岸家政能力讨论 -PSMD[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2024.09.26.任务排序的建议&body=date: 2024.09.26.%0D%0Afile: ../../blog/release/time/d.20240926.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 07:45~10:59	PSMD: [machines model](../../draft/2024/09/20240926.01.md)
+- 14:00~15:29	PSMD: [整理8.28.讨论](../../draft/2024/09/20240926.02.md)
+- 16:00~16:59	PSMD: [整理9.5.讨论和代理协议](../../draft/2024/09/20240926.03.md)

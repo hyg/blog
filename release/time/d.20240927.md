@@ -14,12 +14,12 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 17700 | 13271 | 4429 | 6135 |
-| PSMD | 7000 | 4752 | 2248 | 2055 |
+| total | 17700 | 13271 | 4429 | 6375 |
+| PSMD | 7000 | 4752 | 2248 | 2205 |
 | ego | 4000 | 2191 | 1809 | 960 |
 | infra | 2000 | 275 | 1725 | 240 |
 | xuemen | 1500 | 241 | 1259 | 450 |
-| raw | 500 | 1415 | -915 | 570 |
+| raw | 500 | 1415 | -915 | 660 |
 | learn | 1500 | 2379 | -879 | 1140 |
 | js | 1200 | 2018 | -818 | 720 |
 
@@ -30,7 +30,7 @@ waiting list:
 - 30分钟时间片：
   - infra的第2号事项：动态菜单设计。
   - learn的第4号事项：learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/
-  - PSMD的第12号事项：整理近期讨论，按照新版manifest text提炼几个有代表性的场景。
+  - PSMD的第14号事项：整理近期讨论，按照新版manifest text提炼几个有代表性的场景。
 
 - 60分钟时间片：
   - PSMD的第1号事项：整理9.5.讨论和代理协议
@@ -87,7 +87,7 @@ graph
     cb4ab0e9N[cb4ab0e9] --符合--> 5ab2b2baN[5ab2b2ba]
     cb4ab0e9N[cb4ab0e9] --不符合--> 20240902140000
     5ab2b2baN[5ab2b2ba] --符合--> 20240916140000
-    5ab2b2baN[5ab2b2ba] --不符合--> 20240924.02.4.3
+    5ab2b2baN[5ab2b2ba] --不符合--> 20240924.02.4.3.
 
     cb4ab0e9 --符合--> 5ab2b2ba
     cb4ab0e9 --不符合--> N5ab2b2ba[5ab2b2ba]

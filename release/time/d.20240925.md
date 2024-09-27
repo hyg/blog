@@ -14,13 +14,13 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 17700 | 12761 | 4939 | 4665 |
-| PSMD | 7000 | 4242 | 2758 | 1050 |
-| ego | 4000 | 2191 | 1809 | 765 |
-| infra | 2000 | 275 | 1725 | 210 |
+| total | 17700 | 13271 | 4429 | 5550 |
+| PSMD | 7000 | 4752 | 2248 | 1560 |
+| ego | 4000 | 2191 | 1809 | 960 |
+| infra | 2000 | 275 | 1725 | 240 |
 | xuemen | 1500 | 241 | 1259 | 450 |
 | raw | 500 | 1415 | -915 | 480 |
-| learn | 1500 | 2379 | -879 | 990 |
+| learn | 1500 | 2379 | -879 | 1140 |
 | js | 1200 | 2018 | -818 | 720 |
 
 ---
@@ -28,24 +28,27 @@ waiting list:
 
 
 - 30分钟时间片：
+  - infra的第2号事项：动态菜单设计。
+  - learn的第4号事项：learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/
+  - PSMD的第7号事项：整理近期讨论，按照新版manifest text提炼几个有代表性的场景。
 
 - 60分钟时间片：
   - PSMD的第1号事项：整理闫岸家政能力讨论
   - infra的第1号事项：动态菜单设计。
   - js的第1号事项：js class
-  - raw的第1号事项：熟悉内脏之间的关系
+  - learn的第1号事项：https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web
 
 - 90分钟时间片：
-  - learn的第1号事项：learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/
+  - raw的第1号事项：整理代码，理顺food.js几个成员函数之间的调用关系
   - PSMD的第2号事项：整理8.28.讨论
-  - raw的第2号事项：整理代码，理顺food.js几个成员函数之间的调用关系
-  - infra的第3号事项：schema立项。
+  - PSMD的第3号事项：整理8.28.讨论
+  - learn的第3号事项：learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/
 
 - 195分钟时间片：
   - ego的第1号事项：新版ego, instance or model, any manifest
   - xuemen的第1号事项：kernel模型升级
   - xuemen的第2号事项：重新设计S2状态下的学门基本管理制度
-  - PSMD的第7号事项：machines model
+  - ego的第4号事项：新版ego, instance or model, any manifest
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.09.25.[新版ego, instance or model, any manifest]任务&body=日期: 2024.09.25.%0D%0A序号: 5%0D%0A手稿:../../draft/2024/09/20240925.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
@@ -68,6 +71,10 @@ waiting list:
 - {IM,draft+blog,PSMD view} 三种结合试试。
 - 继续追加时间。
 
+### 5.1. 
+
+- 条件：如果附件42、附件43都符合。
+- 建议：使用自定义的规章解决资源和重构问题，具体可以参考1609+1406、chain+1406等标准模型。
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.09.25.[整理闫岸家政能力讨论]任务&body=日期: 2024.09.25.%0D%0A序号: 9%0D%0A手稿:../../draft/2024/09/20240925.03.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
 <a id="20240925160000"></a>

@@ -14,13 +14,13 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 17700 | 13471 | 4229 | 4890 |
-| PSMD | 7000 | 4952 | 2048 | 1050 |
-| ego | 4000 | 2191 | 1809 | 990 |
-| infra | 2000 | 275 | 1725 | 210 |
-| xuemen | 1500 | 241 | 1259 | 450 |
+| total | 17700 | 14071 | 3629 | 4665 |
+| PSMD | 7000 | 5477 | 1523 | 990 |
+| ego | 4000 | 2206 | 1794 | 795 |
+| infra | 2000 | 305 | 1695 | 210 |
+| xuemen | 1500 | 241 | 1259 | 510 |
 | raw | 500 | 1415 | -915 | 480 |
-| learn | 1500 | 2379 | -879 | 990 |
+| learn | 1500 | 2409 | -909 | 960 |
 | js | 1200 | 2018 | -818 | 720 |
 
 ---
@@ -28,26 +28,27 @@ waiting list:
 
 
 - 30分钟时间片：
-  - ego的第1号事项：day over [date]带有日期参数时，redo就不要插回season metadata了。
-  - learn的第2号事项：learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/
+  - ego的第1号事项：新版本任务、子任务的数据结构
+  - xuemen的第1号事项：整理财务报表
+  - xuemen的第2号事项：月初财务工作
 
 - 60分钟时间片：
-  - PSMD的第1号事项：整理9.5.讨论和代理协议
   - infra的第1号事项：动态菜单设计。
   - js的第1号事项：js class
   - learn的第1号事项：https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web
+  - ego的第2号事项：schema manifest code v0
 
 - 90分钟时间片：
+  - PSMD的第1号事项：整理default模型
   - raw的第1号事项：整理代码，理顺food.js几个成员函数之间的调用关系
-  - PSMD的第2号事项：整理default模型
   - infra的第3号事项：schema立项。
-  - raw的第4号事项：整理代码，理顺food.js几个成员函数之间的调用关系
+  - PSMD的第4号事项：整理近期讨论，按照新版manifest text提炼几个有代表性的场景。
 
 - 195分钟时间片：
-  - xuemen的第1号事项：kernel模型升级
-  - ego的第2号事项：新版ego, instance or model, any manifest
-  - xuemen的第2号事项：重新设计S2状态下的学门基本管理制度
-  - PSMD的第3号事项：machines model
+  - PSMD的第2号事项：machines model
+  - xuemen的第3号事项：kernel模型升级
+  - ego的第4号事项：新版ego, instance or model, any manifest
+  - xuemen的第4号事项：重新设计S2状态下的学门基本管理制度
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.09.26.[machines model]任务&body=日期: 2024.09.26.%0D%0A序号: 5%0D%0A手稿:../../draft/2024/09/20240926.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
@@ -109,3 +110,22 @@ waiting list:
 ######遵守附件43
 ######遵守附件44
 #### 不遵守附件20、21
+
+---
+
+- 以下是2024.09.30.根据手稿统一整理。
+
+- 条件：如果附件42、附件43都符合。
+- 建议：使用自定义的规章解决资源和重构问题，具体可以参考1609+1406、chain+1406等标准模型。
+- 在这前提条件下：
+
+### 5.1.
+
+- 有比较完备的内部制度，明确的愿景和路线图，可以找素质能力比较高的人合作，可以专门进行投融资；
+- 积极安排：
+    - 用长期承诺从上游拿到优质配方，拿到账期，甚至绑定利益、参与研发专属配方；
+    - 用充足的宣传力度、足够的利润和突出品质，建立预付款、有压货任务的销售渠道；
+    - 可以设计新颖、有代差的权利分配方案，引导消费者参与配方选品和研发，凭借对局部市场的嗅觉和个人影响力，换取丰厚的经济利益。
+- 我的接口：
+    - 配方研发的合作方案设计；
+    - 个人消费者组成动态委托关系，受委托的消费者代表参与选品、经营决策、获得经济利益的方案设计。

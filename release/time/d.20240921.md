@@ -15,42 +15,41 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 17700 | 12177 | 5523 | 4635 |
-| PSMD | 7000 | 4092 | 2908 | 990 |
-| ego | 4000 | 2043 | 1957 | 795 |
-| infra | 2000 | 200 | 1800 | 150 |
-| xuemen | 1500 | 241 | 1259 | 450 |
+| total | 17700 | 14071 | 3629 | 4665 |
+| PSMD | 7000 | 5477 | 1523 | 990 |
+| ego | 4000 | 2206 | 1794 | 795 |
+| infra | 2000 | 305 | 1695 | 210 |
+| xuemen | 1500 | 241 | 1259 | 510 |
 | raw | 500 | 1415 | -915 | 480 |
-| learn | 1500 | 2258 | -758 | 990 |
-| js | 1200 | 1928 | -728 | 780 |
+| learn | 1500 | 2409 | -909 | 960 |
+| js | 1200 | 2018 | -818 | 720 |
 
 ---
 waiting list:
 
 
 - 30分钟时间片：
-  - PSMD的第1号事项：根据近期交流情况整理入口protocol
-  - infra的第1号事项：动态菜单设计。
-  - ego的第2号事项：day.js maketomorrowinfo()并行增加一个函数，支持diff项。然后把plan参数转向新函数。
-  - infra的第2号事项：动态菜单设计。
+  - ego的第1号事项：新版本任务、子任务的数据结构
+  - xuemen的第1号事项：整理财务报表
+  - xuemen的第2号事项：月初财务工作
 
 - 60分钟时间片：
+  - infra的第1号事项：动态菜单设计。
   - js的第1号事项：js class
-  - raw的第1号事项：熟悉内脏之间的关系
-  - js的第2号事项：js class
-  - learn的第2号事项：learn Blogging on the Decentralized Web https://proto.school/blog
+  - learn的第1号事项：https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web
+  - ego的第2号事项：schema manifest code v0
 
 - 90分钟时间片：
-  - learn的第1号事项：learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/
-  - PSMD的第2号事项：整理近期讨论，按照新版manifest text提炼几个有代表性的场景。
-  - raw的第2号事项：整理代码，理顺food.js几个成员函数之间的调用关系
+  - PSMD的第1号事项：整理default模型
+  - raw的第1号事项：整理代码，理顺food.js几个成员函数之间的调用关系
   - infra的第3号事项：schema立项。
+  - PSMD的第4号事项：整理近期讨论，按照新版manifest text提炼几个有代表性的场景。
 
 - 195分钟时间片：
-  - ego的第1号事项：新版ego, instance or model, any manifest
-  - xuemen的第1号事项：kernel模型升级
-  - xuemen的第2号事项：重新设计S2状态下的学门基本管理制度
-  - PSMD的第7号事项：machines model
+  - PSMD的第2号事项：machines model
+  - xuemen的第3号事项：kernel模型升级
+  - ego的第4号事项：新版ego, instance or model, any manifest
+  - xuemen的第4号事项：重新设计S2状态下的学门基本管理制度
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.09.21.[整理近期讨论，按照新版manifest text提炼几个有代表性的场景。]任务&body=日期: 2024.09.21.%0D%0A序号: 5%0D%0A手稿:../../draft/2024/09/20240921.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
@@ -79,6 +78,23 @@ waiting list:
         - 以图文宣传稿提出代理合作协议，并认为不签署正式合同就没有效力。遇到质疑后表示只做网店销售，不发展代理渠道。
 - 继续追加时间。
 
+--- 
+
+- 以下是2024.09.30.根据手稿统一整理。
+
+- 条件：如果不符合附件42、符合附件43。
+- 建议：先参考default+1406标准模型开展业务。
+- 在这前提条件下：
+
+### 4.3.
+
+- 主要靠自己个人，至多带几个头脑简单、阅历不足的员工，还不能和素质能力相当的人合作；
+- 主要还是靠直接的零售和批发，需要严格控制支出。
+- 注意控制时间，这个阶段很容易透支健康。
+- 我的接口：
+    - 提交[1406动议](https://hyg.codeberg.page/PSMD/@master/view/term.056e71fb.html)。
+    - 提交6d206b54、9e6bc34f、600f6f80、12119600四项管理标准。
+    - 根据上述工作标准的落实情况，逐步升级内部管理制度，等待时机调整上下游合作模式。
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.09.21.[动态菜单设计。]任务&body=日期: 2024.09.21.%0D%0A序号: 7%0D%0A手稿:../../draft/2024/09/20240921.02.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
 <a id="20240921140000"></a>

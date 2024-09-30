@@ -14,13 +14,13 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 17700 | 13471 | 4229 | 4890 |
-| PSMD | 7000 | 4952 | 2048 | 1050 |
-| ego | 4000 | 2191 | 1809 | 990 |
-| infra | 2000 | 275 | 1725 | 210 |
-| xuemen | 1500 | 241 | 1259 | 450 |
+| total | 17700 | 14071 | 3629 | 4665 |
+| PSMD | 7000 | 5477 | 1523 | 990 |
+| ego | 4000 | 2206 | 1794 | 795 |
+| infra | 2000 | 305 | 1695 | 210 |
+| xuemen | 1500 | 241 | 1259 | 510 |
 | raw | 500 | 1415 | -915 | 480 |
-| learn | 1500 | 2379 | -879 | 990 |
+| learn | 1500 | 2409 | -909 | 960 |
 | js | 1200 | 2018 | -818 | 720 |
 
 ---
@@ -28,26 +28,27 @@ waiting list:
 
 
 - 30分钟时间片：
-  - ego的第1号事项：day over [date]带有日期参数时，redo就不要插回season metadata了。
-  - learn的第2号事项：learn IPLD ADLs https://ipld.io/docs/advanced-data-layouts/
+  - ego的第1号事项：新版本任务、子任务的数据结构
+  - xuemen的第1号事项：整理财务报表
+  - xuemen的第2号事项：月初财务工作
 
 - 60分钟时间片：
-  - PSMD的第1号事项：整理9.5.讨论和代理协议
   - infra的第1号事项：动态菜单设计。
   - js的第1号事项：js class
   - learn的第1号事项：https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web
+  - ego的第2号事项：schema manifest code v0
 
 - 90分钟时间片：
+  - PSMD的第1号事项：整理default模型
   - raw的第1号事项：整理代码，理顺food.js几个成员函数之间的调用关系
-  - PSMD的第2号事项：整理default模型
   - infra的第3号事项：schema立项。
-  - raw的第4号事项：整理代码，理顺food.js几个成员函数之间的调用关系
+  - PSMD的第4号事项：整理近期讨论，按照新版manifest text提炼几个有代表性的场景。
 
 - 195分钟时间片：
-  - xuemen的第1号事项：kernel模型升级
-  - ego的第2号事项：新版ego, instance or model, any manifest
-  - xuemen的第2号事项：重新设计S2状态下的学门基本管理制度
-  - PSMD的第3号事项：machines model
+  - PSMD的第2号事项：machines model
+  - xuemen的第3号事项：kernel模型升级
+  - ego的第4号事项：新版ego, instance or model, any manifest
+  - xuemen的第4号事项：重新设计S2状态下的学门基本管理制度
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.09.27.[整理8.28.讨论]任务&body=日期: 2024.09.27.%0D%0A序号: 5%0D%0A手稿:../../draft/2024/09/20240927.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
@@ -88,3 +89,20 @@ waiting list:
 - 规整这个任务的各时间片手稿：
     - 20240921.01.md
     - 20240926.03.md
+
+---
+
+- 以下是2024.09.30.根据手稿统一整理。
+
+-  条件：如果符合附件42、不符合附件43。
+- 建议：使用自定义的规章解决资源和重构问题，具体可以参考1609、chain等标准模型。
+- 在这前提条件下：
+
+### 5.2.
+
+- 主要靠自己个人，至多带几个头脑简单、阅历不足的员工，还不能和素质能力相当的人合作；
+- 主要还是靠直接的零售和批发，需要严格控制支出。
+- 注意控制时间，这个阶段很容易透支健康。
+- 我的接口：
+    - 根据员工实际情况，找机会向上游拿优质配方、向下游做事件营销；
+    - 根据管理能力的逐步提升，抓住时机调整上下游合作模式。

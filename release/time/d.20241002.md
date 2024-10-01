@@ -5,29 +5,30 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	新版ego, instance or model, any manifest -ego[1]
+- 07:45	machines model -PSMD[1]
 - 14:00	整理default模型 -PSMD[0]
-- 16:00	eventemitter sample -ego[0]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	整理default模型 -PSMD[0]
 - 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	eventemitter sample -ego[0]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	整理default模型 -PSMD[0]
-- 16:00	eventemitter sample -ego[0]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	eventemitter sample -ego[0]
+- 07:45	schema manifest code v0 -ego[0]
 - 09:30	整理default模型 -PSMD[0]
 - 14:00	月初财务工作 -xuemen[0]
+- 14:30	新版本任务、子任务的数据结构 -ego[1]
 - 16:00	动态菜单设计。 -infra[0]
 
 ---
@@ -35,24 +36,27 @@
 
 - 09:30	整理default模型 -PSMD[0]
 - 14:00	月初财务工作 -xuemen[0]
-- 16:00	eventemitter sample -ego[0]
+- 14:30	新版本任务、子任务的数据结构 -ego[1]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	月初财务工作 -xuemen[0]
-- 16:00	eventemitter sample -ego[0]
+- 14:30	新版本任务、子任务的数据结构 -ego[1]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	月初财务工作 -xuemen[0]
-- 16:00	eventemitter sample -ego[0]
+- 14:30	新版本任务、子任务的数据结构 -ego[1]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	eventemitter sample -ego[0]
+- 16:00	schema manifest code v0 -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

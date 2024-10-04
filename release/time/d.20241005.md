@@ -5,48 +5,52 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	machines model -PSMD[0]
-- 14:00	schema立项。 -infra[0]
+- 07:45	kernel模型升级 -xuemen[0]
+- 14:00	整理default模型 -PSMD[0]
 - 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	schema立项。 -infra[0]
+- 09:30	整理default模型 -PSMD[0]
 - 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
 - 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	schema立项。 -infra[0]
+- 14:00	整理default模型 -PSMD[0]
 - 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
 - 07:45	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
-- 09:30	schema立项。 -infra[0]
-- 14:00	day over的redo部分跳过同名、同时间的todo项。 -ego[0]
-- 16:00	js class -js[0]
+- 09:30	整理default模型 -PSMD[0]
+- 14:00	新版本任务、子任务的数据结构 -ego[0]
+- 14:30	day over的redo部分跳过同名、同时间的todo项。 -ego[2]
+- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	schema立项。 -infra[0]
-- 14:00	day over的redo部分跳过同名、同时间的todo项。 -ego[0]
+- 09:30	整理default模型 -PSMD[0]
+- 14:00	新版本任务、子任务的数据结构 -ego[0]
+- 14:30	day over的redo部分跳过同名、同时间的todo项。 -ego[2]
 - 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	day over的redo部分跳过同名、同时间的todo项。 -ego[0]
+- 14:00	新版本任务、子任务的数据结构 -ego[0]
+- 14:30	day over的redo部分跳过同名、同时间的todo项。 -ego[2]
 - 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	day over的redo部分跳过同名、同时间的todo项。 -ego[0]
+- 14:00	新版本任务、子任务的数据结构 -ego[0]
+- 14:30	day over的redo部分跳过同名、同时间的todo项。 -ego[2]
 - 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---

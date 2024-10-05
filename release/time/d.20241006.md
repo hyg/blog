@@ -7,48 +7,56 @@
 
 - 07:45	kernel模型升级 -xuemen[0]
 - 14:00	整理default模型 -PSMD[0]
-- 16:00	eventemitter sample -ego[0]
+- 16:00	整理季度任务 -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	整理default模型 -PSMD[0]
 - 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	eventemitter sample -ego[0]
+- 16:00	整理季度任务 -ego[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	整理default模型 -PSMD[0]
-- 16:00	eventemitter sample -ego[0]
+- 16:00	整理季度任务 -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	eventemitter sample -ego[0]
+- 07:45	整理季度任务 -ego[0]
 - 09:30	整理default模型 -PSMD[0]
+- 14:00	day over的redo部分跳过同名、同时间的todo项。 -ego[1]
+- 14:30	新版本任务、子任务的数据结构 -ego[2]
 - 16:00	https://proto.school/merkle-dags IPLD,Merkle DAGs, Structuring Data for the Distributed Web -learn[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	整理default模型 -PSMD[0]
-- 16:00	eventemitter sample -ego[0]
+- 14:00	day over的redo部分跳过同名、同时间的todo项。 -ego[1]
+- 14:30	新版本任务、子任务的数据结构 -ego[2]
+- 16:00	整理季度任务 -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 16:00	eventemitter sample -ego[0]
+- 14:00	day over的redo部分跳过同名、同时间的todo项。 -ego[1]
+- 14:30	新版本任务、子任务的数据结构 -ego[2]
+- 16:00	整理季度任务 -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 16:00	eventemitter sample -ego[0]
+- 14:00	day over的redo部分跳过同名、同时间的todo项。 -ego[1]
+- 14:30	新版本任务、子任务的数据结构 -ego[2]
+- 16:00	整理季度任务 -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	eventemitter sample -ego[0]
+- 16:00	整理季度任务 -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

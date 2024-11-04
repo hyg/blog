@@ -6,57 +6,57 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	kernel模型升级 -xuemen[1]
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 16:00	PSMD term in helia dag-json https://www.npmjs.com/package/@helia/dag-json -learn[0]
+- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[1]
+- 16:00	整理闫岸家政能力讨论 -PSMD[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:00	整理default模型 -PSMD[1]
-- 16:00	PSMD term in helia dag-json https://www.npmjs.com/package/@helia/dag-json -learn[0]
+- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[1]
+- 14:00	整理default模型 -PSMD[2]
+- 16:00	整理闫岸家政能力讨论 -PSMD[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 16:00	PSMD term in helia dag-json https://www.npmjs.com/package/@helia/dag-json -learn[0]
+- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[1]
+- 16:00	整理闫岸家政能力讨论 -PSMD[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	PSMD term in helia dag-json https://www.npmjs.com/package/@helia/dag-json -learn[0]
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
+- 07:45	整理闫岸家政能力讨论 -PSMD[0]
+- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[1]
 - 14:00	未进行的todo项，增加特别的特征，不产生draft文件，day log中使用固定提示。 -ego[0]
 - 14:30	月初事务 -xuemen[0]
-- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
+- 16:00	PSMD term in helia dag-json https://www.npmjs.com/package/@helia/dag-json -learn[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
+- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[1]
 - 14:00	未进行的todo项，增加特别的特征，不产生draft文件，day log中使用固定提示。 -ego[0]
 - 14:30	月初事务 -xuemen[0]
-- 16:00	PSMD term in helia dag-json https://www.npmjs.com/package/@helia/dag-json -learn[0]
+- 16:00	整理闫岸家政能力讨论 -PSMD[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	未进行的todo项，增加特别的特征，不产生draft文件，day log中使用固定提示。 -ego[0]
 - 14:30	月初事务 -xuemen[0]
-- 16:00	PSMD term in helia dag-json https://www.npmjs.com/package/@helia/dag-json -learn[0]
+- 16:00	整理闫岸家政能力讨论 -PSMD[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	未进行的todo项，增加特别的特征，不产生draft文件，day log中使用固定提示。 -ego[0]
 - 14:30	月初事务 -xuemen[0]
-- 16:00	PSMD term in helia dag-json https://www.npmjs.com/package/@helia/dag-json -learn[0]
+- 16:00	整理闫岸家政能力讨论 -PSMD[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	PSMD term in helia dag-json https://www.npmjs.com/package/@helia/dag-json -learn[0]
+- 16:00	整理闫岸家政能力讨论 -PSMD[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

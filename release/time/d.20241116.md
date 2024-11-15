@@ -1,66 +1,25 @@
 # 2024.11.16.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版1(1c)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	kernel模型升级 -xuemen[0]
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 16:00	wordpress plugin -learn[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:00	整理default模型 -PSMD[2]
-- 16:00	wordpress plugin -learn[0]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 16:00	wordpress plugin -learn[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 06:53~07:07 | 15 | 休整 |  |
+| 07:08~08:07 | 60 | 备餐、运动 |  |
+| 08:08~08:52 | 45 | 早餐 |  |
+| 08:53~09:37 | 45 | 会议、自习 |  |
+| 09:38~10:58 | 81 | 休整 |  |
+| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
+| 14:00~14:29 | 30 | 静默工作 | ego:整理季度任务 [在线](http://simp.ly/p/8t3vlk) [离线](../../draft/2024/11/20241116140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.11.16.[ego:整理季度任务]任务&body=日期: 20241116%0D%0A序号: 6%0D%0A手稿:../../draft/2024/11/20241116140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 14:30~14:59 | 30 | 静默工作 | raw:使用convert-units [在线](http://simp.ly/p/5k9gJy) [离线](../../draft/2024/11/20241116143000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.11.16.[raw:使用convert-units]任务&body=日期: 20241116%0D%0A序号: 7%0D%0A手稿:../../draft/2024/11/20241116143000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:00~15:59 | 60 | 休整 |  |
+| 16:00~16:59 | 60 | 静默工作 | learn:wordpress plugin [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2024/11/20241116160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.11.16.[learn:wordpress plugin]任务&body=日期: 20241116%0D%0A序号: 9%0D%0A手稿:../../draft/2024/11/20241116160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	wordpress plugin -learn[0]
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:00	整理季度任务 -ego[0]
-- 14:30	使用convert-units -raw[0]
-- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 14:00	整理季度任务 -ego[0]
-- 14:30	使用convert-units -raw[0]
-- 16:00	wordpress plugin -learn[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	整理季度任务 -ego[0]
-- 14:30	使用convert-units -raw[0]
-- 16:00	wordpress plugin -learn[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	整理季度任务 -ego[0]
-- 14:30	使用convert-units -raw[0]
-- 16:00	wordpress plugin -learn[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	wordpress plugin -learn[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2024.11.16.任务排序的建议&body=date: 2024.11.16.%0D%0Afile: ../../blog/release/time/d.20241116.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 14:00~14:29	ego: [整理季度任务](../../draft/2024/11/20241116.01.md)
+- 14:30~14:59	raw: [使用convert-units](../../draft/2024/11/20241116.02.md)
+- 16:00~16:59	learn: [wordpress plugin](../../draft/2024/11/20241116.03.md)

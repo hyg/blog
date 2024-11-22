@@ -1,24 +1,97 @@
 # 2024.11.22.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版1(1d)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 09:03~09:17 | 15 | 休整 |  |
-| 09:18~10:17 | 60 | 备餐、运动 |  |
-| 10:18~11:02 | 45 | 午餐 |  |
-| 11:03~11:47 | 45 | 会议、自习 |  |
-| 11:48~13:58 | 131 | 休整 |  |
-| 14:00~14:29 | 30 | 静默工作 | ego:整理季度任务 [在线](http://simp.ly/p/8t3vlk) [离线](../../draft/2024/11/20241122140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.11.22.[ego:整理季度任务]任务&body=日期: 20241122%0D%0A序号: 5%0D%0A手稿:../../draft/2024/11/20241122140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 14:30~14:59 | 30 | 静默工作 | raw:使用convert-units [在线](http://simp.ly/p/5k9gJy) [离线](../../draft/2024/11/20241122143000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.11.22.[raw:使用convert-units]任务&body=日期: 20241122%0D%0A序号: 6%0D%0A手稿:../../draft/2024/11/20241122143000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 15:00~15:59 | 60 | 休整 |  |
-| 16:00~16:59 | 60 | 静默工作 | infra:范例--利用js模块组合实现合同条款的组合。 [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2024/11/20241122160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.11.22.[infra:范例--利用js模块组合实现合同条款的组合。]任务&body=日期: 20241122%0D%0A序号: 8%0D%0A手稿:../../draft/2024/11/20241122160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 11:40~13:39	learn: [mariadb access](#20241122114000)
+- 14:00~14:29	ego: [整理季度任务](#20241122140000)
+- 14:30~14:59	raw: [使用convert-units](#20241122143000)
+- 16:00~16:59	infra: [范例--利用js模块组合实现合同条款的组合。](#20241122160000)
 
 ---
+season stat:
 
-- 14:00~14:29	ego: [整理季度任务](../../draft/2024/11/20241122.01.md)
-- 14:30~14:59	raw: [使用convert-units](../../draft/2024/11/20241122.02.md)
-- 16:00~16:59	infra: [范例--利用js模块组合实现合同条款的组合。](../../draft/2024/11/20241122.03.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 4195 | 9335 | 5085 |
+| PSMD | 4000 | 1485 | 2515 | 1050 |
+| ego | 2530 | 1601 | 929 | 885 |
+| infra | 2000 | 310 | 1690 | 150 |
+| xuemen | 1000 | 130 | 870 | 450 |
+| raw | 1000 | 204 | 796 | 390 |
+| learn | 2000 | 465 | 1535 | 1260 |
+| js | 1000 | 0 | 1000 | 900 |
+
+---
+waiting list:
+
+
+- 30分钟时间片：
+  - learn的第3号事项：https://frontity.org/
+
+- 60分钟时间片：
+  - infra的第1号事项：动态菜单设计。
+  - js的第1号事项：wordpress + nodejs
+  - ego的第1号事项：整理知识体系的层级定义
+  - raw的第1号事项：熟悉内脏之间的关系
+
+- 90分钟时间片：
+  - PSMD的第1号事项：整理近期讨论，按照新版manifest text提炼几个有代表性的场景。
+  - learn的第1号事项：wordpress plugin
+  - PSMD的第2号事项：整理default模型
+  - infra的第2号事项：schema立项。
+
+- 195分钟时间片：
+  - xuemen的第1号事项：kernel模型升级
+  - xuemen的第2号事项：重新设计S2状态下的学门基本管理制度
+  - PSMD的第4号事项：machines model
+  - ego的第5号事项：新版ego, instance or model, any manifest
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2024.11.22.[mariadb access]任务&body=日期: 2024.11.22.%0D%0A序号: 3%0D%0A手稿:../../draft/2024/11/20241122.a.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20241122114000"></a>
+## 11:40 ~ 13:39
+## learn: [mariadb access]
+
+- netstat -anpt | grep 3306
+    - 只有tcp6 0 0 127.0.0.0:3306 ....
+- /etc/mysql/mariadb.conf.d/50-server.cnf
+    - 注释bind-address
+    - sudo systemctl restart mysql
+    - netstat -anpt | grep 3306
+        - 可以看到第二个监听3306端口
+- sudo mysql
+- GRANT ALL ON *.* to root@'%' IDENTIFIED BY 'password';
+    - 分别对hyg@'%' hyg@'localhost' dev@'%' dev@'localhost' root@'localhost' 设置密码
+    - FLUSH PRIVILEGES;
+- 远程使用：mysql --ssl=OFF -u username -p password
+
+- dbeaver的ER图依然是根据数据库生成，而不是从ER图开始设计数据库，再导出SQL语句。
+- https://dbdiagram.io 也是从SQL语言画ER图，而不能直接在图中创建。
+- https://app.chartdb.io  可以画ER图，在图侧编辑区修改字段定义。需要登录才能导出SQL。
+    - https://github.com/chartdb/chartdb
+- https://www.drawdb.app 满足需求。
+    - https://github.com/drawdb-io/drawdb
+    
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2024.11.22.[整理季度任务]任务&body=日期: 2024.11.22.%0D%0A序号: 4%0D%0A手稿:../../draft/2024/11/20241122.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20241122140000"></a>
+## 14:00 ~ 14:29
+## ego: [整理季度任务]
+
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2024.11.22.[使用convert-units]任务&body=日期: 2024.11.22.%0D%0A序号: 5%0D%0A手稿:../../draft/2024/11/20241122.02.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20241122143000"></a>
+## 14:30 ~ 14:59
+## raw: [使用convert-units]
+
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2024.11.22.[范例--利用js模块组合实现合同条款的组合。]任务&body=日期: 2024.11.22.%0D%0A序号: 7%0D%0A手稿:../../draft/2024/11/20241122.03.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20241122160000"></a>
+## 16:00 ~ 16:59
+## infra: [范例--利用js模块组合实现合同条款的组合。]
+

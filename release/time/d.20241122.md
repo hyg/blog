@@ -6,21 +6,21 @@
 
 <a id="index"></a>
 - 11:40~13:39	learn: [mariadb access](#20241122114000)
-- 14:00~14:29	ego: [整理季度任务](#20241122140000)
-- 14:30~14:59	raw: [使用convert-units](#20241122143000)
-- 16:00~16:59	infra: [范例--利用js模块组合实现合同条款的组合。](#20241122160000)
+- 14:00~14:00	ego: [整理季度任务](#20241122140000)
+- 14:30~14:30	raw: [使用convert-units](#20241122143000)
+- 16:00~16:00	infra: [范例--利用js模块组合实现合同条款的组合。](#20241122160000)
 
 ---
 season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 13530 | 4195 | 9335 | 5085 |
+| total | 13530 | 4075 | 9455 | 5205 |
 | PSMD | 4000 | 1485 | 2515 | 1050 |
-| ego | 2530 | 1601 | 929 | 885 |
-| infra | 2000 | 310 | 1690 | 150 |
+| ego | 2530 | 1571 | 959 | 915 |
+| infra | 2000 | 250 | 1750 | 210 |
 | xuemen | 1000 | 130 | 870 | 450 |
-| raw | 1000 | 204 | 796 | 390 |
+| raw | 1000 | 174 | 826 | 420 |
 | learn | 2000 | 465 | 1535 | 1260 |
 | js | 1000 | 0 | 1000 | 900 |
 
@@ -29,25 +29,27 @@ waiting list:
 
 
 - 30分钟时间片：
+  - ego的第1号事项：整理季度任务
+  - raw的第1号事项：使用convert-units
   - learn的第3号事项：https://frontity.org/
 
 - 60分钟时间片：
-  - infra的第1号事项：动态菜单设计。
+  - infra的第1号事项：范例--利用js模块组合实现合同条款的组合。
   - js的第1号事项：wordpress + nodejs
-  - ego的第1号事项：整理知识体系的层级定义
-  - raw的第1号事项：熟悉内脏之间的关系
+  - infra的第2号事项：动态菜单设计。
+  - learn的第2号事项：wordpress install and config
 
 - 90分钟时间片：
   - PSMD的第1号事项：整理近期讨论，按照新版manifest text提炼几个有代表性的场景。
   - learn的第1号事项：wordpress plugin
   - PSMD的第2号事项：整理default模型
-  - infra的第2号事项：schema立项。
+  - infra的第3号事项：schema立项。
 
 - 195分钟时间片：
   - xuemen的第1号事项：kernel模型升级
   - xuemen的第2号事项：重新设计S2状态下的学门基本管理制度
   - PSMD的第4号事项：machines model
-  - ego的第5号事项：新版ego, instance or model, any manifest
+  - ego的第6号事项：新版ego, instance or model, any manifest
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.11.22.[mariadb access]任务&body=日期: 2024.11.22.%0D%0A序号: 3%0D%0A手稿:../../draft/2024/11/20241122.a.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
@@ -78,20 +80,20 @@ waiting list:
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.11.22.[整理季度任务]任务&body=日期: 2024.11.22.%0D%0A序号: 4%0D%0A手稿:../../draft/2024/11/20241122.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
 <a id="20241122140000"></a>
-## 14:00 ~ 14:29
+## 14:00 ~ 14:00
 ## ego: [整理季度任务]
 
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.11.22.[使用convert-units]任务&body=日期: 2024.11.22.%0D%0A序号: 5%0D%0A手稿:../../draft/2024/11/20241122.02.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
 <a id="20241122143000"></a>
-## 14:30 ~ 14:59
+## 14:30 ~ 14:30
 ## raw: [使用convert-units]
 
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2024.11.22.[范例--利用js模块组合实现合同条款的组合。]任务&body=日期: 2024.11.22.%0D%0A序号: 7%0D%0A手稿:../../draft/2024/11/20241122.03.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
 <a id="20241122160000"></a>
-## 16:00 ~ 16:59
+## 16:00 ~ 16:00
 ## infra: [范例--利用js模块组合实现合同条款的组合。]
 

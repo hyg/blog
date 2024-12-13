@@ -6,27 +6,27 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	schema立项。 -infra[0]
-- 14:00	整理新版本term的manifest code -PSMD[2]
-- 16:00	《中华人民共和国民营经济促进法（草案征求意见稿）》公开征求意见 -PSMD[0]
+- 14:00	整理default模型 -PSMD[1]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[2]
+- 09:30	整理default模型 -PSMD[1]
 - 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[2]
-- 16:00	《中华人民共和国民营经济促进法（草案征求意见稿）》公开征求意见 -PSMD[0]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理新版本term的manifest code -PSMD[2]
-- 16:00	《中华人民共和国民营经济促进法（草案征求意见稿）》公开征求意见 -PSMD[0]
+- 14:00	整理default模型 -PSMD[1]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	《中华人民共和国民营经济促进法（草案征求意见稿）》公开征求意见 -PSMD[0]
-- 09:30	整理新版本term的manifest code -PSMD[2]
+- 07:45	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
+- 09:30	整理default模型 -PSMD[1]
 - 14:00	wordpress plugin -learn[0]
 - 14:30	wordpress + nodejs -js[0]
 - 16:00	整理季度任务 -ego[0]
@@ -34,29 +34,29 @@
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[2]
+- 09:30	整理default模型 -PSMD[1]
 - 14:00	wordpress plugin -learn[0]
 - 14:30	wordpress + nodejs -js[0]
-- 16:00	《中华人民共和国民营经济促进法（草案征求意见稿）》公开征求意见 -PSMD[0]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	wordpress plugin -learn[0]
 - 14:30	wordpress + nodejs -js[0]
-- 16:00	《中华人民共和国民营经济促进法（草案征求意见稿）》公开征求意见 -PSMD[0]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	wordpress plugin -learn[0]
 - 14:30	wordpress + nodejs -js[0]
-- 16:00	《中华人民共和国民营经济促进法（草案征求意见稿）》公开征求意见 -PSMD[0]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	《中华人民共和国民营经济促进法（草案征求意见稿）》公开征求意见 -PSMD[0]
+- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

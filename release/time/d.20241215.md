@@ -1,66 +1,24 @@
 # 2024.12.15.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，十二月中上旬补足前两月缺勤。今天绑定模版1(1d)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	schema立项。 -infra[0]
-- 14:00	整理default模型 -PSMD[1]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	整理default模型 -PSMD[1]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[2]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	整理default模型 -PSMD[1]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 07:37~07:51 | 15 | 休整 |  |
+| 07:52~08:51 | 60 | 备餐、运动 |  |
+| 08:52~09:36 | 45 | 午餐 |  |
+| 09:37~10:21 | 45 | 会议、自习 |  |
+| 10:22~13:58 | 217 | 休整 |  |
+| 14:00~14:29 | 30 | 静默工作 | learn:wordpress plugin [在线](http://simp.ly/p/8t3vlk) [离线](../../draft/2024/12/20241215140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.12.15.[learn:wordpress plugin]任务&body=日期: 20241215%0D%0A序号: 5%0D%0A手稿:../../draft/2024/12/20241215140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 14:30~14:59 | 30 | 静默工作 | js:wordpress + nodejs [在线](http://simp.ly/p/5k9gJy) [离线](../../draft/2024/12/20241215143000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.12.15.[js:wordpress + nodejs]任务&body=日期: 20241215%0D%0A序号: 6%0D%0A手稿:../../draft/2024/12/20241215143000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:00~15:59 | 60 | 休整 |  |
+| 16:00~16:59 | 60 | 静默工作 | PSMD:整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2024/12/20241215160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2024.12.15.[PSMD:整理近期讨论，按照新版manifest text提炼几个有代表性的场景。]任务&body=日期: 20241215%0D%0A序号: 8%0D%0A手稿:../../draft/2024/12/20241215160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 09:30	整理default模型 -PSMD[1]
-- 14:00	wordpress plugin -learn[0]
-- 14:30	wordpress + nodejs -js[0]
-- 16:00	整理季度任务 -ego[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	整理default模型 -PSMD[1]
-- 14:00	wordpress plugin -learn[0]
-- 14:30	wordpress + nodejs -js[0]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	wordpress plugin -learn[0]
-- 14:30	wordpress + nodejs -js[0]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	wordpress plugin -learn[0]
-- 14:30	wordpress + nodejs -js[0]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2024.12.15.任务排序的建议&body=date: 2024.12.15.%0D%0Afile: ../../blog/release/time/d.20241215.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 14:00~14:29	learn: [wordpress plugin](../../draft/2024/12/20241215.01.md)
+- 14:30~14:59	js: [wordpress + nodejs](../../draft/2024/12/20241215.02.md)
+- 16:00~16:59	PSMD: [整理近期讨论，按照新版manifest text提炼几个有代表性的场景。](../../draft/2024/12/20241215.03.md)

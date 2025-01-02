@@ -1,66 +1,16 @@
 # 2025.01.02.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版1(1f)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	schema立项。 -infra[0]
-- 14:00	整理default模型 -PSMD[1]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	整理default模型 -PSMD[1]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[3]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 17:08~17:22 | 15 | 休整 |  |
+| 17:23~18:22 | 60 | 备餐、运动 |  |
+| 18:23~19:07 | 45 | 晚餐 |  |
+| 19:08~19:52 | 45 | 会议、自习 |  |
+| 19:53~20:52 | 60 | 休整 |  |
+| 20:53~21:52 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理default模型 -PSMD[1]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版1a可能安排以下任务：
-
-- 07:45	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-- 09:30	整理default模型 -PSMD[1]
-- 14:00	remoteStorage sample -learn[0]
-- 14:30	2025版管理excel -raw[0]
-- 16:00	整理季度任务 -ego[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	整理default模型 -PSMD[1]
-- 14:00	remoteStorage sample -learn[0]
-- 14:30	2025版管理excel -raw[0]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	remoteStorage sample -learn[0]
-- 14:30	2025版管理excel -raw[0]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	remoteStorage sample -learn[0]
-- 14:30	2025版管理excel -raw[0]
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	整理近期讨论，按照新版manifest text提炼几个有代表性的场景。 -PSMD[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2025.01.02.任务排序的建议&body=date: 2025.01.02.%0D%0Afile: ../../blog/release/time/d.20250102.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。

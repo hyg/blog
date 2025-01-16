@@ -1,6 +1,6 @@
 # 2025.01.17.
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，17~22日休整。
 
 ---
 如果绑定模版2a可能安排以下任务：

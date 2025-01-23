@@ -32,6 +32,10 @@
 				seasonurl = "http://today.mars22.com/ego/" + seasonpath;
 			}
 
+			todayurl = "https://raw.githubusercontent.com/hyg/blog/refs/heads/master/release/time/d." + datestr() + ".md";
+			tomorrowurl = "https://raw.githubusercontent.com/hyg/blog/refs/heads/master/release/time/d." + datestr(1) + ".md";
+			seasonurl = "https://raw.githubusercontent.com/hyg/ego/refs/heads/vat/" + seasonpath;
+
 			getTextFileFromURL(todayurl, "today");
 			getTextFileFromURL(tomorrowurl, "tomorrow");
 			if (seasonurl != '') {
@@ -139,9 +143,9 @@
 			});
 			tableHTML += '</tr>';
 
-			for(var task in data){
-				tableHTML += '<tr><td>' + task +'</td>';
-				for(var item in data[task]){
+			for (var task in data) {
+				tableHTML += '<tr><td>' + task + '</td>';
+				for (var item in data[task]) {
 					tableHTML += '<td>' + data[task][item] + '</td>';
 				}
 				tableHTML += '</tr>';

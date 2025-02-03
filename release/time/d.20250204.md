@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	schema立项。 -infra[0]
-- 14:00	子1609 -PSMD[0]
-- 16:00	rxdb p2p NATS -learn[0]
+- 07:45	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
+- 14:00	启用新字段存放前置任务的output，自动汇编写入新的draft文件。 -ego[0]
+- 16:00	firebase的开源替代 -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	子1609 -PSMD[0]
-- 14:00	启用新字段存放前置任务的output，自动汇编写入新的draft文件。 -ego[0]
-- 16:00	rxdb p2p NATS -learn[0]
+- 09:30	启用新字段存放前置任务的output，自动汇编写入新的draft文件。 -ego[0]
+- 14:00	子1609 -PSMD[1]
+- 16:00	firebase的开源替代 -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	子1609 -PSMD[0]
-- 16:00	rxdb p2p NATS -learn[0]
+- 14:00	启用新字段存放前置任务的output，自动汇编写入新的draft文件。 -ego[0]
+- 16:00	firebase的开源替代 -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	rxdb p2p NATS -learn[0]
-- 09:30	子1609 -PSMD[0]
+- 07:45	firebase的开源替代 -learn[0]
+- 09:30	启用新字段存放前置任务的output，自动汇编写入新的draft文件。 -ego[0]
 - 14:00	考虑sql.js是否使用。 -js[0]
 - 14:30	复习形神庄第四节 -raw[0]
-- 16:00	1609的分立、合并。 -PSMD[1]
+- 16:00	新版本任务、子任务的数据结构 -ego[1]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	子1609 -PSMD[0]
+- 09:30	启用新字段存放前置任务的output，自动汇编写入新的draft文件。 -ego[0]
 - 14:00	考虑sql.js是否使用。 -js[0]
 - 14:30	复习形神庄第四节 -raw[0]
-- 16:00	rxdb p2p NATS -learn[0]
+- 16:00	firebase的开源替代 -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	考虑sql.js是否使用。 -js[0]
 - 14:30	复习形神庄第四节 -raw[0]
-- 16:00	rxdb p2p NATS -learn[0]
+- 16:00	firebase的开源替代 -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	考虑sql.js是否使用。 -js[0]
 - 14:30	复习形神庄第四节 -raw[0]
-- 16:00	rxdb p2p NATS -learn[0]
+- 16:00	firebase的开源替代 -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	rxdb p2p NATS -learn[0]
+- 16:00	firebase的开源替代 -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

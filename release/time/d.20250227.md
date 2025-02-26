@@ -6,27 +6,27 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	schema立项。 -infra[0]
-- 14:00	新版本任务、子任务的数据结构 -ego[0]
-- 16:00	learn js implement of ipfs -js[0]
+- 14:00	新版实时手稿 -ego[0]
+- 16:00	learn Orbitdb -js[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	新版本任务、子任务的数据结构 -ego[0]
+- 09:30	新版实时手稿 -ego[0]
 - 14:00	飞书 nodejs sdk -learn[0]
-- 16:00	learn js implement of ipfs -js[0]
+- 16:00	learn Orbitdb -js[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	新版本任务、子任务的数据结构 -ego[0]
-- 16:00	learn js implement of ipfs -js[0]
+- 14:00	新版实时手稿 -ego[0]
+- 16:00	learn Orbitdb -js[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	learn js implement of ipfs -js[0]
-- 09:30	新版本任务、子任务的数据结构 -ego[0]
+- 07:45	learn Orbitdb -js[0]
+- 09:30	新版实时手稿 -ego[0]
 - 14:00	复习五元庄第一式 -raw[0]
 - 14:30	复习五元庄第二式 -raw[1]
 - 16:00	范例--利用js模块组合实现合同条款的组合。 -infra[1]
@@ -34,29 +34,29 @@
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	新版本任务、子任务的数据结构 -ego[0]
+- 09:30	新版实时手稿 -ego[0]
 - 14:00	复习五元庄第一式 -raw[0]
 - 14:30	复习五元庄第二式 -raw[1]
-- 16:00	learn js implement of ipfs -js[0]
+- 16:00	learn Orbitdb -js[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	复习五元庄第一式 -raw[0]
 - 14:30	复习五元庄第二式 -raw[1]
-- 16:00	learn js implement of ipfs -js[0]
+- 16:00	learn Orbitdb -js[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	复习五元庄第一式 -raw[0]
 - 14:30	复习五元庄第二式 -raw[1]
-- 16:00	learn js implement of ipfs -js[0]
+- 16:00	learn Orbitdb -js[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	learn js implement of ipfs -js[0]
+- 16:00	learn Orbitdb -js[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

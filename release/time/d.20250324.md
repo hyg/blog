@@ -1,19 +1,74 @@
 # 2025.03.24.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，三月份安排休整和总结，三月下旬补足前两月缺勤。今天绑定模版1(1e)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 11:43~11:57 | 15 | 休整 |  |
-| 11:58~12:57 | 60 | 备餐、运动 |  |
-| 12:58~13:42 | 45 | 午餐 |  |
-| 13:43~14:27 | 45 | 会议、自习 |  |
-| 14:28~15:58 | 91 | 休整 |  |
-| 16:00~16:59 | 60 | 静默工作 | js:learn js implement of ipfs [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2025/20250324160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.03.24.[js:learn js implement of ipfs]任务&body=日期: 20250324%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20250324160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 16:00~16:59	js: [learn js implement of ipfs](#20250324160000)
 
 ---
+season stat:
 
-- 16:00~16:59	js: [learn js implement of ipfs](../../draft/2025/20250324.01.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 7730 | 5800 | 6135 |
+| PSMD | 4000 | 2990 | 1010 | 1335 |
+| ego | 2530 | 960 | 1570 | 1065 |
+| infra | 2000 | 120 | 1880 | 315 |
+| xuemen | 1000 | 195 | 805 | 450 |
+| raw | 1000 | 1250 | -250 | 600 |
+| learn | 2000 | 1035 | 965 | 1620 |
+| js | 1000 | 1180 | -180 | 750 |
+
+---
+waiting list:
+
+
+- 30分钟时间片：
+  - raw的第2号事项：复习五元庄第十一式
+  - raw的第3号事项：复习五元庄第十式
+  - raw的第4号事项：复习五元庄第十二式
+  - raw的第5号事项：复习五元庄第十三式
+
+- 60分钟时间片：
+  - js的第1号事项：learn js implement of ipfs
+  - raw的第1号事项：新版本food预算决算
+  - infra的第2号事项：范例--利用js模块组合实现合同条款的组合。
+  - js的第2号事项：基于dat,hypercore,hyperswarm等模块的浏览器动态页面范例。
+
+- 90分钟时间片：
+  - ego的第1号事项：新版实时手稿
+  - learn的第1号事项：复习dat
+  - ego的第2号事项：新版基础模型
+  - PSMD的第2号事项：子1609
+
+- 195分钟时间片：
+  - infra的第1号事项：schema立项。
+  - PSMD的第1号事项：根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622
+  - xuemen的第1号事项：kernel模型升级
+  - xuemen的第2号事项：重新设计S2状态下的学门基本管理制度
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2025.03.24.[learn js implement of ipfs]任务&body=日期: 2025.03.24.%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20250324.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20250324160000"></a>
+## 16:00 ~ 16:59
+## js: [learn js implement of ipfs]
+
+- 需要重新 npm i @helia/strings
+- helia.js
+    - windows ok
+    - ubuntu error
+```
+file:///home/huangyg/git/js.sample/helia/node_modules/@libp2p/interface/dist/src/event-target.js:53
+        return this.dispatchEvent(new CustomEvent(type, detail));
+                                  ^
+
+TypeError: CustomEvent is not a constructor
+    at EventTarget.safeDispatchEvent (file:///home/huangyg/git/js.sample/helia/node_modules/@libp2p/interface/dist/src/event-target.js:53:35)
+...
+```
+- json.1.s json.2.js
+    - windows ok
+    - ubuntu 相同错误。
+-ipns.js ipns.2.js 还需要追加实践调试。主要是查找文档，看怎么从cid创建ipns对象。

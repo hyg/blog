@@ -1,7 +1,7 @@
 # 2025.04.01.
 日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，三月份安排休整和总结，三月下旬补足前两月缺勤。今天绑定模版1(1d)。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版1(1d)。
 
 | 时间片 | 时长 | 用途 | 手稿 |
 | --- | --- | :---: | --- |

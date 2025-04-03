@@ -56,6 +56,13 @@ waiting list:
 ## 07:45 ~ 10:59
 ## PSMD: [根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622]
 
+- https://www.elegislation.gov.hk/hk/cap622
+    - 66. 公司类别 (b) 私人股份有限公司；
+    - 66. 公司类别 (e) 无股本的担保有限公司。
+    - 第2次分部 章程细则范本
+- file:///D:/huangyg/git/PSMD/view/COM.1609.html
+- D:\huangyg\git\com.origin\1609\cod.cn.有限责任公司.1.md
+- 继续追加时间。
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2025.04.03.[1609的分立、合并。]任务&body=日期: 2025.04.03.%0D%0A序号: 9%0D%0A手稿:../../draft/2025/20250403.03.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)

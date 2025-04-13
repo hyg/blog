@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "js-yaml": "^4.1.0"
+  },
+  "scripts":{
+    "over": "git add . && git commit -m \"day over\" && git push all"
   }
 }

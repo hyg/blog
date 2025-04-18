@@ -7,15 +7,16 @@
 <a id="index"></a>
 - 07:45~10:59	ego: [新版基础模型](#20250418074500)
 - 14:00~14:44	PSMD: [根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622](#20250418140000)
+- 16:00~16:59	ego: [redahomes](#20250418160000)
 
 ---
 season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 13530 | 2409 | 11121 | 6000 |
+| total | 13530 | 2469 | 11061 | 6000 |
 | PSMD | 4000 | 660 | 3340 | 1170 |
-| ego | 2530 | 990 | 1540 | 1380 |
+| ego | 2530 | 1050 | 1480 | 1380 |
 | infra | 2000 | 240 | 1760 | 210 |
 | xuemen | 1000 | 204 | 796 | 480 |
 | raw | 1000 | 90 | 910 | 390 |
@@ -67,3 +68,24 @@ waiting list:
 
 - 先选股份有限公司，担保有限公司先不做。
 - 其它部分，继续追加时间完善。
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2025.04.18.[redahomes]任务&body=日期: 2025.04.18.%0D%0A序号: 9%0D%0A手稿:../../draft/2025/20250418.a.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20250418160000"></a>
+## 16:00 ~ 16:59
+## ego: [readhomes]
+
+- mysql
+    - 3.97.216.88:3306
+    - database:redahomes
+    - user:root_account
+- property_location_all_sources表格中的经纬度出现大量重复。
+    - 某模块使用property_location_all_sources中full_address字段，调用 https://photon.komoot.io/api/ 获得经纬度，写回数据库。
+    - full_address字段有大量重复。
+    - full_address字段有大量相似数据。 比如街道和门牌号一样，邮编或其它州、市信息粒度不同。
+    - full_address字段来自PropertyLocation表格
+- PropertyLocation的字段有StreetNumber StreetName StreetSuffix, CountyOrParish, StateOrProvince, PostalCode, Canada，数据来自地产局系统，地产经纪录入的。
+    - “PropertyLocation的表格和地产局系统里的数据, 用postman核实过， 一样的”。
+- 需要：
+    1. 把”不一样的地址“定义清楚，比如是使用full_address，还是PropertyLocation表格的字段组合（怎么组合）来定义；
+    1. 把”一样的经纬度“定义清楚，精确到哪一位，komoot还有其它返回数据，要不要使用上。
+    1. ”一样的经纬度“需要怎么处理，什么样的处理结果才是需求，或者直接把数学公式明确下来。

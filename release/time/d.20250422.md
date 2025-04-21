@@ -6,57 +6,57 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	kernel模型升级 -xuemen[0]
-- 14:00	整理新版本term的manifest code -PSMD[0]
-- 16:00	redahomes -ego[0]
+- 14:00	子1609 -PSMD[0]
+- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	schema立项。 -infra[0]
-- 16:00	redahomes -ego[0]
+- 09:30	子1609 -PSMD[0]
+- 14:00	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[1]
+- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理新版本term的manifest code -PSMD[0]
-- 16:00	redahomes -ego[0]
+- 14:00	子1609 -PSMD[0]
+- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	redahomes -ego[0]
-- 09:30	整理新版本term的manifest code -PSMD[0]
+- 07:45	范例--利用js模块组合实现合同条款的组合。 -infra[0]
+- 09:30	子1609 -PSMD[0]
 - 14:00	clerk统一用户管理 -learn[0]
 - 14:30	entry的科目归并 -ego[3]
-- 16:00	熟悉内脏之间的关系 -raw[0]
+- 16:00	redahomes -ego[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[0]
+- 09:30	子1609 -PSMD[0]
 - 14:00	clerk统一用户管理 -learn[0]
 - 14:30	entry的科目归并 -ego[3]
-- 16:00	redahomes -ego[0]
+- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	clerk统一用户管理 -learn[0]
 - 14:30	entry的科目归并 -ego[3]
-- 16:00	redahomes -ego[0]
+- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	clerk统一用户管理 -learn[0]
 - 14:30	entry的科目归并 -ego[3]
-- 16:00	redahomes -ego[0]
+- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	redahomes -ego[0]
+- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

@@ -137,6 +137,82 @@ U_{{\mathrm{S}} \to {\mathrm{L}}} =
     \end{array}
 \right..
 ```
+- 用```math标签
+```math
+U_{{\mathrm{S}} \to {\mathrm{L}}} = 
+\left\{
+    \begin{array} {l}
+        {
+            \left\{
+                \left|
+                    \downarrow \rangle _\mathrm{S}
+                \right.
+                
+            \right.
+            \mapsto
+                \left|
+                    -\frac{1}{2} \rangle _\mathrm{L}
+                \right.
+                \equiv
+                \left|
+                    \downarrow \rangle _\mathrm{S}
+                \right.
+                \otimes
+                \left|
+                    \text{``}
+                    \mathrm{Z}=-\frac{1}{2}
+                    \text{''}
+                    \rangle _\mathrm{D}
+                \right.
+                \otimes
+                \left|
+                    \text{``}
+                    \psi_\mathrm{S}=
+                    \left|
+                        \downarrow\rangle
+                    \right.
+                    \text{''}
+                    \rangle_\mathrm{F}
+                \right.
+        }\\
+        {
+            \left\{
+                \left|
+                    \uparrow \rangle _\mathrm{S}
+                \right.
+                
+            \right.
+            \mapsto
+                \left|
+                    +\frac{1}{2} \rangle _\mathrm{L}
+                \right.
+                \equiv
+                \left|
+                    \uparrow \rangle _\mathrm{S}
+                \right.
+                \otimes
+                \left|
+                    \text{``}
+                    \mathrm{Z}=+\frac{1}{2}
+                    \text{''}
+                    \rangle _\mathrm{D}
+                \right.
+                \otimes
+                \left|
+                    \text{``}
+                    \psi_\mathrm{S}=
+                    \left|
+                        \uparrow\rangle
+                    \right.
+                    \text{''}
+                    \rangle_\mathrm{F}
+                \right.
+        }
+    \end{array}
+\right..
+```
+
+- 用$$标签
 $$
 U_{{\mathrm{S}} \to {\mathrm{L}}} = 
 \left\{

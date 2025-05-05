@@ -6,57 +6,57 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	kernel模型升级 -xuemen[0]
-- 14:00	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
-- 16:00	新版food plan -raw[0]
+- 14:00	子1609:基于公司、合同 -PSMD[0]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
-- 14:00	schema立项。 -infra[0]
-- 16:00	新版food plan -raw[0]
+- 09:30	子1609:基于公司、合同 -PSMD[0]
+- 14:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
-- 16:00	新版food plan -raw[0]
+- 14:00	子1609:基于公司、合同 -PSMD[0]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	新版food plan -raw[0]
-- 09:30	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
-- 14:00	狄拉克算子 -learn[0]
-- 14:30	entry的按月报表 -ego[0]
-- 16:00	learn factory, constructor, prototype -js[0]
+- 07:45	learn factory, constructor, prototype -js[0]
+- 09:30	子1609:基于公司、合同 -PSMD[0]
+- 14:00	entry的按月报表 -ego[0]
+- 14:30	脚脉 -raw[0]
+- 16:00	新版food plan -raw[1]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
-- 14:00	狄拉克算子 -learn[0]
-- 14:30	entry的按月报表 -ego[0]
-- 16:00	新版food plan -raw[0]
+- 09:30	子1609:基于公司、合同 -PSMD[0]
+- 14:00	entry的按月报表 -ego[0]
+- 14:30	脚脉 -raw[0]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	狄拉克算子 -learn[0]
-- 14:30	entry的按月报表 -ego[0]
-- 16:00	新版food plan -raw[0]
+- 14:00	entry的按月报表 -ego[0]
+- 14:30	脚脉 -raw[0]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	狄拉克算子 -learn[0]
-- 14:30	entry的按月报表 -ego[0]
-- 16:00	新版food plan -raw[0]
+- 14:00	entry的按月报表 -ego[0]
+- 14:30	脚脉 -raw[0]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	新版food plan -raw[0]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

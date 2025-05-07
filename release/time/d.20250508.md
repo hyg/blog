@@ -6,57 +6,57 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	子1609:基于公司、合同 -PSMD[0]
-- 14:00	schema立项。 -infra[0]
-- 16:00	learn factory, constructor, prototype -js[0]
+- 14:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
+- 16:00	entry的科目归并 -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	schema立项。 -infra[0]
+- 09:30	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 - 14:00	量子力学的各种诠释:基于门电路、event机制的思想实验 -learn[0]
-- 16:00	learn factory, constructor, prototype -js[0]
+- 16:00	entry的科目归并 -ego[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	schema立项。 -infra[0]
-- 16:00	learn factory, constructor, prototype -js[0]
+- 14:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
+- 16:00	entry的科目归并 -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	learn factory, constructor, prototype -js[0]
-- 09:30	schema立项。 -infra[0]
-- 14:00	entry的按月报表 -ego[0]
-- 14:30	脚脉 -raw[0]
-- 16:00	动态菜单设计。 -infra[1]
+- 07:45	entry的科目归并 -ego[0]
+- 09:30	范例--利用js模块组合实现合同条款的组合。 -infra[0]
+- 14:00	脚脉 -raw[0]
+- 14:30	狄拉克算子 -learn[1]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	schema立项。 -infra[0]
-- 14:00	entry的按月报表 -ego[0]
-- 14:30	脚脉 -raw[0]
-- 16:00	learn factory, constructor, prototype -js[0]
+- 09:30	范例--利用js模块组合实现合同条款的组合。 -infra[0]
+- 14:00	脚脉 -raw[0]
+- 14:30	狄拉克算子 -learn[1]
+- 16:00	entry的科目归并 -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	entry的按月报表 -ego[0]
-- 14:30	脚脉 -raw[0]
-- 16:00	learn factory, constructor, prototype -js[0]
+- 14:00	脚脉 -raw[0]
+- 14:30	狄拉克算子 -learn[1]
+- 16:00	entry的科目归并 -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	entry的按月报表 -ego[0]
-- 14:30	脚脉 -raw[0]
-- 16:00	learn factory, constructor, prototype -js[0]
+- 14:00	脚脉 -raw[0]
+- 14:30	狄拉克算子 -learn[1]
+- 16:00	entry的科目归并 -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	learn factory, constructor, prototype -js[0]
+- 16:00	entry的科目归并 -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

@@ -5,7 +5,7 @@
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版2(2c)。
 
 <a id="index"></a>
-- 14:00~17:59	infra: [null](#20250508140000)
+- 14:00~17:59	infra: [spectral labs](#20250508140000)
 
 ---
 season stat:
@@ -50,7 +50,7 @@ waiting list:
   - ego的第4号事项：新版基础模型
 
 ---
-<a href="mailto:huangyg@mars22.com?subject=关于2025.05.08.[null]任务&body=日期: 2025.05.08.%0D%0A序号: 6%0D%0A手稿:../../draft/2025/20250508.a.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a href="mailto:huangyg@mars22.com?subject=关于2025.05.08.[spectral labs]任务&body=日期: 2025.05.08.%0D%0A序号: 6%0D%0A手稿:../../draft/2025/20250508.a.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
 <a id="20250508140000"></a>
 ## 14:00 ~ 17:59
 ## infra: [spectral labs]

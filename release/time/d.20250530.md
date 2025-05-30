@@ -57,11 +57,10 @@ waiting list:
 - D:\huangyg\git\js.sample\query\json-query.regexp.js
 - 数组结构的查询ok
 - AER结构的查询ok
-- yaml.load要增加参数, { schema: yaml.FAILSAFE_SCHEMA }，以保持日期作为字符串。方便后续正则表达式处理。
+- yaml.load要增加参数, { schema: yaml.CORE_SCHEMA}，以保持日期作为字符串。方便后续正则表达式处理。
     - 查询2025-05-13~2025-05-18的分录：
     - result = jsonQuery('[**][*date~/^2025-05-1[3-8]$/]', { data: AERmap, allowRegexp: true }).value;
 ```
-
 D:\huangyg\git\js.sample\query>node json-query.regexp.js
 > - date: '2025-05-13'
   VoucherID: '19250513152000031792975727052594'
@@ -70,16 +69,16 @@ D:\huangyg\git\js.sample\query>node json-query.regexp.js
     debit:
       - AccountTitle: donation.parent
         asset: rmb
-        amount: '26.98'
+        amount: 26.98
     credit:
       - AccountTitle: 银行存款
         asset: rmb
-        amount: '26.98'
+        amount: 26.98
   comment:
     - name: 人参果
-      amount: '2500'
+      amount: 2500
       unit: g
-      asset: '26.98'
+      asset: 26.98
 - date: '2025-05-13'
   VoucherID: '1000050001202505130221128164106'
   AccountingSoftwareID: null
@@ -87,11 +86,11 @@ D:\huangyg\git\js.sample\query>node json-query.regexp.js
     debit:
       - AccountTitle: 微信零钱
         asset: rmb
-        amount: '2000.00'
+        amount: 2000
     credit:
       - AccountTitle: donation.parent
         asset: rmb
-        amount: '2000.00'
+        amount: 2000
 - date: '2025-05-13'
   VoucherID: '19250509172010031716905866053015'
   AccountingSoftwareID: null
@@ -99,16 +98,16 @@ D:\huangyg\git\js.sample\query>node json-query.regexp.js
     debit:
       - AccountTitle: raw.food
         asset: rmb
-        amount: '-25.63'
+        amount: -25.63
     credit:
       - AccountTitle: 银行存款
         asset: rmb
-        amount: '-25.63'
+        amount: -25.63
   comment:
     - name: 腊鸭腿退款
-      amount: '2500'
+      amount: 2500
       unit: g
-      asset: '-25.63'
+      asset: -25.63
 - date: '2025-05-14'
   VoucherID: '19250514162000031820982519105386'
   AccountingSoftwareID: null
@@ -116,16 +115,16 @@ D:\huangyg\git\js.sample\query>node json-query.regexp.js
     debit:
       - AccountTitle: raw.food
         asset: rmb
-        amount: '97.68'
+        amount: 97.68
     credit:
       - AccountTitle: 银行存款
         asset: rmb
-        amount: '97.68'
+        amount: 97.68
   comment:
     - name: 河套全脂奶粉
-      amount: '2500'
+      amount: 2500
       unit: g
-      asset: '97.68'
+      asset: 97.68
 - date: '2025-05-15'
   VoucherID: '4200002717202505156831853189'
   AccountingSoftwareID: null
@@ -133,16 +132,16 @@ D:\huangyg\git\js.sample\query>node json-query.regexp.js
     debit:
       - AccountTitle: raw.food
         asset: rmb
-        amount: '6.90'
+        amount: 6.9
     credit:
       - AccountTitle: 微信零钱
         asset: rmb
-        amount: '6.90'
+        amount: 6.9
   comment:
     - name: 小象超市月卡
-      amount: '1'
+      amount: 1
       unit: 月
-      asset: '6.90'
+      asset: 6.9
 - date: '2025-05-15'
   VoucherID: '4200002730202505156369957438'
   AccountingSoftwareID: null
@@ -150,28 +149,28 @@ D:\huangyg\git\js.sample\query>node json-query.regexp.js
     debit:
       - AccountTitle: raw.food
         asset: rmb
-        amount: '8.44'
+        amount: 8.44
     credit:
       - AccountTitle: 微信零钱
         asset: rmb
-        amount: '8.44'
+        amount: 8.44
   comment:
     - name: 菠菜
-      amount: '350'
+      amount: 350
       unit: g
-      asset: '2.21'
+      asset: 2.21
     - name: 油菜
-      amount: '500'
+      amount: 500
       unit: g
-      asset: '1.49'
+      asset: 1.49
     - name: 小白菜
-      amount: '300'
+      amount: 300
       unit: g
-      asset: '1.75'
+      asset: 1.75
     - name: 快菜
-      amount: '500'
+      amount: 500
       unit: g
-      asset: '2.99'
+      asset: 2.99
 - date: '2025-05-15'
   VoucherID: '19250515122000031841454883147557'
   AccountingSoftwareID: null
@@ -179,24 +178,24 @@ D:\huangyg\git\js.sample\query>node json-query.regexp.js
     debit:
       - AccountTitle: raw.food
         asset: rmb
-        amount: '87.05'
+        amount: 87.05
     credit:
       - AccountTitle: 银行存款
         asset: rmb
-        amount: '87.05'
+        amount: 87.05
   comment:
     - name: 南粳46大米
-      amount: '5000'
+      amount: 5000
       unit: g
-      asset: '39.97'
+      asset: 39.97
     - name: 百香果
-      amount: '2500'
+      amount: 2500
       unit: g
-      asset: '26.84'
+      asset: 26.84
     - name: 红烧扣肉罐头
-      amount: '680'
+      amount: 680
       unit: g
-      asset: '20.25'
+      asset: 20.25
 - date: '2025-05-15'
   VoucherID: '19250515122000031845270226052665'
   AccountingSoftwareID: null
@@ -204,16 +203,16 @@ D:\huangyg\git\js.sample\query>node json-query.regexp.js
     debit:
       - AccountTitle: raw.food
         asset: rmb
-        amount: '13.80'
+        amount: 13.8
     credit:
       - AccountTitle: 银行存款
         asset: rmb
-        amount: '13.80'
+        amount: 13.8
   comment:
     - name: 亚麻籽粉
-      amount: '500'
+      amount: 500
       unit: g
-      asset: '13.80'
+      asset: 13.8
 - date: '2025-05-16'
   VoucherID: '2025051622001431991456112732'
   AccountingSoftwareID: null
@@ -221,16 +220,16 @@ D:\huangyg\git\js.sample\query>node json-query.regexp.js
     debit:
       - AccountTitle: ego.it
         asset: rmb
-        amount: '95.00'
+        amount: 95
     credit:
       - AccountTitle: 银行存款
         asset: rmb
-        amount: '95.00'
+        amount: 95
   comment:
     - name: mars22.com域名
-      amount: '500'
+      amount: 500
       unit: g
-      asset: '13.80'
+      asset: 13.8
 - date: '2025-05-17'
   VoucherID: '4200002655202505173483982034'
   AccountingSoftwareID: null
@@ -238,16 +237,16 @@ D:\huangyg\git\js.sample\query>node json-query.regexp.js
     debit:
       - AccountTitle: raw.site.bj1
         asset: rmb
-        amount: '500.00'
+        amount: 500
     credit:
       - AccountTitle: 微信零钱
         asset: rmb
-        amount: '500.00'
+        amount: 500
   comment:
     - name: 电费
-      amount: '500'
+      amount: 500
       unit: 元
-      asset: '500.00'
+      asset: 500
 - date: '2025-05-17'
   VoucherID: '4200002704202505178788601006'
   AccountingSoftwareID: null
@@ -255,14 +254,14 @@ D:\huangyg\git\js.sample\query>node json-query.regexp.js
     debit:
       - AccountTitle: raw.site.bj1
         asset: rmb
-        amount: '42.00'
+        amount: 42
     credit:
       - AccountTitle: 微信零钱
         asset: rmb
-        amount: '42.00'
+        amount: 42
   comment:
     - name: 燃气费
-      amount: '42'
+      amount: 42
       unit: 元
-      asset: '42.00'
+      asset: 42
 ```

@@ -12,11 +12,11 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 13530 | 5322 | 8208 | 7275 |
+| total | 13530 | 5322 | 8208 | 7365 |
 | PSMD | 4000 | 1080 | 2920 | 1275 |
 | ego | 2530 | 1500 | 1030 | 1470 |
 | infra | 2000 | 600 | 1400 | 240 |
-| xuemen | 1000 | 449 | 551 | 540 |
+| xuemen | 1000 | 449 | 551 | 630 |
 | raw | 1000 | 285 | 715 | 450 |
 | learn | 2000 | 1123 | 877 | 2190 |
 | js | 1000 | 285 | 715 | 1110 |
@@ -39,14 +39,14 @@ waiting list:
 - 90分钟时间片：
   - infra的第1号事项：范例--利用js模块组合实现合同条款的组合。
   - ego的第1号事项：entry的按月归并
-  - xuemen的第1号事项：2024年报
+  - xuemen的第1号事项：mail server
   - PSMD的第2号事项：根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622
 
 - 195分钟时间片：
   - PSMD的第1号事项：子1609:基于公司、合同
-  - xuemen的第2号事项：kernel模型升级
-  - xuemen的第3号事项：重新设计S2状态下的学门基本管理制度
+  - xuemen的第3号事项：kernel模型升级
   - ego的第4号事项：新版基础模型
+  - xuemen的第4号事项：重新设计S2状态下的学门基本管理制度
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2025.05.31.[mail server]任务&body=日期: 2025.05.31.%0D%0A序号: 4%0D%0A手稿:../../draft/2025/20250531.a.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)

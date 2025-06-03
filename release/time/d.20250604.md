@@ -7,52 +7,52 @@
 
 - 07:45	子1609:基于公司、合同 -PSMD[0]
 - 14:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
-- 16:00	cursor rules -learn[0]
+- 16:00	新版food plan -raw[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 - 14:00	entry的按月归并 -ego[0]
-- 16:00	cursor rules -learn[0]
+- 16:00	新版food plan -raw[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	范例--利用js模块组合实现合同条款的组合。 -infra[0]
-- 16:00	cursor rules -learn[0]
+- 16:00	新版food plan -raw[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	cursor rules -learn[0]
+- 07:45	新版food plan -raw[0]
 - 09:30	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 - 14:00	debug in vscodium -js[4]
-- 16:00	新版food plan -raw[0]
+- 16:00	量子物理的数学基础 -learn[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	范例--利用js模块组合实现合同条款的组合。 -infra[0]
 - 14:00	debug in vscodium -js[4]
-- 16:00	cursor rules -learn[0]
+- 16:00	新版food plan -raw[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	debug in vscodium -js[4]
-- 16:00	cursor rules -learn[0]
+- 16:00	新版food plan -raw[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	debug in vscodium -js[4]
-- 16:00	cursor rules -learn[0]
+- 16:00	新版food plan -raw[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	cursor rules -learn[0]
+- 16:00	新版food plan -raw[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

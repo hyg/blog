@@ -5,28 +5,28 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	整理 resource.md -raw[0]
-- 14:00	整理新版本term的manifest code -PSMD[0]
+- 07:45	子1609:基于公司、合同 -PSMD[0]
+- 14:00	schema立项。 -infra[0]
 - 16:00	动态菜单设计。 -infra[1]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	schema立项。 -infra[0]
+- 09:30	schema立项。 -infra[0]
+- 14:00	基于真实数据标志财务报表 -ego[0]
 - 16:00	动态菜单设计。 -infra[1]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理新版本term的manifest code -PSMD[0]
+- 14:00	schema立项。 -infra[0]
 - 16:00	动态菜单设计。 -infra[1]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
 - 07:45	动态菜单设计。 -infra[1]
-- 09:30	整理新版本term的manifest code -PSMD[0]
+- 09:30	schema立项。 -infra[0]
 - 14:00	佯谬及二次革命 -learn[0]
 - 14:30	ai.js -js[2]
 - 16:00	设计三季度时间表 -raw[1]
@@ -34,7 +34,7 @@
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[0]
+- 09:30	schema立项。 -infra[0]
 - 14:00	佯谬及二次革命 -learn[0]
 - 14:30	ai.js -js[2]
 - 16:00	动态菜单设计。 -infra[1]

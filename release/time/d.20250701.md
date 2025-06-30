@@ -1,7 +1,7 @@
 # 2025.07.01.
 日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，六月份安排休整和总结。今天绑定模版2(2b)。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版2(2b)。
 
 | 时间片 | 时长 | 用途 | 手稿 |
 | --- | --- | :---: | --- |

@@ -7,28 +7,28 @@
 
 - 07:45	machines model -PSMD[1]
 - 14:00	整理default模型 -PSMD[0]
-- 16:00	量子力学的各种诠释:基于门电路、event机制的思想实验 -learn[0]
+- 16:00	佯谬及二次革命 -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	整理default模型 -PSMD[0]
 - 14:00	整理js对象检索的代码 -ego[0]
-- 16:00	量子力学的各种诠释:基于门电路、event机制的思想实验 -learn[0]
+- 16:00	佯谬及二次革命 -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	整理default模型 -PSMD[0]
-- 16:00	量子力学的各种诠释:基于门电路、event机制的思想实验 -learn[0]
+- 16:00	佯谬及二次革命 -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	量子力学的各种诠释:基于门电路、event机制的思想实验 -learn[0]
+- 07:45	佯谬及二次革命 -learn[0]
 - 09:30	整理default模型 -PSMD[0]
 - 14:00	learn brain.js -js[5]
-- 14:30	oData simple -learn[7]
+- 14:30	playwright -learn[7]
 - 16:00	设计新的季度时间表 -raw[0]
 
 ---
@@ -36,27 +36,27 @@
 
 - 09:30	整理default模型 -PSMD[0]
 - 14:00	learn brain.js -js[5]
-- 14:30	oData simple -learn[7]
-- 16:00	量子力学的各种诠释:基于门电路、event机制的思想实验 -learn[0]
+- 14:30	playwright -learn[7]
+- 16:00	佯谬及二次革命 -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	learn brain.js -js[5]
-- 14:30	oData simple -learn[7]
-- 16:00	量子力学的各种诠释:基于门电路、event机制的思想实验 -learn[0]
+- 14:30	playwright -learn[7]
+- 16:00	佯谬及二次革命 -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	learn brain.js -js[5]
-- 14:30	oData simple -learn[7]
-- 16:00	量子力学的各种诠释:基于门电路、event机制的思想实验 -learn[0]
+- 14:30	playwright -learn[7]
+- 16:00	佯谬及二次革命 -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	量子力学的各种诠释:基于门电路、event机制的思想实验 -learn[0]
+- 16:00	佯谬及二次革命 -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

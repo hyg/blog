@@ -27,30 +27,30 @@
 
 - 07:45	设计新的季度时间表 -raw[0]
 - 09:30	整理default模型 -PSMD[0]
-- 14:00	copilot -js[7]
-- 14:30	node.js -js[8]
-- 16:00	LangChain.js -js[0]
+- 14:00	react ink -learn[2]
+- 14:30	copilot -js[8]
+- 16:00	jami bot -learn[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	整理default模型 -PSMD[0]
-- 14:00	copilot -js[7]
-- 14:30	node.js -js[8]
+- 14:00	react ink -learn[2]
+- 14:30	copilot -js[8]
 - 16:00	设计新的季度时间表 -raw[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	copilot -js[7]
-- 14:30	node.js -js[8]
+- 14:00	react ink -learn[2]
+- 14:30	copilot -js[8]
 - 16:00	设计新的季度时间表 -raw[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	copilot -js[7]
-- 14:30	node.js -js[8]
+- 14:00	react ink -learn[2]
+- 14:30	copilot -js[8]
 - 16:00	设计新的季度时间表 -raw[0]
 
 ---

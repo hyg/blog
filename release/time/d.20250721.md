@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	machines model -PSMD[0]
-- 14:00	子1609:基于公司、合同 -PSMD[1]
-- 16:00	整理task及其相互关系 -ego[0]
+- 07:45	kernel模型升级 -xuemen[0]
+- 14:00	去中心化节点 -learn[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	子1609:基于公司、合同 -PSMD[1]
+- 09:30	去中心化节点 -learn[0]
 - 14:00	整理js对象检索的代码 -ego[1]
-- 16:00	整理task及其相互关系 -ego[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	子1609:基于公司、合同 -PSMD[1]
-- 16:00	整理task及其相互关系 -ego[0]
+- 14:00	去中心化节点 -learn[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	整理task及其相互关系 -ego[0]
-- 09:30	子1609:基于公司、合同 -PSMD[1]
-- 14:00	react ink -learn[2]
+- 07:45	整理default模型 -PSMD[0]
+- 09:30	去中心化节点 -learn[0]
+- 14:00	react ink -learn[5]
 - 14:30	copilot -js[7]
-- 16:00	动态菜单设计。 -infra[0]
+- 16:00	整理task及其相互关系 -ego[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	子1609:基于公司、合同 -PSMD[1]
-- 14:00	react ink -learn[2]
+- 09:30	去中心化节点 -learn[0]
+- 14:00	react ink -learn[5]
 - 14:30	copilot -js[7]
-- 16:00	整理task及其相互关系 -ego[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	react ink -learn[2]
+- 14:00	react ink -learn[5]
 - 14:30	copilot -js[7]
-- 16:00	整理task及其相互关系 -ego[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	react ink -learn[2]
+- 14:00	react ink -learn[5]
 - 14:30	copilot -js[7]
-- 16:00	整理task及其相互关系 -ego[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	整理task及其相互关系 -ego[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

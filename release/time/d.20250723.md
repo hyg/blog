@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	machines model -PSMD[0]
-- 14:00	子1609:基于公司、合同 -PSMD[1]
-- 16:00	整理task及其相互关系 -ego[0]
+- 07:45	MCP in nodejs -learn[0]
+- 14:00	mail server -xuemen[0]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	子1609:基于公司、合同 -PSMD[1]
+- 09:30	mail server -xuemen[0]
 - 14:00	整理js对象检索的代码 -ego[1]
-- 16:00	整理task及其相互关系 -ego[0]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	子1609:基于公司、合同 -PSMD[1]
-- 16:00	整理task及其相互关系 -ego[0]
+- 14:00	mail server -xuemen[0]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	整理task及其相互关系 -ego[0]
-- 09:30	子1609:基于公司、合同 -PSMD[1]
-- 14:00	react ink -learn[5]
-- 14:30	copilot -js[7]
-- 16:00	结合AI进展重新规划架构 -infra[0]
+- 07:45	筹备会议 by claude.md -PSMD[0]
+- 09:30	mail server -xuemen[0]
+- 14:00	a2a-js -js[1]
+- 14:30	react ink -learn[5]
+- 16:00	整理task及其相互关系 -ego[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	子1609:基于公司、合同 -PSMD[1]
-- 14:00	react ink -learn[5]
-- 14:30	copilot -js[7]
-- 16:00	整理task及其相互关系 -ego[0]
+- 09:30	mail server -xuemen[0]
+- 14:00	a2a-js -js[1]
+- 14:30	react ink -learn[5]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	react ink -learn[5]
-- 14:30	copilot -js[7]
-- 16:00	整理task及其相互关系 -ego[0]
+- 14:00	a2a-js -js[1]
+- 14:30	react ink -learn[5]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	react ink -learn[5]
-- 14:30	copilot -js[7]
-- 16:00	整理task及其相互关系 -ego[0]
+- 14:00	a2a-js -js[1]
+- 14:30	react ink -learn[5]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	整理task及其相互关系 -ego[0]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

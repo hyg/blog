@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	machines model -PSMD[0]
-- 14:00	子1609:基于公司、合同 -PSMD[1]
-- 16:00	整理task及其相互关系 -ego[0]
+- 07:45	kernel模型升级 -xuemen[1]
+- 14:00	基于真实数据标志财务报表 -ego[2]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	子1609:基于公司、合同 -PSMD[1]
-- 14:00	schema立项。 -infra[1]
-- 16:00	整理task及其相互关系 -ego[0]
+- 09:30	基于真实数据标志财务报表 -ego[2]
+- 14:00	schema立项。 -infra[2]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	子1609:基于公司、合同 -PSMD[1]
-- 16:00	整理task及其相互关系 -ego[0]
+- 14:00	基于真实数据标志财务报表 -ego[2]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	整理task及其相互关系 -ego[0]
-- 09:30	子1609:基于公司、合同 -PSMD[1]
+- 07:45	筹备会议 by claude.md -PSMD[0]
+- 09:30	基于真实数据标志财务报表 -ego[2]
 - 14:00	a2a-js -js[0]
 - 14:30	claude code + kimi K2 @ bailian -learn[0]
-- 16:00	动态菜单设计。 -infra[0]
+- 16:00	整理task及其相互关系 -ego[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	子1609:基于公司、合同 -PSMD[1]
+- 09:30	基于真实数据标志财务报表 -ego[2]
 - 14:00	a2a-js -js[0]
 - 14:30	claude code + kimi K2 @ bailian -learn[0]
-- 16:00	整理task及其相互关系 -ego[0]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	a2a-js -js[0]
 - 14:30	claude code + kimi K2 @ bailian -learn[0]
-- 16:00	整理task及其相互关系 -ego[0]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	a2a-js -js[0]
 - 14:30	claude code + kimi K2 @ bailian -learn[0]
-- 16:00	整理task及其相互关系 -ego[0]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	整理task及其相互关系 -ego[0]
+- 16:00	筹备会议 by claude.md -PSMD[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

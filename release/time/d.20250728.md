@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	machines model -PSMD[0]
+- 07:45	kernel模型升级 -xuemen[1]
 - 14:00	整理task及其相互关系 -ego[0]
-- 16:00	结合AI进展重新规划架构 -infra[0]
+- 16:00	PSMD agent AI的内部角色和功能 -PSMD[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	整理task及其相互关系 -ego[0]
-- 14:00	子1609:基于公司、合同 -PSMD[1]
-- 16:00	结合AI进展重新规划架构 -infra[0]
+- 14:00	业务规则引擎 -learn[0]
+- 16:00	PSMD agent AI的内部角色和功能 -PSMD[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	整理task及其相互关系 -ego[0]
-- 16:00	结合AI进展重新规划架构 -infra[0]
+- 16:00	PSMD agent AI的内部角色和功能 -PSMD[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	结合AI进展重新规划架构 -infra[0]
+- 07:45	PSMD agent AI的内部角色和功能 -PSMD[0]
 - 09:30	整理task及其相互关系 -ego[0]
 - 14:00	a2a-js -js[0]
-- 14:30	claude code + kimi K2 @ bailian -learn[1]
-- 16:00	设计新的季度时间表 -raw[0]
+- 14:30	Agent Protocol https://agentprotocol.ai/ -learn[2]
+- 16:00	结合AI进展重新规划架构 -infra[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	整理task及其相互关系 -ego[0]
 - 14:00	a2a-js -js[0]
-- 14:30	claude code + kimi K2 @ bailian -learn[1]
-- 16:00	结合AI进展重新规划架构 -infra[0]
+- 14:30	Agent Protocol https://agentprotocol.ai/ -learn[2]
+- 16:00	PSMD agent AI的内部角色和功能 -PSMD[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	a2a-js -js[0]
-- 14:30	claude code + kimi K2 @ bailian -learn[1]
-- 16:00	结合AI进展重新规划架构 -infra[0]
+- 14:30	Agent Protocol https://agentprotocol.ai/ -learn[2]
+- 16:00	PSMD agent AI的内部角色和功能 -PSMD[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	a2a-js -js[0]
-- 14:30	claude code + kimi K2 @ bailian -learn[1]
-- 16:00	结合AI进展重新规划架构 -infra[0]
+- 14:30	Agent Protocol https://agentprotocol.ai/ -learn[2]
+- 16:00	PSMD agent AI的内部角色和功能 -PSMD[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	结合AI进展重新规划架构 -infra[0]
+- 16:00	PSMD agent AI的内部角色和功能 -PSMD[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

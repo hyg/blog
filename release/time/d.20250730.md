@@ -27,30 +27,30 @@
 
 - 07:45	结合AI进展重新规划架构 -infra[0]
 - 09:30	筹备会议 by role+prompt -PSMD[0]
-- 14:00	Agent Protocol https://agentprotocol.ai/ -learn[2]
-- 14:30	claude code + kimi K2 @ bailian -learn[4]
+- 14:00	nodejs中调用jar -js[0]
+- 14:30	Agent Protocol https://agentprotocol.ai/ -learn[2]
 - 16:00	设计新的季度时间表 -raw[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	筹备会议 by role+prompt -PSMD[0]
-- 14:00	Agent Protocol https://agentprotocol.ai/ -learn[2]
-- 14:30	claude code + kimi K2 @ bailian -learn[4]
+- 14:00	nodejs中调用jar -js[0]
+- 14:30	Agent Protocol https://agentprotocol.ai/ -learn[2]
 - 16:00	结合AI进展重新规划架构 -infra[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	Agent Protocol https://agentprotocol.ai/ -learn[2]
-- 14:30	claude code + kimi K2 @ bailian -learn[4]
+- 14:00	nodejs中调用jar -js[0]
+- 14:30	Agent Protocol https://agentprotocol.ai/ -learn[2]
 - 16:00	结合AI进展重新规划架构 -infra[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	Agent Protocol https://agentprotocol.ai/ -learn[2]
-- 14:30	claude code + kimi K2 @ bailian -learn[4]
+- 14:00	nodejs中调用jar -js[0]
+- 14:30	Agent Protocol https://agentprotocol.ai/ -learn[2]
 - 16:00	结合AI进展重新规划架构 -infra[0]
 
 ---

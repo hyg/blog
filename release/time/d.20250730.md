@@ -1100,3 +1100,106 @@ D:\huangyg\git\js.sample\claudecode>
 ● Write(src\utils\MermaidGenerator.js)
   ⎿  Wrote 1 lines to src\utils\MermaidGenerator.js
 ```
+
+### mistral
+
+### 提要
+
+#### 为什么设计DRL、DMN这样的语言表达业务规则
+
+设计领域特定语言（DSL），如DRL和DMN，是为了更有效地表达业务规则。这些语言提供了易读性、易维护性、专注于特定领域、分离关注点、规则引擎优化、标准化和工具支持等优势。虽然通用编程语言提供灵活性，但DSL在业务逻辑的表达和管理上更具优势。
+
+#### 设计DSL的工具
+
+设计DSL的工具包括ANTLR、Xtext、JetBrains MPS、Racket、Spoofax、Bison和Flex、Language Server Protocol、TextX、Roslyn和GPP。这些工具各有特点，适用于不同的场景和需求。
+
+#### JSON-LD介绍及其竞争对手
+
+JSON-LD是一种轻量级的语义数据格式，兼容JSON，并增加了语义Web的功能。其竞争对手包括RDF/XML、Turtle、RDFa和Microdata。JSON-LD在兼容性、易用性和互联性方面具有优势，而RDF/XML和Turtle在语义表达能力上更强。RDFa和Microdata更适合Web开发和SEO场景。
+
+#### IPLD介绍及其竞争对手
+
+IPLD是一种用于在分布式网络中表示和链接数据的格式和模型，是IPFS生态系统的一部分。其竞争对手包括JSON-LD、RDF、Hypercore Protocol和Dat Protocol。IPLD在统一数据模型、内容寻址、互操作性和分布式友好性方面具有优势。
+
+#### IPFS生态系统介绍及其竞争对手
+
+IPFS是一个旨在创建持久且分布式存储和共享文件的网络传输协议。其竞争对手包括Filecoin、Storj、Sia、Dat Protocol和Hypercore Protocol。IPFS在内容寻址、分布式存储、版本控制、去中心化和高效性方面具有优势。Filecoin在经济激励和长期存储方面具有优势，而Storj和Sia在安全性和隐私性方面表现突出。Dat Protocol和Hypercore Protocol在分布式数据同步和版本控制方面具有优势。
+
+### 资源列表
+
+```yaml
+- name: DRL
+  summary: 一种用于定义业务规则的领域特定语言，易于维护和管理。
+
+- name: DMN
+  summary: 决策模型和符号表示法，用于业务决策的标准化建模。
+
+- name: ANTLR
+  summary: 一个强大的语法分析器生成器，用于构建语言的词法分析器和语法分析器。
+
+- name: Xtext
+  summary: 基于Eclipse的框架，用于开发DSL和编程语言。
+
+- name: JetBrains MPS
+  summary: 基于投影的语言工作台，允许设计DSL并提供强大的IDE支持。
+
+- name: Racket
+  summary: 一种编程语言和平台，用于创建新语言。
+
+- name: Spoofax
+  summary: 语言工作台，支持DSL的定义、实现、编辑和分析。
+
+- name: Bison
+  summary: 语法分析器生成器，通常与Flex一起使用。
+
+- name: Flex
+  summary: 词法分析器生成器，通常与Bison一起使用。
+
+- name: Language Server Protocol
+  summary: 协议用于在开发工具和语言服务器之间进行通信。
+
+- name: TextX
+  summary: 用于构建DSL的Python库。
+
+- name: Roslyn
+  summary: .NET编译器平台，提供丰富的API来构建和分析代码。
+
+- name: GPP
+  summary: 通用的预处理器，可以用于构建简单的DSL。
+
+- name: JSON-LD
+  summary: 基于JSON的语义数据格式，兼容JSON并增加语义Web功能。
+
+- name: RDF/XML
+  summary: RDF的标准XML序列化格式，用于表示语义数据。
+
+- name: Turtle
+  summary: RDF的简洁序列化格式，易于阅读和编写。
+
+- name: RDFa
+  summary: 在HTML中嵌入RDF数据的方法，用于标记语义信息。
+
+- name: Microdata
+  summary: 在HTML中嵌入机器可读数据的方法，用于标记数据。
+
+- name: IPLD
+  summary: 用于在分布式网络中表示和链接数据的格式和模型。
+
+- name: IPFS
+  summary: 分布式文件系统，旨在创建持久且分布式存储和共享文件的网络传输协议。
+
+- name: Filecoin
+  summary: 去中心化存储网络，基于IPFS构建，通过经济激励机制鼓励用户提供存储空间。
+
+- name: Storj
+  summary: 去中心化的云存储平台，使用区块链技术确保数据安全性和隐私性。
+
+- name: Sia
+  summary: 去中心化的云存储平台，使用区块链技术和智能合约实现数据存储和共享。
+
+- name: Dat Protocol
+  summary: 用于分布式数据同步和版本控制的协议，支持实时同步和版本控制。
+
+- name: Hypercore Protocol
+  summary: 用于构建分布式应用的协议，支持数据的版本控制和同步。
+```

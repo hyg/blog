@@ -64,8 +64,8 @@ waiting list:
 - 用提示词“请把罗伯特议事规则简化为最小的合规版本，以markdown、mermaid、drl、dmn语言分别描述。”让llm生成了一些数据。
 	- 请把一个议题扩展到一次会议。输出要求不变。
 - https://www.npmjs.com/package/bpmn-engine
-D:\huangyg\git\js.sample\bpmn-engine>node execute.mjs
 ```
+D:\huangyg\git\js.sample\bpmn-engine>node execute.mjs
 Execution completed with id 788
 
 D:\huangyg\git\js.sample\bpmn-engine>node listenforevent.mjs

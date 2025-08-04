@@ -156,18 +156,3 @@ iceServers: [
 [12:29:41] 收到信令数据: {"type":"candidate","candidate":{"candidate":"","sdpMLineIndex":0,"sdpMid":"0"}}
 [12:29:41] 收到ICE候选者: 无候选者
 ```
-
-- 开箱即用的、非IT专业用户的软件，怎么使用LLM模型。
-	- 后端调用，前端不接触api key。需要服务器和带宽支出。
-	- 本地部署微型llm模型：
-		- ollama：非专业用户可能认为太麻烦。
-		- Transformers.js：安排时间试用一下。下载文件也挺大的。
-		- node-llama-cpp：安装复杂（需要编译），性能更高，完全离线。
-	- OAuth授权代理：有些服务商允许用OAuth授权后获得access_token（替代api key）。需要用户已经在那里有账户。比自己申请api key配置没省事多少。
-- 默认方案还是用户自己申请、配置api key。自己付款。软件只负责业务逻辑。
-	- 检查code manifest接口的数据合格（手写json？）。这其实用代码更好。
-	- 根据free manifest文档，产生代码去处理code manifest格式的事务。
-	- 自然语言转code manifest接口的数据（json）。接收对方的json转自然语言。
-	- 自然语言调free manifest接口，由对方的agent处理。
-	- 根据接口转人工。
-	- 整理人工对话，保存为RAG数据库和FSM，或生成MCP server、tool代码。

@@ -90,7 +90,7 @@ g.setGraphVizPath('C:\\Program Files\\Graphviz\\bin');
 ## learn: [整理本地模型]
 
 - ollama安装gpt-oss:20b，可以满足日常应用。
-- 再把deepseek-v1从7b换到32b，对比一下看看。coder试试qwen2.5-coder:7b和deepseep-coder-v2:16b。
+- 再把deepseek-v1从7b换到32b，对比一下看看。
 	- 拖拉机问题答错，三步三元组不错，32b明显优于7b。
 	- 删掉7b。
 - qwen3:14b
@@ -98,7 +98,8 @@ g.setGraphVizPath('C:\\Program Files\\Graphviz\\bin');
 	- NER结果是空数组，RE有结果但很单调。不能体现问题中的复杂关系。
 	- 放弃，删掉。
 - gpt-oss:20b或者deepseek-v1:32b做需求分析和架构设计，也不错。不一定需要coder系列的模型。
-- qwen2.5-coder:latest
+- coder试试qwen2.5-coder:7b和deepseep-coder-v2:16b。
+	- 没时间西测，选时间较晚的 qwen2.5-coder:latest
 - nomic-embed-text
 - 以后有时间再测。暂时以gpt-oss、deepseek-v1、mistral分别负责复杂、中等、简单任务。代码生成和嵌入式各留一个。
 
@@ -107,19 +108,6 @@ g.setGraphVizPath('C:\\Program Files\\Graphviz\\bin');
 <a id="20250807204500"></a>
 ## 20:45 ~ 21:44
 ## check: [零散笔记]
-
-- ollama安装gpt-oss:20b，可以满足日常应用。
-- 再把deepseek-v1从7b换到32b，对比一下看看。coder试试qwen2.5-coder:7b和deepseep-coder-v2:16b。
-	- 拖拉机问题答错，三步三元组不错，32b明显优于7b。
-	- 删掉7b。
-- qwen3:14b
-	- 拖拉机问题答错，而且耗费时间非常长。
-	- NER结果是空数组，RE有结果但很单调。不能体现问题中的复杂关系。
-	- 放弃，删掉。
-- gpt-oss:20b或者deepseek-v1:32b做需求分析和架构设计，也不错。不一定需要coder系列的模型。
-- qwen2.5-coder:latest
-- nomic-embed-text
-- 以后有时间再测。
 
 ### claude code -> proxy
 

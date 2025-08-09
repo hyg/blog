@@ -15,29 +15,29 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 13530 | 8696 | 4834 | 8550 |
+| total | 13530 | 8816 | 4714 | 8430 |
 | PSMD | 4000 | 1670 | 2330 | 1170 |
-| ego | 2530 | 1350 | 1180 | 1425 |
+| ego | 2530 | 1410 | 1120 | 1365 |
 | infra | 2000 | 545 | 1455 | 285 |
 | xuemen | 1000 | 90 | 910 | 600 |
 | raw | 1000 | 70 | 930 | 390 |
-| learn | 2000 | 4475 | -2475 | 2970 |
-| js | 1000 | 496 | 504 | 1710 |
+| learn | 2000 | 4505 | -2505 | 2940 |
+| js | 1000 | 526 | 474 | 1680 |
 
 ---
 waiting list:
 
 
 - 30分钟时间片：
-  - js的第1号事项：nextcloud
-  - learn的第3号事项：NER（命名实体识别）RE（关系抽取）
-  - learn的第4号事项：Rete/Phreak算法
-  - js的第10号事项：copilot
+  - ego的第1号事项：整理simplenote文件，准备转移到webDAV.
+  - learn的第3号事项：Rete/Phreak算法
+  - js的第9号事项：copilot
+  - js的第10号事项：node.js
 
 - 60分钟时间片：
-  - ego的第1号事项：同步新日志到webDAV。使用新的共享外链。
   - raw的第1号事项：设计新的季度时间表
   - xuemen的第1号事项：根据最新政策文件，考虑AER、AVR文件升级。
+  - js的第1号事项：a2a-js
   - learn的第1号事项：ANP（Agent Network Protocol）
 
 - 90分钟时间片：
@@ -326,3 +326,139 @@ To eliminate this warning, add "type": "module" to D:\huangyg\git\js.sample\cald
 ``` 
 - winget install pbek.QOwnNotes
 - 增加todo项，准备弃用simplenote。
+
+### kimi小结
+
+提要（≤2000字）
+------------
+1. 需求：跨平台纯文本笔记，离线/联网实时同步，外网浏览器可读，不绑银行卡。  
+2. 路线对比：  
+   - **GitHub Pages + Gitee Pages** 零成本、免银行卡，推即同步。  
+   - **Cloudflare R2** 需银行卡，跳过。  
+   - **Nextcloud / ownCloud** 官方 Simple-Signup 与 Tab.Digital 等托管商可免银行卡使用。  
+3. 实战：  
+   - 用 Node.js + chokidar + axios 监听本地目录/单文件，实时 WebDAV 同步到 Tab.Digital。  
+   - 解决 `ENOTFOUND`、`VTODO vs VEVENT` 等坑。  
+4. CalDAV 任务写入：  
+   - 用纯 JS axios 直接 PUT `.ics` 文件，避开 native 编译。  
+   - VEVENT 用于日历事件，VTODO 用于待办；日历集合需对应。  
+5. 代码均已提供，可一键运行。
+
+YAML 资源清单
+------------
+```yaml
+# 云托管 / 网盘
+GitHub Pages: 免费静态托管，推送即同步，支持自定义域名。
+Gitee Pages: 国内访问更快，同样免费且无需银行卡。
+Nextcloud Simple-Signup: 官方合作托管 2-5 GB 日历/网盘，注册即用免银行卡。
+ownCloud Free Trial: 官方合作托管 2-5 GB 日历/网盘，注册即用免银行卡。
+Tab.Digital: Nextcloud 托管商，提供 CalDAV/WebDAV，注册免银行卡。
+
+# 命令行/运行时
+Oracle Cloud Free Tier: AMD VPS + 200 GB 永久免费，可一键跑 Nextcloud。
+Serv00: 免费 FreeBSD VPS，可跑一键 WebDAV 脚本。
+Syncthing: 点对点同步工具，无需服务器。
+Cloudflare Tunnel: 免费公网隧道，临时分享本地目录。
+
+# npm 包
+chokidar: 高性能文件监听库。
+axios: 纯 JS HTTP 客户端，零 native 依赖。
+uuid: 快速生成 RFC4122 UUID。
+dotenv: 读取 .env 环境变量。
+node-caldav: CalDAV 封装，但需 node-gyp 编译，可替换为 axios 手写。
+
+# 协议/概念
+CalDAV: 基于 WebDAV 的日历同步协议。
+WebDAV: HTTP 扩展，用于文件/日历的读写。
+VEVENT: 日历事件组件，需 DTSTART/DTEND。
+VTODO: 待办任务组件，可选 DUE/COMPLETED。
+```
+
+### 豆包小结
+
+### 对话提要  
+对话围绕技术方案选型、工具对比及实际应用展开，核心内容如下：  
+
+1. **有限状态机（FSM）开发问题**：用户在开发FSM任务管理系统时，遇到“状态不支持事件”“JSON解析错误”等问题，通过补充状态转换规则、移除JSON注释等方式解决，确保状态机定义与事件触发匹配，并优化网页界面，将“允许/禁止的职权”合并展示，系统事件置于底部并添加显眼提示。  
+
+2. **工具与平台关系**：明确Nextcloud与ownCloud为衍生关系，Nextcloud是ownCloud核心团队分歧后创建的分支，功能更丰富。  
+
+3. **微信聊天机器人开发**：针对绑定银行卡的微信账号，推荐使用WeChaty框架结合低风险协议（如puppet-padlocal），强调禁止处理支付相关操作、限制高频次行为、加强登录安全与异常监控，优先使用测试账号以降低风险。  
+
+4. **浏览器端智能机器人方案**：无需用户安装软件，推荐Web原生交互（Vue/React+WebSocket）+后端逻辑（Node.js+Rasa/Dialogflow）+AI能力（ChatGPT API/国产大模型）的架构，或采用低代码平台（如WeConnect.chat、微软Power Virtual Agents）快速上线，兼顾实时性与安全性。  
+
+5. **局域网免费方案**：在Windows+Node.js环境下，推荐Koishi（跨平台机器人框架，支持网页控制台）、LocalhostAI（与Chrome内置Gemini Nano交互）、Text Bot（基于IBM Watson服务）等工具，可在局域网内通过浏览器访问，无需外部依赖。  
+
+6. **规则引擎与状态机对比**：对比DRL（Drools）、json-rules-engine、FSM的语法与表达能力。DRL适合复杂业务规则（如企业章程），支持嵌套条件与规则优先级；json-rules-engine轻量，基于JSON适合简单决策；FSM聚焦状态流转（如订单状态），可读性高但条件处理弱。  
+
+7. **Drools的局限性与替代方案**：Drools存在学习门槛高、架构适配性差等问题，近年替代品包括基于DMN的可视化工具（Camunda Decision Services）、低代码平台（Mendix）、云原生服务（AWS Decision Services）及AI融合平台（H2O.ai Driverless AI），更适配现代架构与业务需求。  
+
+
+### 资源整理（yaml格式）  
+```yaml
+- 名称: Koishi
+  总结: 跨平台Node.js机器人框架，支持网页控制台，可在局域网部署，无需用户安装软件。
+
+- 名称: LocalhostAI
+  总结: 与Chrome内置Gemini Nano模型集成的AI助手，支持离线交互，适合局域网Node.js应用。
+
+- 名称: Text Bot
+  总结: 基于Node.js和IBM Watson服务的开源项目，提供文本交互界面，支持局域网浏览器访问。
+
+- 名称: OpenManus
+  总结: 开源免费工具，支持本地部署，基于Node.js和PostgreSQL，可对接私有大模型。
+
+- 名称: WebAI.js
+  总结: 基于OpenCV.js和ONNXRuntime的Web前端AI工具，支持Node.js调用，部署CV模型。
+
+- 名称: Drools
+  总结: 企业级规则引擎，使用DRL语言，适合复杂业务规则，但学习门槛高、架构适配性弱。
+
+- 名称: json-rules-engine
+  总结: 轻量级基于JSON的规则引擎，适合简单到中等复杂度规则，易于Web应用集成。
+
+- 名称: Camunda Decision Services
+  总结: 基于DMN标准的规则引擎，提供可视化决策表，适配云原生架构，适合流程与规则联动。
+
+- 名称: Flowable Decision
+  总结: 轻量级DMN规则引擎，支持Spring Boot集成，规则定义可视化，适合中小规模场景。
+
+- 名称: Mendix Decision Services
+  总结: 低代码平台内置规则引擎，支持可视化流程图定义规则，适合业务人员快速迭代。
+
+- 名称: Appian Decision Manager
+  总结: 集成于低代码平台，用决策矩阵定义规则，支持版本管理与合规场景。
+
+- 名称: AWS Decision Services
+  总结: 云原生Serverless决策服务，按调用计费，支持规则与机器学习结合，适合高并发场景。
+
+- 名称: Azure Policy
+  总结: 微软云原生规则引擎，基于JSON定义规则，适配Azure资源治理与自动化决策。
+
+- 名称: Node Rules
+  总结: Node.js轻量规则引擎，用JS对象定义规则，学习成本低，适合前端或轻量后端。
+
+- 名称: H2O.ai Driverless AI
+  总结: 融合规则引擎与机器学习的平台，支持规则与预测模型混合决策，适合动态场景。
+
+- 名称: SAS Intelligent Decisioning
+  总结: 企业级智能决策平台，支持规则、模型编排，适合金融等需精确规则与AI结合的场景。
+
+- 名称: WeChaty
+  总结: Node.js微信机器人框架，支持多协议适配，推荐使用低风险puppet（如padlocal）保障账号安全。
+
+- 名称: dotenv
+  总结: Node.js环境变量管理库，用于安全存储微信账号等敏感信息，避免硬编码。
+
+- 名称: express-rate-limit
+  总结: Node.js限流库，控制机器人接口调用频率，防止高频操作触发微信风控。
+
+- 名称: crypto
+  总结: Node.js内置加密模块，用于加密存储聊天记录等敏感数据，保障隐私安全。
+
+- 名称: Nextcloud
+  总结: ownCloud分支，开源自托管云存储解决方案，功能更丰富，含协作工具。
+
+- 名称: ownCloud
+  总结: 早期开源自托管云存储项目，Nextcloud由其核心团队分歧后创建。
+```

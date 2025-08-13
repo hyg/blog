@@ -1,66 +1,20 @@
 # 2025.08.13.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版1(1e)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	machines model -PSMD[1]
-- 14:00	筹备会议 by role+prompt -PSMD[0]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	筹备会议 by role+prompt -PSMD[0]
-- 14:00	schema立项。 -infra[0]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 11:06~11:20 | 15 | 休整 |  |
+| 11:21~12:20 | 60 | 备餐、运动 |  |
+| 12:21~13:05 | 45 | 午餐 |  |
+| 13:06~13:50 | 45 | 会议、自习 |  |
+| 13:51~15:58 | 128 | 休整 |  |
+| 16:00~16:59 | 60 | 静默工作 | ego:同步新日志到webDAV。使用新的共享外链。 [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2025/20250813160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.08.13.[ego:同步新日志到webDAV。使用新的共享外链。]任务&body=日期: 20250813%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20250813160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版2c可能安排以下任务：
 
-- 14:00	筹备会议 by role+prompt -PSMD[0]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版1a可能安排以下任务：
-
-- 07:45	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-- 09:30	筹备会议 by role+prompt -PSMD[0]
-- 14:00	nextcloud -js[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[0]
-- 16:00	设计新的季度时间表 -raw[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	筹备会议 by role+prompt -PSMD[0]
-- 14:00	nextcloud -js[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[0]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	nextcloud -js[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[0]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	nextcloud -js[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[0]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2025.08.13.任务排序的建议&body=date: 2025.08.13.%0D%0Afile: ../../blog/release/time/d.20250813.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 16:00~16:59	ego: [同步新日志到webDAV。使用新的共享外链。](../../draft/2025/20250813.01.md)
+- 19:00~19:59	check: [零散笔记](../../draft/2025/20250813.02.md)

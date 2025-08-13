@@ -7,56 +7,56 @@
 
 - 07:45	machines model -PSMD[1]
 - 14:00	筹备会议 by role+prompt -PSMD[0]
-- 16:00	设计新的季度时间表 -raw[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	筹备会议 by role+prompt -PSMD[0]
 - 14:00	schema立项。 -infra[0]
-- 16:00	设计新的季度时间表 -raw[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	筹备会议 by role+prompt -PSMD[0]
-- 16:00	设计新的季度时间表 -raw[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	设计新的季度时间表 -raw[0]
+- 07:45	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 - 09:30	筹备会议 by role+prompt -PSMD[0]
-- 14:00	整理simplenote文件，准备转移到webDAV. -ego[0]
-- 14:30	nextcloud -js[0]
-- 16:00	根据最新政策文件，考虑AER、AVR文件升级。 -xuemen[0]
+- 14:00	nextcloud -js[0]
+- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[0]
+- 16:00	设计新的季度时间表 -raw[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	筹备会议 by role+prompt -PSMD[0]
-- 14:00	整理simplenote文件，准备转移到webDAV. -ego[0]
-- 14:30	nextcloud -js[0]
-- 16:00	设计新的季度时间表 -raw[0]
+- 14:00	nextcloud -js[0]
+- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	整理simplenote文件，准备转移到webDAV. -ego[0]
-- 14:30	nextcloud -js[0]
-- 16:00	设计新的季度时间表 -raw[0]
+- 14:00	nextcloud -js[0]
+- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	整理simplenote文件，准备转移到webDAV. -ego[0]
-- 14:30	nextcloud -js[0]
-- 16:00	设计新的季度时间表 -raw[0]
+- 14:00	nextcloud -js[0]
+- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	设计新的季度时间表 -raw[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

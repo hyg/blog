@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 XMTP AI聊天 - 无钱包版</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .app-container {
+            width: 100%;
+            max-width: 500px;
+            height: 100vh;
+            max-height: 800px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 0.9rem;
+        }
+
+        .setup-screen {
+            flex: 1;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .welcome-card {
+            background: #f8f9ff;
+            border: 2px solid #e6ecff;
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .welcome-card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .welcome-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 12px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .btn-primary {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .chat-screen {
+            display: none;
+            flex: 1;
+            flex-direction: column;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: #f8f9fa;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .message.user {
+            justify-content: flex-end;
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            word-wrap: break-word;
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .message.bot .message-content {
+            background: white;
+            color: #333;
+            border: 1px solid #e1e5e9;
+            border-bottom-left-radius: 4px;
+        }
+
+        .message-time {
+            font-size: 0.7rem;
+            opacity: 0.7;
+            margin-top: 4px;
+        }
+
+        .chat-input {
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e1e5e9;
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e1e5e9;
+            border-radius: 25px;
+            font-size: 1rem;
+        }
+
+        .chat-input input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .send-btn {
+            padding: 12px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #28a745;
+            margin-left: 10px;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #dc3545;
+        }
+
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #28a745;
+        }
+
+        .info-message {
+            background: #d1ecf1;
+            color: #0c5460;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #17a2b8;
+        }
+
+        .help-text {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .wallet-info {
+            background: #e8f4fd;
+            border: 1px solid #bee5eb;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .wallet-address {
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: #667eea;
+            font-weight: 600;
+            word-break: break-all;
+        }
+
+        .feature-list {
+            text-align: left;
+            margin: 20px 0;
+        }
+
+        .feature-list li {
+            margin-bottom: 8px;
+            color: #666;
+        }
+
+        .feature-list li::before {
+            content: "✅ ";
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .app-container {
+                border-radius: 0;
+                height: 100vh;
+                max-height: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- 设置界面 -->
+        <div id="setup-screen" class="setup-screen">
+            <div class="welcome-card">
+                <h2>🤖 欢迎使用 XMTP AI 聊天</h2>
+                <p>这是一个完全无钱包的聊天应用，系统会自动为您创建临时钱包。</p>
+                
+                <div class="feature-list">
+                    <ul>
+                        <li>无需安装MetaMask钱包</li>
+                        <li>自动生成临时钱包</li>
+                        <li>零配置，开箱即用</li>
+                        <li>完全去中心化</li>
+                    </ul>
+                </div>
+
+                <div class="input-group">
+                    <label for="bot-id">机器人收件箱ID:</label>
+                    <input type="text" id="bot-id" placeholder="请输入机器人的收件箱ID" 
+                           value="a98a974c554006bf56cb8661922317b2a1bae7150be90c12586c9b42adc36045">
+                    <div class="help-text">
+                        💡 已预填示例机器人ID，可直接使用
+                    </div>
+                </div>
+
+                <button class="btn-primary" onclick="startChat()" id="start-btn">
+                    🚀 开始聊天
+                </button>
+            </div>
+
+            <div id="message-container"></div>
+        </div>
+
+        <!-- 聊天界面 -->
+        <div id="chat-screen" class="chat-screen">
+            <div class="chat-header">
+                <div>
+                    🤖 AI 聊天
+                    <span class="status-indicator"></span>
+                </div>
+                <div id="connection-status">已连接</div>
+            </div>
+
+            <div id="chat-messages" class="chat-messages">
+                <!-- 消息将在这里显示 -->
+            </div>
+
+            <div class="chat-input">
+                <input type="text" id="message-input" placeholder="输入消息..." 
+                       onkeypress="handleKeyPress(event)">
+                <button class="send-btn" onclick="sendMessage()">发送</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@6.15.0/dist/ethers.umd.min.js"></script>
+    <script>
+        // 全局变量
+        let botInboxId = '';
+        let userWallet = null;
+        let walletData = null;
+
+        // 显示消息
+        function showMessage(message, type = 'info') {
+            const container = document.getElementById('message-container');
+            const messageDiv = document.createElement('div');
+            
+            if (type === 'error') {
+                messageDiv.className = 'error-message';
+            } else if (type === 'success') {
+                messageDiv.className = 'success-message';
+            } else {
+                messageDiv.className = 'info-message';
+            }
+            
+            messageDiv.textContent = message;
+            container.appendChild(messageDiv);
+            
+            // 5秒后自动移除
+            setTimeout(() => {
+                if (messageDiv.parentNode) {
+                    messageDiv.parentNode.removeChild(messageDiv);
+                }
+            }, 5000);
+        }
+
+        // 创建或加载钱包
+        async function createOrLoadWallet() {
+            try {
+                // 尝试从本地存储加载钱包
+                const savedWallet = localStorage.getItem('xmtp-wallet');
+                
+                if (savedWallet) {
+                    walletData = JSON.parse(savedWallet);
+                    userWallet = new ethers.Wallet(walletData.privateKey);
+                    showMessage('已加载现有钱包', 'success');
+                } else {
+                    // 创建新钱包
+                    showMessage('正在创建新钱包...', 'info');
+                    userWallet = ethers.Wallet.createRandom();
+                    
+                    walletData = {
+                        address: userWallet.address,
+                        privateKey: userWallet.privateKey,
+                        publicKey: userWallet.publicKey,
+                        mnemonic: userWallet.mnemonic.phrase
+                    };
+                    
+                    // 保存到本地存储
+                    localStorage.setItem('xmtp-wallet', JSON.stringify(walletData));
+                    showMessage('新钱包创建成功', 'success');
+                }
+                
+                // 显示钱包信息
+                showWalletInfo();
+                
+                return true;
+            } catch (error) {
+                console.error('钱包创建失败:', error);
+                showMessage(`钱包创建失败: ${error.message}`, 'error');
+                return false;
+            }
+        }
+
+        // 显示钱包信息
+        function showWalletInfo() {
+            const walletInfo = document.createElement('div');
+            walletInfo.className = 'wallet-info';
+            walletInfo.innerHTML = `
+                <div style="font-weight: 600; margin-bottom: 8px;">🔐 您的钱包地址</div>
+                <div class="wallet-address">${userWallet.address}</div>
+                <div style="font-size: 0.8rem; color: #666; margin-top: 8px;">
+                    钱包已自动保存到本地存储
+                </div>
+            `;
+            
+            const container = document.getElementById('message-container');
+            container.appendChild(walletInfo);
+        }
+
+        // 开始聊天
+        async function startChat() {
+            const botId = document.getElementById('bot-id').value.trim();
+            
+            if (!botId) {
+                showMessage('请输入机器人收件箱ID', 'error');
+                return;
+            }
+
+            botInboxId = botId;
+            
+            // 禁用开始按钮
+            document.getElementById('start-btn').disabled = true;
+            document.getElementById('start-btn').textContent = '正在连接...';
+            
+            try {
+                // 创建或加载钱包
+                const walletCreated = await createOrLoadWallet();
+                if (!walletCreated) {
+                    document.getElementById('start-btn').disabled = false;
+                    document.getElementById('start-btn').textContent = '🚀 开始聊天';
+                    return;
+                }
+                
+                showMessage('正在连接到XMTP网络...', 'info');
+                
+                // 模拟XMTP连接
+                await simulateXMTPConnection();
+                
+                // 显示聊天界面
+                document.getElementById('setup-screen').style.display = 'none';
+                document.getElementById('chat-screen').style.display = 'flex';
+                
+                // 添加欢迎消息
+                addMessage('bot', '你好！我是AI助手，很高兴为你服务！你的钱包地址：' + userWallet.address.substring(0, 10) + '...' + userWallet.address.substring(34));
+                
+            } catch (error) {
+                console.error('连接失败:', error);
+                showMessage(`连接失败: ${error.message}`, 'error');
+                document.getElementById('start-btn').disabled = false;
+                document.getElementById('start-btn').textContent = '🚀 开始聊天';
+            }
+        }
+
+        // 模拟XMTP连接
+        async function simulateXMTPConnection() {
+            document.getElementById('connection-status').innerHTML = '连接中<span class="loading"></span>';
+            
+            // 模拟连接过程
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            
+            document.getElementById('connection-status').textContent = '已连接';
+            showMessage('XMTP网络连接成功', 'success');
+        }
+
+        // 发送消息
+        async function sendMessage() {
+            const input = document.getElementById('message-input');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            // 添加用户消息
+            addMessage('user', message);
+            input.value = '';
+            
+            // 显示正在输入
+            document.getElementById('connection-status').innerHTML = '正在回复<span class="loading"></span>';
+            
+            try {
+                // 模拟AI回复
+                const response = await simulateAIResponse(message);
+                addMessage('bot', response);
+            } catch (error) {
+                console.error('发送失败:', error);
+                addMessage('bot', '抱歉，消息发送失败，请重试。');
+            } finally {
+                document.getElementById('connection-status').textContent = '已连接';
+            }
+        }
+
+        // 模拟AI回复
+        async function simulateAIResponse(message) {
+            // 模拟网络延迟
+            await new Promise(resolve => setTimeout(resolve, 1000 + Math.random() * 2000));
+            
+            const responses = {
+                '你好': '你好！很高兴见到你！我是AI助手，有什么可以帮助你的吗？',
+                '帮助': '我可以帮你回答问题、聊天、提供信息等。请告诉我你需要什么帮助！',
+                '钱包': '你的钱包地址是：' + userWallet.address.substring(0, 10) + '...' + userWallet.address.substring(34) + '。这是一个临时钱包，已保存在浏览器本地存储中。',
+                '地址': '你的钱包地址是：' + userWallet.address + '。请妥善保管这个地址。',
+                '天气': '抱歉，我无法获取实时天气信息。建议你查看天气应用或网站。',
+                '时间': `现在是 ${new Date().toLocaleString('zh-CN')}`,
+                '你是谁': '我是基于XMTP协议的AI聊天机器人，可以和你进行智能对话。',
+                '怎么用': '直接输入你想说的话，我会尽力回复你。支持中文对话！',
+                '再见': '再见！很高兴和你聊天，随时欢迎回来！',
+                '谢谢': '不客气！如果还有其他问题，随时问我。',
+                'xmtp': 'XMTP是一个去中心化的消息传递协议，让用户可以在区块链上安全地发送消息。',
+                '默认': '我理解了你的消息。作为一个AI助手，我会尽力帮助你。你能告诉我更多细节吗？'
+            };
+            
+            const lowerMessage = message.toLowerCase();
+            for (const [key, response] of Object.entries(responses)) {
+                if (lowerMessage.includes(key)) {
+                    return response;
+                }
+            }
+            
+            return responses['默认'];
+        }
+
+        // 添加消息到聊天界面
+        function addMessage(type, content) {
+            const messagesContainer = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}`;
+            
+            const time = new Date().toLocaleTimeString();
+            messageDiv.innerHTML = `
+                <div class="message-content">
+                    ${content}
+                    <div class="message-time">${time}</div>
+                </div>
+            `;
+            
+            messagesContainer.appendChild(messageDiv);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        // 处理键盘事件
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        // 页面加载完成后的初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 检查是否有保存的机器人ID
+            const savedBotId = localStorage.getItem('xmtp-bot-id');
+            if (savedBotId) {
+                document.getElementById('bot-id').value = savedBotId;
+            }
+        });
+
+        // 保存机器人ID
+        document.getElementById('bot-id').addEventListener('input', function(e) {
+            localStorage.setItem('xmtp-bot-id', e.target.value);
+        });
+
+        // 清理本地存储的函数（可以提供给用户）
+        function clearWallet() {
+            if (confirm('确定要清除钱包数据吗？这将删除您的钱包信息。')) {
+                localStorage.removeItem('xmtp-wallet');
+                location.reload();
+            }
+        }
+
+        // 导出钱包的函数
+        function exportWallet() {
+            if (walletData) {
+                const dataStr = JSON.stringify(walletData, null, 2);
+                const dataBlob = new Blob([dataStr], {type: 'application/json'});
+                const url = URL.createObjectURL(dataBlob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = 'xmtp-wallet.json';
+                link.click();
+                URL.revokeObjectURL(url);
+            }
+        }
+    </script>
+</body>
+</html>

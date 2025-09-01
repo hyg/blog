@@ -29,7 +29,7 @@
 - 09:30	schema立项。 -infra[0]
 - 14:00	nextcloud -js[0]
 - 14:30	整理simplenote文件，准备转移到webDAV. -ego[1]
-- 16:00	CometAPI -learn[0]
+- 16:00	根据最新政策文件，考虑AER、AVR文件升级。 -xuemen[0]
 
 ---
 如果绑定模版1b可能安排以下任务：

@@ -101,6 +101,10 @@ waiting list:
 ## 19:00 ~ 19:59
 ## check: [零散笔记]
 
+- https://ap2-protocol.net/
+- https://ap2-protocol.org/
 - https://www.x402.org/
+- AP2和x402是可插拔的关系，各自可以和其它替代协议组合。
+	- AP2支持传统支付方式，合作伙伴有银联国际。
 - https://eips.ethereum.org/EIPS/eip-8004
 	- https://ethereum-magicians.org/t/erc-8004-trustless-agents/25098

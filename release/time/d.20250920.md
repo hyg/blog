@@ -6,57 +6,57 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	machines model -PSMD[0]
-- 14:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-- 16:00	IM bot -js[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 16:00	nextcloud -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	IM bot -js[0]
+- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:00	子1609:基于公司、合同 -PSMD[1]
+- 16:00	nextcloud -ego[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-- 16:00	IM bot -js[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 16:00	nextcloud -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	IM bot -js[0]
-- 09:30	同步新日志到webDAV。使用新的共享外链。 -ego[0]
+- 07:45	nextcloud -ego[0]
+- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
 - 14:00	LegalRuleML（Legal Rule Markup Language） -learn[0]
 - 14:30	ABAC / CBAC - Attribute/Condition-Based Access Control -learn[1]
-- 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw[1]
+- 16:00	IM bot -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	同步新日志到webDAV。使用新的共享外链。 -ego[0]
+- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
 - 14:00	LegalRuleML（Legal Rule Markup Language） -learn[0]
 - 14:30	ABAC / CBAC - Attribute/Condition-Based Access Control -learn[1]
-- 16:00	IM bot -js[0]
+- 16:00	nextcloud -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	LegalRuleML（Legal Rule Markup Language） -learn[0]
 - 14:30	ABAC / CBAC - Attribute/Condition-Based Access Control -learn[1]
-- 16:00	IM bot -js[0]
+- 16:00	nextcloud -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	LegalRuleML（Legal Rule Markup Language） -learn[0]
 - 14:30	ABAC / CBAC - Attribute/Condition-Based Access Control -learn[1]
-- 16:00	IM bot -js[0]
+- 16:00	nextcloud -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	IM bot -js[0]
+- 16:00	nextcloud -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

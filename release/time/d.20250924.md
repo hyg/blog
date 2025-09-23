@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	machines model -PSMD[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	nextcloud -ego[0]
+- 07:45	kernel模型升级 -xuemen[0]
+- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
+- 16:00	新版通用页面 -infra[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	子1609:基于公司、合同 -PSMD[1]
-- 16:00	nextcloud -ego[0]
+- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 16:00	新版通用页面 -infra[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	nextcloud -ego[0]
+- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
+- 16:00	新版通用页面 -infra[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	nextcloud -ego[0]
-- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	封装新版密钥工具集 -infra[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[1]
-- 16:00	IM bot -js[0]
+- 07:45	新版通用页面 -infra[0]
+- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
+- 14:00	封装新版密钥工具集 -infra[1]
+- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
+- 16:00	nextcloud -ego[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	封装新版密钥工具集 -infra[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[1]
-- 16:00	nextcloud -ego[0]
+- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
+- 14:00	封装新版密钥工具集 -infra[1]
+- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
+- 16:00	新版通用页面 -infra[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	封装新版密钥工具集 -infra[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[1]
-- 16:00	nextcloud -ego[0]
+- 14:00	封装新版密钥工具集 -infra[1]
+- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
+- 16:00	新版通用页面 -infra[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	封装新版密钥工具集 -infra[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[1]
-- 16:00	nextcloud -ego[0]
+- 14:00	封装新版密钥工具集 -infra[1]
+- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
+- 16:00	新版通用页面 -infra[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	nextcloud -ego[0]
+- 16:00	新版通用页面 -infra[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

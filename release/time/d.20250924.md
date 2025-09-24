@@ -1,66 +1,17 @@
 # 2025.09.24.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，九月份安排休整和总结。今天绑定模版1(1f)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	kernel模型升级 -xuemen[0]
-- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	新版通用页面 -infra[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	新版通用页面 -infra[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 12:33~12:47 | 15 | 休整 |  |
+| 12:48~13:47 | 60 | 备餐、运动 |  |
+| 13:48~14:32 | 45 | 晚餐 |  |
+| 14:33~15:17 | 45 | 会议、自习 |  |
+| 15:18~16:17 | 60 | 休整 |  |
+| 16:18~17:17 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版2c可能安排以下任务：
 
-- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	新版通用页面 -infra[0]
-
----
-如果绑定模版1a可能安排以下任务：
-
-- 07:45	新版通用页面 -infra[0]
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	封装新版密钥工具集 -infra[1]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
-- 16:00	nextcloud -ego[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	封装新版密钥工具集 -infra[1]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
-- 16:00	新版通用页面 -infra[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	封装新版密钥工具集 -infra[1]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
-- 16:00	新版通用页面 -infra[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	封装新版密钥工具集 -infra[1]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
-- 16:00	新版通用页面 -infra[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	新版通用页面 -infra[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2025.09.24.任务排序的建议&body=date: 2025.09.24.%0D%0Afile: ../../blog/release/time/d.20250924.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 16:18~17:17	check: [零散笔记](../../draft/2025/20250924.01.md)

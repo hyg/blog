@@ -1,20 +1,61 @@
 # 2025.09.25.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，九月份安排休整和总结。今天绑定模版1(1e)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 11:10~11:24 | 15 | 休整 |  |
-| 11:25~12:24 | 60 | 备餐、运动 |  |
-| 12:25~13:09 | 45 | 午餐 |  |
-| 13:10~13:54 | 45 | 会议、自习 |  |
-| 13:55~15:58 | 124 | 休整 |  |
-| 16:00~16:59 | 60 | 静默工作 | infra:新版通用页面 [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2025/20250925160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.09.25.[infra:新版通用页面]任务&body=日期: 20250925%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20250925160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 19:00~19:59	check: [零散笔记](#20250925190000)
 
 ---
+season stat:
 
-- 16:00~16:59	infra: [新版通用页面](../../draft/2025/20250925.01.md)
-- 19:00~19:59	check: [零散笔记](../../draft/2025/20250925.02.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 10191 | 3339 | 9960 |
+| PSMD | 4000 | 2305 | 1695 | 1365 |
+| ego | 2530 | 1490 | 1040 | 1485 |
+| infra | 2000 | 635 | 1365 | 225 |
+| xuemen | 1000 | 150 | 850 | 540 |
+| raw | 1000 | 250 | 750 | 150 |
+| learn | 2000 | 4505 | -2505 | 4455 |
+| js | 1000 | 856 | 144 | 1740 |
+
+---
+waiting list:
+
+
+- 30分钟时间片：
+  - infra的第1号事项：封装新版密钥工具集
+  - learn的第3号事项：LegalRuleML（Legal Rule Markup Language）
+  - learn的第4号事项：ABAC / CBAC - Attribute/Condition-Based Access Control
+  - learn的第6号事项：Tauri + Rust
+
+- 60分钟时间片：
+  - ego的第1号事项：nextcloud
+  - js的第1号事项：IM bot
+  - learn的第1号事项：https://jsonlogic.com/
+  - raw的第2号事项：新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。
+
+- 90分钟时间片：
+  - PSMD的第1号事项：SOP(Standard Operation Procedure)数据结构
+  - raw的第1号事项：整理代码，理顺food.js几个成员函数之间的调用关系
+  - ego的第2号事项：同步新日志到webDAV。使用新的共享外链。
+  - xuemen的第2号事项：mail server
+
+- 195分钟时间片：
+  - xuemen的第1号事项：kernel模型升级
+  - PSMD的第2号事项：健康消费合作社建模
+  - infra的第2号事项：Rete/Phreak算法的自主实现
+  - PSMD的第3号事项：machines model
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2025.09.25.[无名任务]任务&body=日期: 2025.09.25.%0D%0A序号: 7%0D%0A手稿:../../draft/2025/20250925.02.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20250925190000"></a>
+## 19:00 ~ 19:59
+## check: [零散笔记]
+
+- 整理共同体引导readme
+- 修订host引导
+- 整理hox引导
+- 明天修订hox引导，按两人起步起草健康社区共同体模型。

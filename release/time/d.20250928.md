@@ -1,66 +1,20 @@
 # 2025.09.28.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，九月份安排休整和总结。今天绑定模版1(1e)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	kernel模型升级 -xuemen[0]
-- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	IM bot -js[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-- 16:00	IM bot -js[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 11:18~11:32 | 15 | 休整 |  |
+| 11:33~12:32 | 60 | 备餐、运动 |  |
+| 12:33~13:17 | 45 | 午餐 |  |
+| 13:18~14:02 | 45 | 会议、自习 |  |
+| 14:03~15:58 | 116 | 休整 |  |
+| 16:00~16:59 | 60 | 静默工作 | js:IM bot [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2025/20250928160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.09.28.[js:IM bot]任务&body=日期: 20250928%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20250928160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版2c可能安排以下任务：
 
-- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	IM bot -js[0]
-
----
-如果绑定模版1a可能安排以下任务：
-
-- 07:45	IM bot -js[0]
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	封装新版密钥工具集 -infra[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
-- 16:00	https://jsonlogic.com/ -learn[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	封装新版密钥工具集 -infra[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
-- 16:00	IM bot -js[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	封装新版密钥工具集 -infra[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
-- 16:00	IM bot -js[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	封装新版密钥工具集 -infra[0]
-- 14:30	LegalRuleML（Legal Rule Markup Language） -learn[2]
-- 16:00	IM bot -js[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	IM bot -js[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2025.09.28.任务排序的建议&body=date: 2025.09.28.%0D%0Afile: ../../blog/release/time/d.20250928.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 16:00~16:59	js: [IM bot](../../draft/2025/20250928.01.md)
+- 19:00~19:59	check: [零散笔记](../../draft/2025/20250928.02.md)

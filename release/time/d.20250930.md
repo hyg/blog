@@ -1,20 +1,63 @@
 # 2025.09.30.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，九月份安排休整和总结。今天绑定模版1(1e)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 11:53~12:07 | 15 | 休整 |  |
-| 12:08~13:07 | 60 | 备餐、运动 |  |
-| 13:08~13:52 | 45 | 午餐 |  |
-| 13:53~14:37 | 45 | 会议、自习 |  |
-| 14:38~15:58 | 81 | 休整 |  |
-| 16:00~16:59 | 60 | 静默工作 | js:a2a-js [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2025/20250930160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.09.30.[js:a2a-js]任务&body=日期: 20250930%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20250930160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 19:00~19:59	check: [零散笔记](#20250930190000)
 
 ---
+season stat:
 
-- 16:00~16:59	js: [a2a-js](../../draft/2025/20250930.01.md)
-- 19:00~19:59	check: [零散笔记](../../draft/2025/20250930.02.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 10191 | 3339 | 9840 |
+| PSMD | 4000 | 2305 | 1695 | 1365 |
+| ego | 2530 | 1490 | 1040 | 1425 |
+| infra | 2000 | 635 | 1365 | 225 |
+| xuemen | 1000 | 150 | 850 | 540 |
+| raw | 1000 | 250 | 750 | 150 |
+| learn | 2000 | 4505 | -2505 | 4455 |
+| js | 1000 | 856 | 144 | 1680 |
+
+---
+waiting list:
+
+
+- 30分钟时间片：
+  - infra的第1号事项：封装新版密钥工具集
+  - learn的第3号事项：LegalRuleML（Legal Rule Markup Language）
+  - learn的第4号事项：ABAC / CBAC - Attribute/Condition-Based Access Control
+  - learn的第6号事项：Tauri + Rust
+
+- 60分钟时间片：
+  - js的第1号事项：a2a-js
+  - learn的第1号事项：https://jsonlogic.com/
+  - raw的第2号事项：新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。
+  - js的第2号事项：LangChain.js
+
+- 90分钟时间片：
+  - PSMD的第1号事项：SOP(Standard Operation Procedure)数据结构
+  - ego的第1号事项：同步新日志到webDAV。使用新的共享外链。
+  - raw的第1号事项：整理代码，理顺food.js几个成员函数之间的调用关系
+  - ego的第2号事项：整理task及其相互关系
+
+- 195分钟时间片：
+  - xuemen的第1号事项：kernel模型升级
+  - PSMD的第2号事项：健康消费合作社建模
+  - infra的第2号事项：Rete/Phreak算法的自主实现
+  - PSMD的第3号事项：machines model
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2025.09.30.[无名任务]任务&body=日期: 2025.09.30.%0D%0A序号: 7%0D%0A手稿:../../draft/2025/20250930.02.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20250930190000"></a>
+## 19:00 ~ 19:59
+## check: [零散笔记]
+
+- openai联合支付商退出ACP协议：The Agentic Commerce Protocol (ACP) is an interaction model and open standard for connecting buyers, their AI agents, and businesses to complete purchases seamlessly. The specification is currently maintained by OpenAI and Stripe. 
+	- https://github.com/agentic-commerce-protocol/agentic-commerce-protocol
+- 支付赛道的竞争：
+	- 托管货款，以钱生钱：支付宝、ANP支付等
+	- 解决信任问题，推送产品：谷歌、openai等
+	- 由治理者以制度提供担保，构建新的贸易体系。

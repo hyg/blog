@@ -7,56 +7,56 @@
 
 - 07:45	Rete/Phreak算法的自主实现 -infra[0]
 - 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
 - 14:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	The Open Quantum Safe (OQS) project -learn[0]
+- 07:45	Tauri + Rust -learn[0]
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	SBVR（OMG业务语义词汇与规则） -learn[2]
-- 14:30	Akoma Ntoso（结构化法务文档） -learn[3]
+- 14:00	SBVR（OMG业务语义词汇与规则） -learn[3]
+- 14:30	Akoma Ntoso（结构化法务文档） -learn[4]
 - 16:00	LangChain.js -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	SBVR（OMG业务语义词汇与规则） -learn[2]
-- 14:30	Akoma Ntoso（结构化法务文档） -learn[3]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 14:00	SBVR（OMG业务语义词汇与规则） -learn[3]
+- 14:30	Akoma Ntoso（结构化法务文档） -learn[4]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	SBVR（OMG业务语义词汇与规则） -learn[2]
-- 14:30	Akoma Ntoso（结构化法务文档） -learn[3]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 14:00	SBVR（OMG业务语义词汇与规则） -learn[3]
+- 14:30	Akoma Ntoso（结构化法务文档） -learn[4]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	SBVR（OMG业务语义词汇与规则） -learn[2]
-- 14:30	Akoma Ntoso（结构化法务文档） -learn[3]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 14:00	SBVR（OMG业务语义词汇与规则） -learn[3]
+- 14:30	Akoma Ntoso（结构化法务文档） -learn[4]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

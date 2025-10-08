@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	健康消费合作社建模 -PSMD[0]
-- 14:00	整理task及其相互关系 -ego[0]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 07:45	Rete/Phreak算法的自主实现 -infra[0]
+- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理task及其相互关系 -ego[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
+- 14:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理task及其相互关系 -ego[0]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	The Open Quantum Safe (OQS) project -learn[0]
-- 09:30	整理task及其相互关系 -ego[0]
-- 14:00	OutSystems, Mendix, -learn[2]
-- 14:30	Zapier -learn[3]
+- 07:45	Tauri + Rust -learn[0]
+- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
+- 14:00	OutSystems, Mendix, -learn[3]
+- 14:30	Zapier -learn[4]
 - 16:00	LangChain.js -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理task及其相互关系 -ego[0]
-- 14:00	OutSystems, Mendix, -learn[2]
-- 14:30	Zapier -learn[3]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
+- 14:00	OutSystems, Mendix, -learn[3]
+- 14:30	Zapier -learn[4]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	OutSystems, Mendix, -learn[2]
-- 14:30	Zapier -learn[3]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 14:00	OutSystems, Mendix, -learn[3]
+- 14:30	Zapier -learn[4]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	OutSystems, Mendix, -learn[2]
-- 14:30	Zapier -learn[3]
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 14:00	OutSystems, Mendix, -learn[3]
+- 14:30	Zapier -learn[4]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	The Open Quantum Safe (OQS) project -learn[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

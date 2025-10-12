@@ -7,56 +7,56 @@
 
 - 07:45	Rete/Phreak算法的自主实现 -infra[0]
 - 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	Tauri + Rust -learn[0]
+- 16:00	indexdb -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
 - 14:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-- 16:00	Tauri + Rust -learn[0]
+- 16:00	indexdb -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	Tauri + Rust -learn[0]
+- 16:00	indexdb -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	Tauri + Rust -learn[0]
+- 07:45	indexdb -learn[0]
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	IFTTT -learn[5]
-- 14:30	OutSystems, Zapier -learn[6]
+- 14:00	IFTTT -learn[6]
+- 14:30	OutSystems, Zapier -learn[7]
 - 16:00	LangChain.js -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	IFTTT -learn[5]
-- 14:30	OutSystems, Zapier -learn[6]
-- 16:00	Tauri + Rust -learn[0]
+- 14:00	IFTTT -learn[6]
+- 14:30	OutSystems, Zapier -learn[7]
+- 16:00	indexdb -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	IFTTT -learn[5]
-- 14:30	OutSystems, Zapier -learn[6]
-- 16:00	Tauri + Rust -learn[0]
+- 14:00	IFTTT -learn[6]
+- 14:30	OutSystems, Zapier -learn[7]
+- 16:00	indexdb -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	IFTTT -learn[5]
-- 14:30	OutSystems, Zapier -learn[6]
-- 16:00	Tauri + Rust -learn[0]
+- 14:00	IFTTT -learn[6]
+- 14:30	OutSystems, Zapier -learn[7]
+- 16:00	indexdb -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	Tauri + Rust -learn[0]
+- 16:00	indexdb -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

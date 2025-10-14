@@ -6,7 +6,6 @@
 
 <a id="index"></a>
 - 14:00~15:14	learn: [Libsodium.js](#20251014140000)
-- 14:30~14:59	learn: [描述逻辑（Description Logic, DL）](#20251014143000)
 - 16:00~16:59	learn: [indexdb](#20251014160000)
 - 19:00~19:59	check: [零散笔记](#20251014190000)
 
@@ -15,13 +14,13 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 13530 | 775 | 12755 | 9570 |
+| total | 13530 | 745 | 12785 | 9600 |
 | PSMD | 4000 | 90 | 3910 | 1365 |
 | ego | 2530 | 0 | 2530 | 1425 |
 | infra | 2000 | 30 | 1970 | 195 |
 | xuemen | 1000 | 0 | 1000 | 540 |
 | raw | 1000 | 0 | 1000 | 150 |
-| learn | 2000 | 595 | 1405 | 4275 |
+| learn | 2000 | 565 | 1435 | 4305 |
 | js | 1000 | 60 | 940 | 1620 |
 
 ---
@@ -29,16 +28,16 @@ waiting list:
 
 
 - 30分钟时间片：
-  - learn的第6号事项：CEV（Contract Expression Language）
-  - learn的第7号事项：XACML 4.0 / ODRL 2.2
-  - learn的第8号事项：RuleML,结构化规则语言（如RuleML的核心子集）
+  - learn的第1号事项：描述逻辑（Description Logic, DL）
+  - learn的第7号事项：CEV（Contract Expression Language）
+  - learn的第8号事项：XACML 4.0 / ODRL 2.2
   - js的第8号事项：copilot
 
 - 60分钟时间片：
-  - learn的第1号事项：Tauri + Rust
   - js的第1号事项：LangChain.js
-  - learn的第2号事项：Zapier
+  - learn的第2号事项：Tauri + Rust
   - raw的第2号事项：新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。
+  - js的第2号事项：ai-sdk + moonshot
 
 - 90分钟时间片：
   - PSMD的第1号事项：SOP(Standard Operation Procedure)数据结构
@@ -71,13 +70,6 @@ waiting list:
 	- sodium.crypto_box_keypair()不带参数，会受最近一次to_hex导入key影响。API设计上减少参数传递？
 - 目前可以使用，但是没有深入了解原理。
 	- 实际使用时再安排专门学习：https://doc.libsodium.org/
-
----
-<a href="mailto:huangyg@mars22.com?subject=关于2025.10.14.[描述逻辑（Description Logic, DL）]任务&body=日期: 2025.10.14.%0D%0A序号: 6%0D%0A手稿:../../draft/2025/20251014.02.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
-<a id="20251014143000"></a>
-## 14:30 ~ 14:59
-## learn: [描述逻辑（Description Logic, DL）]
-
 
 ---
 <a href="mailto:huangyg@mars22.com?subject=关于2025.10.14.[indexdb]任务&body=日期: 2025.10.14.%0D%0A序号: 8%0D%0A手稿:../../draft/2025/20251014.03.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)

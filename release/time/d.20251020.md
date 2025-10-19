@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	Rete/Phreak算法的自主实现 -infra[0]
+- 07:45	petri引擎设计 -infra[0]
 - 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	Zapier -learn[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
 - 14:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-- 16:00	Zapier -learn[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	Zapier -learn[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	Zapier -learn[0]
+- 07:45	Tauri + Rust -learn[0]
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	CloudEvent（JSON 格式，spec 1.0+） -learn[4]
-- 14:30	Semantic Version + Content-Addressable Storage（如 OCI Artifacts 存 DMN/Regos） -learn[5]
+- 14:00	SCXML (State Chart XML) -learn[1]
+- 14:30	UML State Machine XMI | Harel Statecharts -learn[2]
 - 16:00	LangChain.js -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	CloudEvent（JSON 格式，spec 1.0+） -learn[4]
-- 14:30	Semantic Version + Content-Addressable Storage（如 OCI Artifacts 存 DMN/Regos） -learn[5]
-- 16:00	Zapier -learn[0]
+- 14:00	SCXML (State Chart XML) -learn[1]
+- 14:30	UML State Machine XMI | Harel Statecharts -learn[2]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	CloudEvent（JSON 格式，spec 1.0+） -learn[4]
-- 14:30	Semantic Version + Content-Addressable Storage（如 OCI Artifacts 存 DMN/Regos） -learn[5]
-- 16:00	Zapier -learn[0]
+- 14:00	SCXML (State Chart XML) -learn[1]
+- 14:30	UML State Machine XMI | Harel Statecharts -learn[2]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	CloudEvent（JSON 格式，spec 1.0+） -learn[4]
-- 14:30	Semantic Version + Content-Addressable Storage（如 OCI Artifacts 存 DMN/Regos） -learn[5]
-- 16:00	Zapier -learn[0]
+- 14:00	SCXML (State Chart XML) -learn[1]
+- 14:30	UML State Machine XMI | Harel Statecharts -learn[2]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	Zapier -learn[0]
+- 16:00	Tauri + Rust -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

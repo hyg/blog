@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	petri引擎设计 -infra[0]
+- 07:45	kernel模型升级 -xuemen[0]
 - 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	LangChain.js -js[0]
+- 16:00	细化ego对task的资源分配 -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-- 16:00	LangChain.js -js[0]
+- 14:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 16:00	细化ego对task的资源分配 -ego[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	LangChain.js -js[0]
+- 16:00	细化ego对task的资源分配 -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	LangChain.js -js[0]
+- 07:45	细化ego对task的资源分配 -ego[0]
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	TLA+ -learn[0]
-- 14:30	Alloy -learn[1]
-- 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw[1]
+- 14:00	XSTATE https://xstate.js.org/ -learn[2]
+- 14:30	TLA+ -learn[3]
+- 16:00	LangChain.js -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	TLA+ -learn[0]
-- 14:30	Alloy -learn[1]
-- 16:00	LangChain.js -js[0]
+- 14:00	XSTATE https://xstate.js.org/ -learn[2]
+- 14:30	TLA+ -learn[3]
+- 16:00	细化ego对task的资源分配 -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	TLA+ -learn[0]
-- 14:30	Alloy -learn[1]
-- 16:00	LangChain.js -js[0]
+- 14:00	XSTATE https://xstate.js.org/ -learn[2]
+- 14:30	TLA+ -learn[3]
+- 16:00	细化ego对task的资源分配 -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	TLA+ -learn[0]
-- 14:30	Alloy -learn[1]
-- 16:00	LangChain.js -js[0]
+- 14:00	XSTATE https://xstate.js.org/ -learn[2]
+- 14:30	TLA+ -learn[3]
+- 16:00	细化ego对task的资源分配 -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	LangChain.js -js[0]
+- 16:00	细化ego对task的资源分配 -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

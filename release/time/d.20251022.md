@@ -1,66 +1,20 @@
 # 2025.10.22.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版1(1e)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	kernel模型升级 -xuemen[0]
-- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	细化ego对task的资源分配 -ego[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
-- 16:00	细化ego对task的资源分配 -ego[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 11:14~11:28 | 15 | 休整 |  |
+| 11:29~12:28 | 60 | 备餐、运动 |  |
+| 12:29~13:13 | 45 | 午餐 |  |
+| 13:14~13:58 | 45 | 会议、自习 |  |
+| 13:59~15:58 | 120 | 休整 |  |
+| 16:00~16:59 | 60 | 静默工作 | ego:细化ego对task的资源分配 [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2025/20251022160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.10.22.[ego:细化ego对task的资源分配]任务&body=日期: 20251022%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20251022160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版2c可能安排以下任务：
 
-- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	细化ego对task的资源分配 -ego[0]
-
----
-如果绑定模版1a可能安排以下任务：
-
-- 07:45	细化ego对task的资源分配 -ego[0]
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	XSTATE https://xstate.js.org/ -learn[1]
-- 14:30	TLA+ -learn[2]
-- 16:00	LangChain.js -js[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	XSTATE https://xstate.js.org/ -learn[1]
-- 14:30	TLA+ -learn[2]
-- 16:00	细化ego对task的资源分配 -ego[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	XSTATE https://xstate.js.org/ -learn[1]
-- 14:30	TLA+ -learn[2]
-- 16:00	细化ego对task的资源分配 -ego[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	XSTATE https://xstate.js.org/ -learn[1]
-- 14:30	TLA+ -learn[2]
-- 16:00	细化ego对task的资源分配 -ego[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	细化ego对task的资源分配 -ego[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2025.10.22.任务排序的建议&body=date: 2025.10.22.%0D%0Afile: ../../blog/release/time/d.20251022.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 16:00~16:59	ego: [细化ego对task的资源分配](../../draft/2025/20251022.01.md)
+- 19:00~19:59	check: [零散笔记](../../draft/2025/20251022.02.md)

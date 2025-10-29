@@ -13,7 +13,7 @@
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
+- 14:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
 - 16:00	LangChain.js -js[0]
 
 ---
@@ -27,30 +27,30 @@
 
 - 07:45	LangChain.js -js[0]
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	Alloy -learn[2]
-- 14:30	VDM (Vienna Development Method) -learn[3]
+- 14:00	各层级各类资产的定价 -ego[0]
+- 14:30	Alloy -learn[2]
 - 16:00	XSTATE https://xstate.js.org/ -learn[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	Alloy -learn[2]
-- 14:30	VDM (Vienna Development Method) -learn[3]
+- 14:00	各层级各类资产的定价 -ego[0]
+- 14:30	Alloy -learn[2]
 - 16:00	LangChain.js -js[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	Alloy -learn[2]
-- 14:30	VDM (Vienna Development Method) -learn[3]
+- 14:00	各层级各类资产的定价 -ego[0]
+- 14:30	Alloy -learn[2]
 - 16:00	LangChain.js -js[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	Alloy -learn[2]
-- 14:30	VDM (Vienna Development Method) -learn[3]
+- 14:00	各层级各类资产的定价 -ego[0]
+- 14:30	Alloy -learn[2]
 - 16:00	LangChain.js -js[0]
 
 ---

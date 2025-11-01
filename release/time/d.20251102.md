@@ -27,30 +27,30 @@
 
 - 07:45	XSTATE https://xstate.js.org/ -learn[0]
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	VDM (Vienna Development Method) -learn[2]
-- 14:30	copilot -js[4]
+- 14:00	Vector Database in nodejs -js[0]
+- 14:30	VDM (Vienna Development Method) -learn[2]
 - 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw[1]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	VDM (Vienna Development Method) -learn[2]
-- 14:30	copilot -js[4]
+- 14:00	Vector Database in nodejs -js[0]
+- 14:30	VDM (Vienna Development Method) -learn[2]
 - 16:00	XSTATE https://xstate.js.org/ -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	VDM (Vienna Development Method) -learn[2]
-- 14:30	copilot -js[4]
+- 14:00	Vector Database in nodejs -js[0]
+- 14:30	VDM (Vienna Development Method) -learn[2]
 - 16:00	XSTATE https://xstate.js.org/ -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	VDM (Vienna Development Method) -learn[2]
-- 14:30	copilot -js[4]
+- 14:00	Vector Database in nodejs -js[0]
+- 14:30	VDM (Vienna Development Method) -learn[2]
 - 16:00	XSTATE https://xstate.js.org/ -learn[0]
 
 ---

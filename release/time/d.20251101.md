@@ -12,13 +12,13 @@ season stat:
 
 | task | alloc | sold | hold | todo |
 | :---: | ---: | ---: | ---: | ---: |
-| total | 13530 | 2182 | 11348 | 9825 |
+| total | 13530 | 2242 | 11288 | 9765 |
 | PSMD | 4000 | 90 | 3910 | 1365 |
 | ego | 2530 | 330 | 2200 | 1425 |
 | infra | 2000 | 30 | 1970 | 480 |
 | xuemen | 1000 | 195 | 805 | 540 |
 | raw | 1000 | 0 | 1000 | 150 |
-| learn | 2000 | 1447 | 553 | 4395 |
+| learn | 2000 | 1507 | 493 | 4335 |
 | js | 1000 | 90 | 910 | 1470 |
 
 ---
@@ -27,15 +27,15 @@ waiting list:
 
 - 30分钟时间片：
   - js的第1号事项：Vector Database in nodejs
-  - learn的第3号事项：VDM (Vienna Development Method)
+  - learn的第2号事项：VDM (Vienna Development Method)
   - js的第6号事项：copilot
   - js的第7号事项：node.js
 
 - 60分钟时间片：
-  - learn的第1号事项：XSTATE https://xstate.js.org/
+  - learn的第1号事项：按petri网定义设计几个实例
   - raw的第2号事项：新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。
-  - learn的第2号事项：按petri网定义设计几个实例
   - ego的第3号事项：整理js对象检索的代码
+  - learn的第3号事项：Zapier
 
 - 90分钟时间片：
   - PSMD的第1号事项：SOP(Standard Operation Procedure)数据结构

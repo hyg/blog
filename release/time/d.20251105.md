@@ -1,28 +1,88 @@
 # 2025.11.05.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版1(1b)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 05:57~06:11 | 15 | 休整 |  |
-| 06:12~07:11 | 60 | 备餐、运动 |  |
-| 07:12~07:56 | 45 | 早餐 |  |
-| 07:57~08:41 | 45 | 会议、自习 |  |
-| 08:42~09:28 | 47 | 休整 |  |
-| 09:30~10:59 | 90 | 静默工作 | raw:外勤，补办zhaoyh身份证 [在线](http://simp.ly/p/j1SspP) [离线](../../draft/2025/20251105093000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.11.05.[raw:外勤，补办zhaoyh身份证]任务&body=日期: 20251105%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20251105093000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
-| 14:00~14:29 | 30 | 静默工作 | js:Vector Database in nodejs [在线](http://simp.ly/p/8t3vlk) [离线](../../draft/2025/20251105140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.11.05.[js:Vector Database in nodejs]任务&body=日期: 20251105%0D%0A序号: 7%0D%0A手稿:../../draft/2025/20251105140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 14:30~14:59 | 30 | 静默工作 | learn:VDM (Vienna Development Method) [在线](http://simp.ly/p/5k9gJy) [离线](../../draft/2025/20251105143000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.11.05.[learn:VDM (Vienna Development Method)]任务&body=日期: 20251105%0D%0A序号: 8%0D%0A手稿:../../draft/2025/20251105143000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 15:00~15:59 | 60 | 休整 |  |
-| 16:00~16:59 | 60 | 静默工作 | PSMD:SOP(Standard Operation Procedure)数据结构 [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2025/20251105160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.11.05.[PSMD:SOP(Standard Operation Procedure)数据结构]任务&body=日期: 20251105%0D%0A序号: 10%0D%0A手稿:../../draft/2025/20251105160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 09:30~10:59	raw: [外勤，补办zhaoyh身份证](#20251105093000)
+- 14:30~14:59	learn: [VDM (Vienna Development Method)](#20251105143000)
+- 19:00~19:59	check: [零散笔记](#20251105190000)
 
 ---
+season stat:
 
-- 09:30~10:59	raw: [外勤，补办zhaoyh身份证](../../draft/2025/20251105.01.md)
-- 14:00~14:29	js: [Vector Database in nodejs](../../draft/2025/20251105.02.md)
-- 14:30~14:59	learn: [VDM (Vienna Development Method)](../../draft/2025/20251105.03.md)
-- 16:00~16:59	PSMD: [SOP(Standard Operation Procedure)数据结构](../../draft/2025/20251105.04.md)
-- 19:00~19:59	check: [零散笔记](../../draft/2025/20251105.05.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 2302 | 11228 | 9795 |
+| PSMD | 4000 | 90 | 3910 | 1335 |
+| ego | 2530 | 330 | 2200 | 1395 |
+| infra | 2000 | 30 | 1970 | 450 |
+| xuemen | 1000 | 195 | 805 | 540 |
+| raw | 1000 | 90 | 910 | 150 |
+| learn | 2000 | 1477 | 523 | 4425 |
+| js | 1000 | 90 | 910 | 1500 |
+
+---
+waiting list:
+
+
+- 30分钟时间片：
+  - js的第6号事项：copilot
+  - js的第7号事项：node.js
+  - js的第8号事项：passportjs
+  - learn的第8号事项：CloudEvent（JSON 格式，spec 1.0+）
+
+- 60分钟时间片：
+  - PSMD的第1号事项：SOP(Standard Operation Procedure)数据结构
+  - ego的第1号事项：同步新日志到webDAV。使用新的共享外链。
+  - infra的第1号事项：设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。
+  - js的第1号事项：Vector Database in nodejs
+
+- 90分钟时间片：
+  - raw的第1号事项：整理代码，理顺food.js几个成员函数之间的调用关系
+  - ego的第2号事项：整理task及其相互关系
+  - js的第2号事项：openpgp v6.1.1.
+  - xuemen的第2号事项：mail server
+
+- 195分钟时间片：
+  - xuemen的第1号事项：kernel模型升级
+  - PSMD的第2号事项：健康消费合作社建模
+  - infra的第2号事项：petri网工作流引擎设计
+  - PSMD的第3号事项：machines model
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2025.11.05.[外勤，补办zhaoyh身份证]任务&body=日期: 2025.11.05.%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20251105.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20251105093000"></a>
+## 09:30 ~ 10:59
+## raw: [外勤，补办zhaoyh身份证]
+
+- 已办妥。
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2025.11.05.[VDM (Vienna Development Method)]任务&body=日期: 2025.11.05.%0D%0A序号: 8%0D%0A手稿:../../draft/2025/20251105.03.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20251105143000"></a>
+## 14:30 ~ 14:59
+## learn: [VDM (Vienna Development Method)]
+
+- https://overturetool.org/
+- https://github.com/overturetool/overture/wiki
+- VDM++ 是 VDM 的面向对象扩展，增加了类、继承、多态等概念，使其更适用于现代大型软件系统。
+	- 《VDM++: Object-Oriented Software Engineering》 by Kevin D. Jones, et al. - 这是学习 VDM++ 的权威教材，内容全面，包含大量实例。
+
+| 方法 | 核心特点 | 优点 | 缺点 | 适用场景 |
+|---|---|---|---|---|
+| **VDM / VDM++** | 基于模型，使用类伪代码的规约语言，强调精化和证明。 | 语言相对易读，接近编程思维；有成熟的面向对象扩展(VDM++)；工具链(Overture)完整。 | 学习曲线陡峭；证明过程手动工作量大；工具生态不如主流编程语言。 | 需要高可靠性的嵌入式系统、业务逻辑复杂的金融系统、大型工业控制系统。 |
+| **Z Notation** | 基于集合论和一阶谓词逻辑，使用“模式”来描述状态和操作。 | 数学基础非常坚实，表达极其精确和简洁；学术界认可度高。 | 语法符号非常数学化，对开发者不友好；缺乏面向对象支持；工具链相对较弱。 | 纯粹的理论研究、算法验证、对数学严谨性要求极高的核心组件规约。 |
+| **Alloy** | 基于关系模型，使用自动化的 SAT 求解器进行模型**分析**（而非证明）。 | 语法简单，上手快；自动化分析能力强，能快速找到反例；工具轻量级。 | 不是构造性证明，只能在小范围内（有限模型）分析；无法进行大规模系统的精化。 | 早期设计阶段的模型探索、数据结构设计验证、发现设计中的不一致性。 |
+| **TLA+** | 基于时序逻辑，专注于**并发和分布式系统**的行为规约和模型检查。 | 对并发、时序、活性的建模能力无与伦比；模型检查器(TLC)非常强大。 | 学习曲线极陡峭；语法抽象，与常规编程思维差异大。 | 分布式算法、共识协议、并发控制逻辑的验证。 |
+
+- 结论： VDM 是软件工程领域的一门“屠龙之技”。它不适用于日常的“杀鸡”工作，但在面对需要绝对可靠性的“恶龙”时，它是最锋利的武器之一。对于 Node.js 开发者而言，学习 VDM 的具体语法可能不是首要任务，但理解其背后的思想，并利用 TypeScript、属性测试等工具在项目中实践这些思想，将极大地提升软件的质量和健壮性。
+- 初步了解，能分析可行性和工作量即可，实际需要再增加投入。。
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2025.11.05.[无名任务]任务&body=日期: 2025.11.05.%0D%0A序号: 12%0D%0A手稿:../../draft/2025/20251105.05.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20251105190000"></a>
+## 19:00 ~ 19:59
+## check: [零散笔记]
+

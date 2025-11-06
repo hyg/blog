@@ -1,25 +1,58 @@
 # 2025.11.06.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版1(1d)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 07:19~07:33 | 15 | 休整 |  |
-| 07:34~08:33 | 60 | 备餐、运动 |  |
-| 08:34~09:18 | 45 | 午餐 |  |
-| 09:19~10:03 | 45 | 会议、自习 |  |
-| 10:04~13:58 | 235 | 休整 |  |
-| 14:00~14:29 | 30 | 静默工作 | js:copilot [在线](http://simp.ly/p/8t3vlk) [离线](../../draft/2025/20251106140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.11.06.[js:copilot]任务&body=日期: 20251106%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20251106140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 14:30~14:59 | 30 | 静默工作 | js:node.js [在线](http://simp.ly/p/5k9gJy) [离线](../../draft/2025/20251106143000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.11.06.[js:node.js]任务&body=日期: 20251106%0D%0A序号: 6%0D%0A手稿:../../draft/2025/20251106143000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 15:00~15:59 | 60 | 休整 |  |
-| 16:00~16:59 | 60 | 静默工作 | PSMD:SOP(Standard Operation Procedure)数据结构 [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2025/20251106160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.11.06.[PSMD:SOP(Standard Operation Procedure)数据结构]任务&body=日期: 20251106%0D%0A序号: 8%0D%0A手稿:../../draft/2025/20251106160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 19:00~19:59	check: [零散笔记](#20251106190000)
 
 ---
+season stat:
 
-- 14:00~14:29	js: [copilot](../../draft/2025/20251106.01.md)
-- 14:30~14:59	js: [node.js](../../draft/2025/20251106.02.md)
-- 16:00~16:59	PSMD: [SOP(Standard Operation Procedure)数据结构](../../draft/2025/20251106.03.md)
-- 19:00~19:59	check: [零散笔记](../../draft/2025/20251106.04.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 2302 | 11228 | 9915 |
+| PSMD | 4000 | 90 | 3910 | 1335 |
+| ego | 2530 | 330 | 2200 | 1395 |
+| infra | 2000 | 30 | 1970 | 450 |
+| xuemen | 1000 | 195 | 805 | 540 |
+| raw | 1000 | 90 | 910 | 150 |
+| learn | 2000 | 1477 | 523 | 4485 |
+| js | 1000 | 90 | 910 | 1560 |
+
+---
+waiting list:
+
+
+- 30分钟时间片：
+  - js的第2号事项：copilot
+  - learn的第9号事项：CloudEvent（JSON 格式，spec 1.0+）
+  - learn的第10号事项：Semantic Version + Content-Addressable Storage（如 OCI Artifacts 存 DMN/Regos）
+  - learn的第11号事项：Ontology + SWRL（Semantic Web Rule Language）
+
+- 60分钟时间片：
+  - PSMD的第1号事项：SOP(Standard Operation Procedure)数据结构
+  - ego的第1号事项：同步新日志到webDAV。使用新的共享外链。
+  - infra的第1号事项：设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。
+  - learn的第1号事项：Chroma sample
+
+- 90分钟时间片：
+  - raw的第1号事项：整理代码，理顺food.js几个成员函数之间的调用关系
+  - js的第1号事项：node.js
+  - ego的第2号事项：整理task及其相互关系
+  - xuemen的第2号事项：mail server
+
+- 195分钟时间片：
+  - xuemen的第1号事项：kernel模型升级
+  - PSMD的第2号事项：健康消费合作社建模
+  - infra的第2号事项：petri网工作流引擎设计
+  - PSMD的第3号事项：machines model
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2025.11.06.[无名任务]任务&body=日期: 2025.11.06.%0D%0A序号: 10%0D%0A手稿:../../draft/2025/20251106.04.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20251106190000"></a>
+## 19:00 ~ 19:59
+## check: [零散笔记]
+
+- 外勤：流感疫苗。

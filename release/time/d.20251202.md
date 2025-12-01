@@ -7,29 +7,29 @@
 
 - 07:45	健康消费合作社建模 -PSMD[1]
 - 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	整理task及其相互关系 -ego[0]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 07:45	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	Ontology + SWRL（Semantic Web Rule Language） -learn[1]
-- 16:00	月度事务 -xuemen[0]
+- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
@@ -37,26 +37,26 @@
 - 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	Ontology + SWRL（Semantic Web Rule Language） -learn[1]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	Ontology + SWRL（Semantic Web Rule Language） -learn[1]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	Ontology + SWRL（Semantic Web Rule Language） -learn[1]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

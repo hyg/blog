@@ -1,26 +1,74 @@
 # 2025.12.13.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，十二月份安排休整和总结。今天绑定模版2(2a)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 02:26~02:40 | 15 | 休整 |  |
-| 02:41~03:40 | 60 | 备餐、运动 |  |
-| 03:41~04:25 | 45 | 早餐 |  |
-| 04:26~05:10 | 45 | 会议、自习 |  |
-| 05:11~07:43 | 153 | 休整 |  |
-| 07:45~10:59 | 195 | 工作 | xuemen:kernel模型升级 [在线](http://simp.ly/p/3GXNTh) [离线](../../draft/2025/20251213074500.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.12.13.[xuemen:kernel模型升级]任务&body=日期: 20251213%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20251213074500.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
-| 14:00~15:29 | 90 | 工作 | PSMD:SOP(Standard Operation Procedure)数据结构 [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2025/20251213140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.12.13.[PSMD:SOP(Standard Operation Procedure)数据结构]任务&body=日期: 20251213%0D%0A序号: 7%0D%0A手稿:../../draft/2025/20251213140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 15:30~15:59 | 30 | 休整 |  |
-| 16:00~16:59 | 60 | 工作 | ego:同步新日志到webDAV。使用新的共享外链。 [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2025/20251213160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.12.13.[ego:同步新日志到webDAV。使用新的共享外链。]任务&body=日期: 20251213%0D%0A序号: 9%0D%0A手稿:../../draft/2025/20251213160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 07:45~07:45	xuemen: [kernel模型升级](#20251213074500)
+- 19:00~19:59	check: [零散笔记](#20251213190000)
 
 ---
+season stat:
 
-- 07:45~10:59	xuemen: [kernel模型升级](../../draft/2025/20251213.01.md)
-- 14:00~15:29	PSMD: [SOP(Standard Operation Procedure)数据结构](../../draft/2025/20251213.02.md)
-- 16:00~16:59	ego: [同步新日志到webDAV。使用新的共享外链。](../../draft/2025/20251213.03.md)
-- 19:00~19:59	check: [零散笔记](../../draft/2025/20251213.04.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 2872 | 10658 | 9855 |
+| PSMD | 4000 | 360 | 3640 | 1560 |
+| ego | 2530 | 330 | 2200 | 1395 |
+| infra | 2000 | 30 | 1970 | 450 |
+| xuemen | 1000 | 225 | 775 | 345 |
+| raw | 1000 | 90 | 910 | 150 |
+| learn | 2000 | 1737 | 263 | 4425 |
+| js | 1000 | 100 | 900 | 1530 |
+
+---
+waiting list:
+
+
+- 30分钟时间片：
+  - learn的第1号事项：Common Logic (ISO/IEC 24707)
+  - learn的第2号事项：SPIN (SPARQL Inferencing Notation）/SHACL)
+  - js的第11号事项：passportjs
+  - learn的第11号事项：Camunda Zeebe / Temporal.io
+
+- 60分钟时间片：
+  - ego的第1号事项：同步新日志到webDAV。使用新的共享外链。
+  - infra的第1号事项：设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。
+  - raw的第2号事项：新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。
+  - js的第2号事项：Vector Database in nodejs
+
+- 90分钟时间片：
+  - PSMD的第1号事项：SOP(Standard Operation Procedure)数据结构
+  - xuemen的第1号事项：mail server
+  - raw的第1号事项：整理代码，理顺food.js几个成员函数之间的调用关系
+  - js的第1号事项：node.js
+
+- 195分钟时间片：
+  - PSMD的第2号事项：整理手稿
+  - infra的第2号事项：petri网工作流引擎设计
+  - xuemen的第2号事项：重新设计S2状态下的学门基本管理制度
+  - PSMD的第3号事项：健康消费合作社建模
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2025.12.13.[kernel模型升级]任务&body=日期: 2025.12.13.%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20251213.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20251213074500"></a>
+## 07:45 ~ 07:45
+## xuemen: [kernel模型升级]
+
+### read ../../draft/2024/11/20241120.01.md
+
+#### xuemen: [kernel模型升级]
+
+- 搜索旧日志没有有效内容。
+- xuemen的kernel还是延续有限责任公司和旧版章程，默认使用纸质和通用软件，对外使用数字签名和结构化元数据。
+- 专用软件提前规划，基础是公司法和旧版章程整理而成的代码+元数据。
+
+
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2025.12.13.[无名任务]任务&body=日期: 2025.12.13.%0D%0A序号: 11%0D%0A手稿:../../draft/2025/20251213.04.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20251213190000"></a>
+## 19:00 ~ 19:59
+## check: [零散笔记]
+

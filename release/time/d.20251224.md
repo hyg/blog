@@ -1,66 +1,26 @@
 # 2025.12.24.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，十二月份安排休整和总结。今天绑定模版2(2a)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	整理手稿 -PSMD[1]
-- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	mail server -xuemen[0]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 00:46~01:00 | 15 | 休整 |  |
+| 01:01~02:00 | 60 | 备餐、运动 |  |
+| 02:01~02:45 | 45 | 早餐 |  |
+| 02:46~03:30 | 45 | 会议、自习 |  |
+| 03:31~07:43 | 253 | 休整 |  |
+| 07:45~10:59 | 195 | 工作 | PSMD:整理手稿 [在线](http://simp.ly/p/3GXNTh) [离线](../../draft/2025/20251224074500.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.12.24.[PSMD:整理手稿]任务&body=日期: 20251224%0D%0A序号: 5%0D%0A手稿:../../draft/2025/20251224074500.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
+| 14:00~15:29 | 90 | 工作 | PSMD:SOP(Standard Operation Procedure)数据结构 [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2025/20251224140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.12.24.[PSMD:SOP(Standard Operation Procedure)数据结构]任务&body=日期: 20251224%0D%0A序号: 7%0D%0A手稿:../../draft/2025/20251224140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:30~15:59 | 30 | 休整 |  |
+| 16:00~16:59 | 60 | 工作 | ego:同步新日志到webDAV。使用新的共享外链。 [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2025/20251224160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2025.12.24.[ego:同步新日志到webDAV。使用新的共享外链。]任务&body=日期: 20251224%0D%0A序号: 9%0D%0A手稿:../../draft/2025/20251224160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	Common Logic (ISO/IEC 24707) -learn[0]
-- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	SOP(Standard Operation Procedure)数据结构 -PSMD[0]
-- 14:00	Common Logic (ISO/IEC 24707) -learn[0]
-- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	Common Logic (ISO/IEC 24707) -learn[0]
-- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	Common Logic (ISO/IEC 24707) -learn[0]
-- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	同步新日志到webDAV。使用新的共享外链。 -ego[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2025.12.24.任务排序的建议&body=date: 2025.12.24.%0D%0Afile: ../../blog/release/time/d.20251224.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 07:45~10:59	PSMD: [整理手稿](../../draft/2025/20251224.01.md)
+- 14:00~15:29	PSMD: [SOP(Standard Operation Procedure)数据结构](../../draft/2025/20251224.02.md)
+- 16:00~16:59	ego: [同步新日志到webDAV。使用新的共享外链。](../../draft/2025/20251224.03.md)
+- 19:00~19:59	check: [零散笔记](../../draft/2025/20251224.04.md)

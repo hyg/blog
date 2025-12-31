@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	machines model -PSMD[0]
-- 14:00	整理task及其相互关系 -ego[0]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 07:45	健康消费合作社建模 -PSMD[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 16:00	整理js对象检索的代码 -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理task及其相互关系 -ego[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:00	node.js -js[0]
+- 16:00	整理js对象检索的代码 -ego[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理task及其相互关系 -ego[0]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 16:00	整理js对象检索的代码 -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
-- 09:30	整理task及其相互关系 -ego[0]
+- 07:45	整理js对象检索的代码 -ego[0]
+- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[1]
+- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理task及其相互关系 -ego[0]
+- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 16:00	整理js对象检索的代码 -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 16:00	整理js对象检索的代码 -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 16:00	整理js对象检索的代码 -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 16:00	整理js对象检索的代码 -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

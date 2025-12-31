@@ -70,3 +70,8 @@ waiting list:
 		- 行为树
 	- 手稿按任务关系自动整合
 	- 资产按任务关系分配
+
+- 调整代码：
+	- ego\src\day.js
+	- sample\voucher\js\vi.js
+- 设立2026年数据文件夹:day、season、voucher、draft

@@ -7,25 +7,25 @@
 
 - 07:45	重新设计S2状态下的学门基本管理制度 -xuemen[0]
 - 14:00	整理task及其相互关系 -ego[0]
-- 16:00	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	整理task及其相互关系 -ego[0]
 - 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	整理task及其相互关系 -ego[0]
-- 16:00	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
+- 07:45	整理default模型 -PSMD[0]
 - 09:30	整理task及其相互关系 -ego[0]
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
@@ -37,26 +37,26 @@
 - 09:30	整理task及其相互关系 -ego[0]
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 16:00	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 16:00	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	Common Logic (ISO/IEC 24707) -learn[0]
 - 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 16:00	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	根据香港《公司條例》调整1609的部署方案 https://www.elegislation.gov.hk/hk/cap622 -PSMD[0]
+- 16:00	整理default模型 -PSMD[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

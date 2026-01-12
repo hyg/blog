@@ -1,26 +1,62 @@
 # 2026.01.12.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版2(2a)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 04:23~04:37 | 15 | 休整 |  |
-| 04:38~05:37 | 60 | 备餐、运动 |  |
-| 05:38~06:22 | 45 | 早餐 |  |
-| 06:23~07:07 | 45 | 会议、自习 |  |
-| 07:08~07:43 | 36 | 休整 |  |
-| 07:45~10:59 | 195 | 工作 | PSMD:machines model [在线](http://simp.ly/p/3GXNTh) [离线](../../draft/2026/20260112074500.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.01.12.[PSMD:machines model]任务&body=日期: 20260112%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260112074500.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
-| 14:00~15:29 | 90 | 工作 | PSMD:子1609:基于公司、合同 [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2026/20260112140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.01.12.[PSMD:子1609:基于公司、合同]任务&body=日期: 20260112%0D%0A序号: 7%0D%0A手稿:../../draft/2026/20260112140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 15:30~15:59 | 30 | 休整 |  |
-| 16:00~16:59 | 60 | 工作 | infra:设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2026/20260112160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.01.12.[infra:设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。]任务&body=日期: 20260112%0D%0A序号: 9%0D%0A手稿:../../draft/2026/20260112160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 19:00~19:59	check: [零散笔记](#20260112190000)
 
 ---
+season stat:
 
-- 07:45~10:59	PSMD: [machines model](../../draft/2026/20260112.01.md)
-- 14:00~15:29	PSMD: [子1609:基于公司、合同](../../draft/2026/20260112.02.md)
-- 16:00~16:59	infra: [设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。](../../draft/2026/20260112.03.md)
-- 19:00~19:59	check: [零散笔记](../../draft/2026/20260112.04.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 195 | 13335 | 8820 |
+| PSMD | 4000 | 0 | 4000 | 960 |
+| ego | 2530 | 0 | 2530 | 1185 |
+| infra | 2000 | 0 | 2000 | 450 |
+| xuemen | 1000 | 0 | 1000 | 120 |
+| raw | 1000 | 195 | 805 | 150 |
+| learn | 2000 | 0 | 2000 | 4425 |
+| js | 1000 | 0 | 1000 | 1530 |
+
+---
+waiting list:
+
+
+- 30分钟时间片：
+  - learn的第1号事项：Common Logic (ISO/IEC 24707)
+  - learn的第2号事项：SPIN (SPARQL Inferencing Notation）/SHACL)
+  - PSMD的第8号事项：整理闫岸家政能力讨论
+  - ego的第11号事项：用js代码完成日小结后的git操作。
+
+- 60分钟时间片：
+  - infra的第1号事项：设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。
+  - xuemen的第1号事项：年初事务
+  - xuemen的第2号事项：term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型
+  - js的第2号事项：Vector Database in nodejs
+
+- 90分钟时间片：
+  - PSMD的第1号事项：子1609:基于公司、合同
+  - ego的第1号事项：整理task及其相互关系
+  - js的第1号事项：node.js
+  - raw的第1号事项：整理代码，理顺food.js几个成员函数之间的调用关系
+
+- 195分钟时间片：
+  - PSMD的第2号事项：machines model
+  - infra的第2号事项：petri网工作流引擎设计
+  - infra的第3号事项：Rete/Phreak算法的自主实现
+  - ego的第4号事项：新版ego, instance or model, any manifest
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2026.01.12.[无名任务]任务&body=日期: 2026.01.12.%0D%0A序号: 11%0D%0A手稿:../../draft/2026/20260112.04.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20260112190000"></a>
+## 19:00 ~ 19:59
+## check: [零散笔记]
+
+- https://ucp.dev/
+	- ucp是搜索平台对电商平台开战：逼迫电商平台开放关键信息（比如库存），由搜索平台统一分配流量。
+	- 但真正的入口是个人agent，agent可以真正分配流量。需要设计自己的去中心化产品发现、评价综合等功能。
+- https://github.com/breaking-brake/cc-wf-studio
+- https://a2ui.org/

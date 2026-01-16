@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	machines model -PSMD[0]
-- 14:00	整理task及其相互关系 -ego[0]
-- 16:00	lanceDB sample -learn[0]
+- 07:45	machines model -PSMD[1]
+- 14:00	子1609:基于公司、合同 -PSMD[0]
+- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理task及其相互关系 -ego[0]
-- 14:00	node.js -js[0]
-- 16:00	lanceDB sample -learn[0]
+- 09:30	子1609:基于公司、合同 -PSMD[0]
+- 14:00	整理task及其相互关系 -ego[0]
+- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理task及其相互关系 -ego[0]
-- 16:00	lanceDB sample -learn[0]
+- 14:00	子1609:基于公司、合同 -PSMD[0]
+- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	lanceDB sample -learn[0]
-- 09:30	整理task及其相互关系 -ego[0]
-- 14:00	整理闫岸家政能力讨论 -PSMD[6]
-- 14:30	Camunda Zeebe / Temporal.io -learn[7]
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
+- 07:45	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 09:30	子1609:基于公司、合同 -PSMD[0]
+- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
+- 16:00	Chroma sample -learn[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理task及其相互关系 -ego[0]
-- 14:00	整理闫岸家政能力讨论 -PSMD[6]
-- 14:30	Camunda Zeebe / Temporal.io -learn[7]
-- 16:00	lanceDB sample -learn[0]
+- 09:30	子1609:基于公司、合同 -PSMD[0]
+- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
+- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	整理闫岸家政能力讨论 -PSMD[6]
-- 14:30	Camunda Zeebe / Temporal.io -learn[7]
-- 16:00	lanceDB sample -learn[0]
+- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
+- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	整理闫岸家政能力讨论 -PSMD[6]
-- 14:30	Camunda Zeebe / Temporal.io -learn[7]
-- 16:00	lanceDB sample -learn[0]
+- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
+- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	lanceDB sample -learn[0]
+- 16:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

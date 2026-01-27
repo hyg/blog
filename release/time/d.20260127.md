@@ -1,66 +1,26 @@
 # 2026.01.27.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版2(2b)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	machines model -PSMD[1]
-- 14:00	子1609:基于公司、合同 -PSMD[0]
-- 16:00	Chroma sample -learn[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	子1609:基于公司、合同 -PSMD[0]
-- 14:00	整理task及其相互关系 -ego[0]
-- 16:00	Chroma sample -learn[0]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	子1609:基于公司、合同 -PSMD[0]
-- 16:00	Chroma sample -learn[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 06:01~06:15 | 15 | 休整 |  |
+| 06:16~07:15 | 60 | 备餐、运动 |  |
+| 07:16~08:00 | 45 | 早餐 |  |
+| 08:01~08:45 | 45 | 会议、自习 |  |
+| 08:46~09:28 | 43 | 休整 |  |
+| 09:30~10:59 | 90 | 工作 | PSMD:子1609:基于公司、合同 [在线](http://simp.ly/p/WZ077p) [离线](../../draft/2026/20260127093000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.01.27.[PSMD:子1609:基于公司、合同]任务&body=日期: 20260127%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260127093000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
+| 14:00~15:29 | 90 | 工作 | ego:整理task及其相互关系 [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2026/20260127140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.01.27.[ego:整理task及其相互关系]任务&body=日期: 20260127%0D%0A序号: 7%0D%0A手稿:../../draft/2026/20260127140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:30~15:59 | 30 | 休整 |  |
+| 16:00~16:59 | 60 | 工作 | learn:Chroma sample [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2026/20260127160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.01.27.[learn:Chroma sample]任务&body=日期: 20260127%0D%0A序号: 9%0D%0A手稿:../../draft/2026/20260127160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	Chroma sample -learn[0]
-- 09:30	子1609:基于公司、合同 -PSMD[0]
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	子1609:基于公司、合同 -PSMD[0]
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
-- 16:00	Chroma sample -learn[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
-- 16:00	Chroma sample -learn[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
-- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
-- 16:00	Chroma sample -learn[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	Chroma sample -learn[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2026.01.27.任务排序的建议&body=date: 2026.01.27.%0D%0Afile: ../../blog/release/time/d.20260127.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 09:30~10:59	PSMD: [子1609:基于公司、合同](../../draft/2026/20260127.01.md)
+- 14:00~15:29	ego: [整理task及其相互关系](../../draft/2026/20260127.02.md)
+- 16:00~16:59	learn: [Chroma sample](../../draft/2026/20260127.03.md)
+- 19:00~19:59	check: [零散笔记](../../draft/2026/20260127.04.md)

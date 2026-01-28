@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	petri网工作流引擎设计 -infra[1]
-- 14:00	整理新版本term的manifest code -PSMD[0]
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
+- 07:45	machines model -PSMD[1]
+- 14:00	子1609:基于公司、合同 -PSMD[0]
+- 16:00	Chroma sample -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[0]
+- 09:30	子1609:基于公司、合同 -PSMD[0]
 - 14:00	整理task及其相互关系 -ego[0]
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
+- 16:00	Chroma sample -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理新版本term的manifest code -PSMD[0]
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
+- 14:00	子1609:基于公司、合同 -PSMD[0]
+- 16:00	Chroma sample -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	Common Logic (ISO/IEC 24707) -learn[1]
-- 16:00	Vector Database in nodejs -js[1]
+- 07:45	Chroma sample -learn[0]
+- 09:30	子1609:基于公司、合同 -PSMD[0]
+- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
+- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	整理新版本term的manifest code -PSMD[0]
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	Common Logic (ISO/IEC 24707) -learn[1]
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
+- 09:30	子1609:基于公司、合同 -PSMD[0]
+- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
+- 16:00	Chroma sample -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	Common Logic (ISO/IEC 24707) -learn[1]
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
+- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
+- 16:00	Chroma sample -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	Common Logic (ISO/IEC 24707) -learn[1]
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
+- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[1]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[2]
+- 16:00	Chroma sample -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	term.e6f0caec -> xuemen COD metadata-S2状态下的部门模型 -xuemen[0]
+- 16:00	Chroma sample -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

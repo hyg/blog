@@ -77,6 +77,7 @@ waiting list:
 - openclaw:
 	- 要求直接使用飞书服务端API连接机器人，要求增加一些权限后能发出消息，主动要求接收消息也可以，不能自动接收。
 	- 安装飞书plugin并且另建机器人之后，收发都无效。怀疑和前面rest API访问的在哪里设置上冲突了。
+	- 当 requireMention 设置为 true 时，机器人在群聊中只会响应提及机器人的消息
 - onlymolts
 	- moltbook的一个submod：https://www.moltbook.com/m/onlymolts 
 	- 孪生网站是ClawStreetBets（CSB）

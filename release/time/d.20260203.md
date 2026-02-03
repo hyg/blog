@@ -1,26 +1,60 @@
 # 2026.02.03.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版2(2a)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 04:41~04:55 | 15 | 休整 |  |
-| 04:56~05:55 | 60 | 备餐、运动 |  |
-| 05:56~06:40 | 45 | 早餐 |  |
-| 06:41~07:25 | 45 | 会议、自习 |  |
-| 07:26~07:43 | 18 | 休整 |  |
-| 07:45~10:59 | 195 | 工作 | PSMD:term + COM matedata -> deploy metadata -> deploy view [在线](http://simp.ly/p/3GXNTh) [离线](../../draft/2026/20260203074500.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.02.03.[PSMD:term + COM matedata -> deploy metadata -> deploy view]任务&body=日期: 20260203%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260203074500.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
-| 14:00~15:29 | 90 | 工作 | PSMD:整理新版本term的manifest text [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2026/20260203140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.02.03.[PSMD:整理新版本term的manifest text]任务&body=日期: 20260203%0D%0A序号: 7%0D%0A手稿:../../draft/2026/20260203140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 15:30~15:59 | 30 | 休整 |  |
-| 16:00~16:59 | 60 | 工作 | raw:新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2026/20260203160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.02.03.[raw:新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。]任务&body=日期: 20260203%0D%0A序号: 9%0D%0A手稿:../../draft/2026/20260203160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 19:00~19:59	check: [零散笔记](#20260203190000)
 
 ---
+season stat:
 
-- 07:45~10:59	PSMD: [term + COM matedata -> deploy metadata -> deploy view](../../draft/2026/20260203.01.md)
-- 14:00~15:29	PSMD: [整理新版本term的manifest text](../../draft/2026/20260203.02.md)
-- 16:00~16:59	raw: [新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。](../../draft/2026/20260203.03.md)
-- 19:00~19:59	check: [零散笔记](../../draft/2026/20260203.04.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 735 | 12795 | 7815 |
+| PSMD | 4000 | 90 | 3910 | 495 |
+| ego | 2530 | 0 | 2530 | 1185 |
+| infra | 2000 | 195 | 1805 | 90 |
+| xuemen | 1000 | 0 | 1000 | 0 |
+| raw | 1000 | 195 | 805 | 150 |
+| learn | 2000 | 195 | 1805 | 4425 |
+| js | 1000 | 60 | 940 | 1470 |
+
+---
+waiting list:
+
+
+- 30分钟时间片：
+  - learn的第1号事项：SPIN (SPARQL Inferencing Notation）/SHACL)
+  - learn的第2号事项：Common Logic (ISO/IEC 24707)
+  - PSMD的第4号事项：整理闫岸家政能力讨论
+  - js的第10号事项：passportjs
+
+- 60分钟时间片：
+  - raw的第1号事项：新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。
+  - ego的第3号事项：entry的按月归并
+  - learn的第3号事项：lanceDB sample
+  - learn的第4号事项：Farcaster
+
+- 90分钟时间片：
+  - PSMD的第1号事项：整理新版本term的manifest text
+  - ego的第1号事项：整理task及其相互关系
+  - infra的第1号事项：设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。
+  - js的第1号事项：node.js
+
+- 195分钟时间片：
+  - PSMD的第2号事项：term + COM matedata -> deploy metadata -> deploy view
+  - ego的第4号事项：新版ego, instance or model, any manifest
+  - learn的第28号事项：Julia
+  - learn的第42号事项：MCP in nodejs
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2026.02.03.[无名任务]任务&body=日期: 2026.02.03.%0D%0A序号: 11%0D%0A手稿:../../draft/2026/20260203.04.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20260203190000"></a>
+## 19:00 ~ 19:59
+## check: [零散笔记]
+
+- let's X项目意外地被agent重新激活。
+- openclaw持续的后台进程很适合搭建无中心网络。
+- 需要推演大模型能力不断变化，导致分工边界迁移。要找到最后稳定线位置。

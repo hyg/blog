@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	重新设计财务的基础元数据格式 -ego[0]
-- 16:00	entry的按月归并 -ego[1]
+- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[1]
+- 14:00	整理新版本term的manifest text -PSMD[0]
+- 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	重新设计财务的基础元数据格式 -ego[0]
-- 14:00	结合skill.md的人机混合协作网络 -infra[0]
-- 16:00	entry的按月归并 -ego[1]
+- 09:30	整理新版本term的manifest text -PSMD[0]
+- 14:00	整理task及其相互关系 -ego[0]
+- 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	重新设计财务的基础元数据格式 -ego[0]
-- 16:00	entry的按月归并 -ego[1]
+- 14:00	整理新版本term的manifest text -PSMD[0]
+- 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	entry的按月归并 -ego[1]
-- 09:30	重新设计财务的基础元数据格式 -ego[0]
+- 07:45	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw[0]
+- 09:30	整理新版本term的manifest text -PSMD[0]
 - 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	月初事务 -raw[0]
-- 16:00	lanceDB sample -learn[2]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[1]
+- 16:00	entry的按月归并 -ego[2]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	重新设计财务的基础元数据格式 -ego[0]
+- 09:30	整理新版本term的manifest text -PSMD[0]
 - 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	月初事务 -raw[0]
-- 16:00	entry的按月归并 -ego[1]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[1]
+- 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	月初事务 -raw[0]
-- 16:00	entry的按月归并 -ego[1]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[1]
+- 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	月初事务 -raw[0]
-- 16:00	entry的按月归并 -ego[1]
+- 14:30	Common Logic (ISO/IEC 24707) -learn[1]
+- 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	entry的按月归并 -ego[1]
+- 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

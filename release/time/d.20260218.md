@@ -6,57 +6,57 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
-- 16:00	lanceDB sample -learn[2]
+- 14:00	结合skill.md的人机混合协作网络 -infra[0]
+- 16:00	entry的按月归并 -ego[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 09:30	结合skill.md的人机混合协作网络 -infra[0]
 - 14:00	node.js -js[0]
-- 16:00	lanceDB sample -learn[2]
+- 16:00	entry的按月归并 -ego[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
-- 16:00	lanceDB sample -learn[2]
+- 14:00	结合skill.md的人机混合协作网络 -infra[0]
+- 16:00	entry的按月归并 -ego[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	lanceDB sample -learn[2]
-- 09:30	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 07:45	entry的按月归并 -ego[0]
+- 09:30	结合skill.md的人机混合协作网络 -infra[0]
 - 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
 - 14:30	月初事务 -raw[0]
-- 16:00	Farcaster -learn[3]
+- 16:00	lanceDB sample -learn[2]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
+- 09:30	结合skill.md的人机混合协作网络 -infra[0]
 - 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
 - 14:30	月初事务 -raw[0]
-- 16:00	lanceDB sample -learn[2]
+- 16:00	entry的按月归并 -ego[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
 - 14:30	月初事务 -raw[0]
-- 16:00	lanceDB sample -learn[2]
+- 16:00	entry的按月归并 -ego[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
 - 14:30	月初事务 -raw[0]
-- 16:00	lanceDB sample -learn[2]
+- 16:00	entry的按月归并 -ego[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	lanceDB sample -learn[2]
+- 16:00	entry的按月归并 -ego[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

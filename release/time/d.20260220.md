@@ -1,66 +1,26 @@
 # 2026.02.20.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版2(2b)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
-- 16:00	entry的按月归并 -ego[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
-- 14:00	node.js -js[0]
-- 16:00	entry的按月归并 -ego[0]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
-- 16:00	entry的按月归并 -ego[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 06:24~06:38 | 15 | 休整 |  |
+| 06:39~07:38 | 60 | 备餐、运动 |  |
+| 07:39~08:23 | 45 | 早餐 |  |
+| 08:24~09:08 | 45 | 会议、自习 |  |
+| 09:09~09:28 | 20 | 休整 |  |
+| 09:30~10:59 | 90 | 工作 | infra:设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 [在线](http://simp.ly/p/WZ077p) [离线](../../draft/2026/20260220093000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.02.20.[infra:设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。]任务&body=日期: 20260220%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260220093000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
+| 14:00~15:29 | 90 | 工作 | infra:结合skill.md的人机混合协作网络 [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2026/20260220140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.02.20.[infra:结合skill.md的人机混合协作网络]任务&body=日期: 20260220%0D%0A序号: 7%0D%0A手稿:../../draft/2026/20260220140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:30~15:59 | 30 | 休整 |  |
+| 16:00~16:59 | 60 | 工作 | ego:entry的按月归并 [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2026/20260220160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.02.20.[ego:entry的按月归并]任务&body=日期: 20260220%0D%0A序号: 9%0D%0A手稿:../../draft/2026/20260220160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	entry的按月归并 -ego[0]
-- 09:30	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	月初事务 -raw[0]
-- 16:00	lanceDB sample -learn[2]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra[0]
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	月初事务 -raw[0]
-- 16:00	entry的按月归并 -ego[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	月初事务 -raw[0]
-- 16:00	entry的按月归并 -ego[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[0]
-- 14:30	月初事务 -raw[0]
-- 16:00	entry的按月归并 -ego[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	entry的按月归并 -ego[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2026.02.20.任务排序的建议&body=date: 2026.02.20.%0D%0Afile: ../../blog/release/time/d.20260220.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 09:30~10:59	infra: [设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。](../../draft/2026/20260220.01.md)
+- 14:00~15:29	infra: [结合skill.md的人机混合协作网络](../../draft/2026/20260220.02.md)
+- 16:00~16:59	ego: [entry的按月归并](../../draft/2026/20260220.03.md)
+- 19:00~19:59	check: [零散笔记](../../draft/2026/20260220.04.md)

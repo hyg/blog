@@ -1,66 +1,25 @@
 # 2026.02.25.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，今天绑定模版1(1d)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	抽象语法树 -learn[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	微观与宏观衔接的几篇论文 -ego[1]
-- 16:00	抽象语法树 -learn[0]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	抽象语法树 -learn[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 07:47~08:01 | 15 | 休整 |  |
+| 08:02~09:01 | 60 | 备餐、运动 |  |
+| 09:02~09:46 | 45 | 午餐 |  |
+| 09:47~10:31 | 45 | 会议、自习 |  |
+| 10:32~13:58 | 207 | 休整 |  |
+| 14:00~14:29 | 30 | 静默工作 | learn:Common Logic (ISO/IEC 24707) [在线](http://simp.ly/p/8t3vlk) [离线](../../draft/2026/20260225140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.02.25.[learn:Common Logic (ISO/IEC 24707)]任务&body=日期: 20260225%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260225140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 14:30~14:59 | 30 | 静默工作 | learn:SPIN (SPARQL Inferencing Notation）/SHACL) [在线](http://simp.ly/p/5k9gJy) [离线](../../draft/2026/20260225143000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.02.25.[learn:SPIN (SPARQL Inferencing Notation）/SHACL)]任务&body=日期: 20260225%0D%0A序号: 6%0D%0A手稿:../../draft/2026/20260225143000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:00~15:59 | 60 | 休整 |  |
+| 16:00~16:59 | 60 | 静默工作 | learn:抽象语法树 [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2026/20260225160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.02.25.[learn:抽象语法树]任务&body=日期: 20260225%0D%0A序号: 8%0D%0A手稿:../../draft/2026/20260225160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	抽象语法树 -learn[0]
-- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	Common Logic (ISO/IEC 24707) -learn[1]
-- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[2]
-- 16:00	TensorFlow.js -js[0]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	Common Logic (ISO/IEC 24707) -learn[1]
-- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[2]
-- 16:00	抽象语法树 -learn[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	Common Logic (ISO/IEC 24707) -learn[1]
-- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[2]
-- 16:00	抽象语法树 -learn[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	Common Logic (ISO/IEC 24707) -learn[1]
-- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[2]
-- 16:00	抽象语法树 -learn[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	抽象语法树 -learn[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2026.02.25.任务排序的建议&body=date: 2026.02.25.%0D%0Afile: ../../blog/release/time/d.20260225.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 14:00~14:29	learn: [Common Logic (ISO/IEC 24707)](../../draft/2026/20260225.01.md)
+- 14:30~14:59	learn: [SPIN (SPARQL Inferencing Notation）/SHACL)](../../draft/2026/20260225.02.md)
+- 16:00~16:59	learn: [抽象语法树](../../draft/2026/20260225.03.md)
+- 19:00~19:59	check: [零散笔记](../../draft/2026/20260225.04.md)

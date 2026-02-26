@@ -7,56 +7,56 @@
 
 - 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
 - 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	Farcaster -learn[0]
+- 16:00	抽象语法树 -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
 - 14:00	微观与宏观衔接的几篇论文 -ego[1]
-- 16:00	Farcaster -learn[0]
+- 16:00	抽象语法树 -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	Farcaster -learn[0]
+- 16:00	抽象语法树 -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	Farcaster -learn[0]
+- 07:45	抽象语法树 -learn[0]
 - 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	整理闫岸家政能力讨论 -PSMD[3]
-- 14:30	用js代码完成日小结后的git操作。 -ego[7]
+- 14:00	Common Logic (ISO/IEC 24707) -learn[1]
+- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[2]
 - 16:00	TensorFlow.js -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	整理闫岸家政能力讨论 -PSMD[3]
-- 14:30	用js代码完成日小结后的git操作。 -ego[7]
-- 16:00	Farcaster -learn[0]
+- 14:00	Common Logic (ISO/IEC 24707) -learn[1]
+- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[2]
+- 16:00	抽象语法树 -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	整理闫岸家政能力讨论 -PSMD[3]
-- 14:30	用js代码完成日小结后的git操作。 -ego[7]
-- 16:00	Farcaster -learn[0]
+- 14:00	Common Logic (ISO/IEC 24707) -learn[1]
+- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[2]
+- 16:00	抽象语法树 -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	整理闫岸家政能力讨论 -PSMD[3]
-- 14:30	用js代码完成日小结后的git操作。 -ego[7]
-- 16:00	Farcaster -learn[0]
+- 14:00	Common Logic (ISO/IEC 24707) -learn[1]
+- 14:30	SPIN (SPARQL Inferencing Notation）/SHACL) -learn[2]
+- 16:00	抽象语法树 -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	Farcaster -learn[0]
+- 16:00	抽象语法树 -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

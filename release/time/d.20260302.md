@@ -1,62 +1,62 @@
 # 2026.03.02.
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，三月份安排休整和总结，每天早起根据身心状况绑定模版。
 
 ---
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
 - 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	微观与宏观衔接的几篇论文 -ego[1]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 14:00	openpgp v6.1.1. -js[1]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	XSTATE https://xstate.js.org/ -learn[0]
+- 07:45	Farcaster -learn[0]
 - 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	时间改为ISO8601格式 -ego[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[8]
+- 14:00	用js代码完成日小结后的git操作。 -ego[0]
+- 14:30	passportjs -js[8]
 - 16:00	TensorFlow.js -js[0]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	时间改为ISO8601格式 -ego[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[8]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 14:00	用js代码完成日小结后的git操作。 -ego[0]
+- 14:30	passportjs -js[8]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	时间改为ISO8601格式 -ego[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[8]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 14:00	用js代码完成日小结后的git操作。 -ego[0]
+- 14:30	passportjs -js[8]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	时间改为ISO8601格式 -ego[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[8]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 14:00	用js代码完成日小结后的git操作。 -ego[0]
+- 14:30	passportjs -js[8]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

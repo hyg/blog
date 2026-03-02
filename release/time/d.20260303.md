@@ -6,57 +6,57 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	query yaml file or js obj -js[1]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 14:00	openpgp v6.1.1. -js[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	query yaml file or js obj -js[1]
-- 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD[2]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 09:30	openpgp v6.1.1. -js[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	query yaml file or js obj -js[1]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 14:00	openpgp v6.1.1. -js[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	XSTATE https://xstate.js.org/ -learn[0]
-- 09:30	query yaml file or js obj -js[1]
+- 07:45	Farcaster -learn[0]
+- 09:30	openpgp v6.1.1. -js[0]
 - 14:00	用js代码完成日小结后的git操作。 -ego[0]
-- 14:30	passportjs -js[7]
-- 16:00	TensorFlow.js -js[0]
+- 14:30	月初事务 -xuemen[0]
+- 16:00	TensorFlow.js -js[1]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	query yaml file or js obj -js[1]
+- 09:30	openpgp v6.1.1. -js[0]
 - 14:00	用js代码完成日小结后的git操作。 -ego[0]
-- 14:30	passportjs -js[7]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 14:30	月初事务 -xuemen[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	用js代码完成日小结后的git操作。 -ego[0]
-- 14:30	passportjs -js[7]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 14:30	月初事务 -xuemen[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	用js代码完成日小结后的git操作。 -ego[0]
-- 14:30	passportjs -js[7]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 14:30	月初事务 -xuemen[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

@@ -6,57 +6,57 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	HPKE（Hybrid Public Key Encryption，RFC 9180） -learn[0]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
+- 14:00	openpgp v6.1.1. -js[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	HPKE（Hybrid Public Key Encryption，RFC 9180） -learn[0]
-- 14:00	openpgp v6.1.1. -js[0]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
+- 09:30	openpgp v6.1.1. -js[0]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	HPKE（Hybrid Public Key Encryption，RFC 9180） -learn[0]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
+- 14:00	openpgp v6.1.1. -js[0]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	XSTATE https://xstate.js.org/ -learn[1]
-- 09:30	HPKE（Hybrid Public Key Encryption，RFC 9180） -learn[0]
-- 14:00	passportjs -js[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[9]
+- 07:45	Farcaster -learn[0]
+- 09:30	openpgp v6.1.1. -js[0]
+- 14:00	时间改为ISO8601格式 -ego[0]
+- 14:30	用js代码完成日小结后的git操作。 -ego[1]
 - 16:00	TensorFlow.js -js[1]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	HPKE（Hybrid Public Key Encryption，RFC 9180） -learn[0]
-- 14:00	passportjs -js[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[9]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
+- 09:30	openpgp v6.1.1. -js[0]
+- 14:00	时间改为ISO8601格式 -ego[0]
+- 14:30	用js代码完成日小结后的git操作。 -ego[1]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	passportjs -js[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[9]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
+- 14:00	时间改为ISO8601格式 -ego[0]
+- 14:30	用js代码完成日小结后的git操作。 -ego[1]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	passportjs -js[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[9]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
+- 14:00	时间改为ISO8601格式 -ego[0]
+- 14:30	用js代码完成日小结后的git操作。 -ego[1]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
+- 16:00	Farcaster -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

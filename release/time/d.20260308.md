@@ -1,66 +1,25 @@
 # 2026.03.08.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，三月份安排休整和总结，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，本月安排休整和总结，今天绑定模版1(1d)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	HPKE（Hybrid Public Key Encryption，RFC 9180） -learn[0]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	HPKE（Hybrid Public Key Encryption，RFC 9180） -learn[0]
-- 14:00	openpgp v6.1.1. -js[0]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	HPKE（Hybrid Public Key Encryption，RFC 9180） -learn[0]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 09:37~09:51 | 15 | 休整 |  |
+| 09:52~10:51 | 60 | 备餐、运动 |  |
+| 10:52~11:36 | 45 | 午餐 |  |
+| 11:37~12:21 | 45 | 会议、自习 |  |
+| 12:22~13:58 | 97 | 休整 |  |
+| 14:00~14:29 | 30 | 静默工作 | js:passportjs [在线](http://simp.ly/p/8t3vlk) [离线](../../draft/2026/20260308140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.03.08.[js:passportjs]任务&body=日期: 20260308%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260308140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 14:30~14:59 | 30 | 静默工作 | learn:Camunda Zeebe / Temporal.io [在线](http://simp.ly/p/5k9gJy) [离线](../../draft/2026/20260308143000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.03.08.[learn:Camunda Zeebe / Temporal.io]任务&body=日期: 20260308%0D%0A序号: 6%0D%0A手稿:../../draft/2026/20260308143000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:00~15:59 | 60 | 休整 |  |
+| 16:00~16:59 | 60 | 静默工作 | learn:XSTATE https://xstate.js.org/ [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2026/20260308160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.03.08.[learn:XSTATE https://xstate.js.org/]任务&body=日期: 20260308%0D%0A序号: 8%0D%0A手稿:../../draft/2026/20260308160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	XSTATE https://xstate.js.org/ -learn[1]
-- 09:30	HPKE（Hybrid Public Key Encryption，RFC 9180） -learn[0]
-- 14:00	passportjs -js[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[9]
-- 16:00	TensorFlow.js -js[1]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	HPKE（Hybrid Public Key Encryption，RFC 9180） -learn[0]
-- 14:00	passportjs -js[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[9]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	passportjs -js[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[9]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	passportjs -js[8]
-- 14:30	Camunda Zeebe / Temporal.io -learn[9]
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	XSTATE https://xstate.js.org/ -learn[1]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2026.03.08.任务排序的建议&body=date: 2026.03.08.%0D%0Afile: ../../blog/release/time/d.20260308.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 14:00~14:29	js: [passportjs](../../draft/2026/20260308.01.md)
+- 14:30~14:59	learn: [Camunda Zeebe / Temporal.io](../../draft/2026/20260308.02.md)
+- 16:00~16:59	learn: [XSTATE https://xstate.js.org/](../../draft/2026/20260308.03.md)
+- 19:00~19:59	check: [零散笔记](../../draft/2026/20260308.04.md)

@@ -55,7 +55,7 @@ waiting list:
 ## 19:00 ~ 19:59
 ## check: [零散笔记]
 
-- ego:
+- ego: opencode -s ses_32cf795f6ffehigxavLj77gzHS
 	- 删除go代码，src下的server和client。
 	- 查找代码中的硬编码路径，在path.js中增加变量，更新代码。
 	- 在 `src/util.js` 中移除对 `Date.prototype` 的修改。项目已经引入了 `dayjs` 库（参考`src/ego.js` 中的引用方式），把所有地方统一使用 `dayjs` 进行日期处理。

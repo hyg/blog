@@ -7,56 +7,56 @@
 
 - 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
 - 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	按petri网定义设计几个实例 -learn[2]
+- 16:00	XSTATE https://xstate.js.org/ -learn[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
 - 14:00	微观与宏观衔接的几篇论文 -ego[1]
-- 16:00	按petri网定义设计几个实例 -learn[2]
+- 16:00	XSTATE https://xstate.js.org/ -learn[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	按petri网定义设计几个实例 -learn[2]
+- 16:00	XSTATE https://xstate.js.org/ -learn[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	按petri网定义设计几个实例 -learn[2]
+- 07:45	XSTATE https://xstate.js.org/ -learn[0]
 - 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	Camunda Zeebe / Temporal.io -learn[0]
-- 14:30	passportjs -js[0]
+- 14:00	passportjs -js[0]
+- 14:30	Camunda Zeebe / Temporal.io -learn[1]
 - 16:00	TensorFlow.js -js[2]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	Camunda Zeebe / Temporal.io -learn[0]
-- 14:30	passportjs -js[0]
-- 16:00	按petri网定义设计几个实例 -learn[2]
+- 14:00	passportjs -js[0]
+- 14:30	Camunda Zeebe / Temporal.io -learn[1]
+- 16:00	XSTATE https://xstate.js.org/ -learn[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	Camunda Zeebe / Temporal.io -learn[0]
-- 14:30	passportjs -js[0]
-- 16:00	按petri网定义设计几个实例 -learn[2]
+- 14:00	passportjs -js[0]
+- 14:30	Camunda Zeebe / Temporal.io -learn[1]
+- 16:00	XSTATE https://xstate.js.org/ -learn[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	Camunda Zeebe / Temporal.io -learn[0]
-- 14:30	passportjs -js[0]
-- 16:00	按petri网定义设计几个实例 -learn[2]
+- 14:00	passportjs -js[0]
+- 14:30	Camunda Zeebe / Temporal.io -learn[1]
+- 16:00	XSTATE https://xstate.js.org/ -learn[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	按petri网定义设计几个实例 -learn[2]
+- 16:00	XSTATE https://xstate.js.org/ -learn[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

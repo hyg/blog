@@ -1,66 +1,20 @@
 # 2026.03.10.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，三月份安排休整和总结，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，本月安排休整和总结，今天绑定模版1(1e)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	微观与宏观衔接的几篇论文 -ego[1]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 10:28~10:42 | 15 | 休整 |  |
+| 10:43~11:42 | 60 | 备餐、运动 |  |
+| 11:43~12:27 | 45 | 午餐 |  |
+| 12:28~13:12 | 45 | 会议、自习 |  |
+| 13:13~15:58 | 166 | 休整 |  |
+| 16:00~16:59 | 60 | 静默工作 | learn:XSTATE https://xstate.js.org/ [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2026/20260310160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.03.10.[learn:XSTATE https://xstate.js.org/]任务&body=日期: 20260310%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260310160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版2c可能安排以下任务：
 
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
-
----
-如果绑定模版1a可能安排以下任务：
-
-- 07:45	XSTATE https://xstate.js.org/ -learn[0]
-- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	passportjs -js[0]
-- 14:30	Camunda Zeebe / Temporal.io -learn[1]
-- 16:00	TensorFlow.js -js[2]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 14:00	passportjs -js[0]
-- 14:30	Camunda Zeebe / Temporal.io -learn[1]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	passportjs -js[0]
-- 14:30	Camunda Zeebe / Temporal.io -learn[1]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	passportjs -js[0]
-- 14:30	Camunda Zeebe / Temporal.io -learn[1]
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	XSTATE https://xstate.js.org/ -learn[0]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2026.03.10.任务排序的建议&body=date: 2026.03.10.%0D%0Afile: ../../blog/release/time/d.20260310.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 16:00~16:59	learn: [XSTATE https://xstate.js.org/](../../draft/2026/20260310.01.md)
+- 19:00~19:59	check: [零散笔记](../../draft/2026/20260310.02.md)

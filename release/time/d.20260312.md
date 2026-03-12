@@ -1,66 +1,25 @@
 # 2026.03.12.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，三月份安排休整和总结，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，本月安排休整和总结，今天绑定模版1(1d)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	XSTATE https://xstate.js.org -learn[0]
-- 16:00	按petri网定义设计几个实例 -learn[2]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	XSTATE https://xstate.js.org -learn[0]
-- 14:00	openpgp v6.1.1. -js[0]
-- 16:00	按petri网定义设计几个实例 -learn[2]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	XSTATE https://xstate.js.org -learn[0]
-- 16:00	按petri网定义设计几个实例 -learn[2]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 09:51~10:05 | 15 | 休整 |  |
+| 10:06~11:05 | 60 | 备餐、运动 |  |
+| 11:06~11:50 | 45 | 午餐 |  |
+| 11:51~12:35 | 45 | 会议、自习 |  |
+| 12:36~13:58 | 83 | 休整 |  |
+| 14:00~14:29 | 30 | 静默工作 | learn:Flink Complex Event Processing，直接运行 DMN 4Flink 或 Rego-on-Flink 扩展。 [在线](http://simp.ly/p/8t3vlk) [离线](../../draft/2026/20260312140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.03.12.[learn:Flink Complex Event Processing，直接运行 DMN 4Flink 或 Rego-on-Flink 扩展。]任务&body=日期: 20260312%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260312140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 14:30~14:59 | 30 | 静默工作 | learn:OpenFGA/SpiceDB(Zanzibar模型) [在线](http://simp.ly/p/5k9gJy) [离线](../../draft/2026/20260312143000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.03.12.[learn:OpenFGA/SpiceDB(Zanzibar模型)]任务&body=日期: 20260312%0D%0A序号: 6%0D%0A手稿:../../draft/2026/20260312143000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:00~15:59 | 60 | 休整 |  |
+| 16:00~16:59 | 60 | 静默工作 | learn:按petri网定义设计几个实例 [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2026/20260312160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.03.12.[learn:按petri网定义设计几个实例]任务&body=日期: 20260312%0D%0A序号: 8%0D%0A手稿:../../draft/2026/20260312160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	按petri网定义设计几个实例 -learn[2]
-- 09:30	XSTATE https://xstate.js.org -learn[0]
-- 14:00	Flink Complex Event Processing，直接运行 DMN 4Flink 或 Rego-on-Flink 扩展。 -learn[9]
-- 14:30	OpenFGA/SpiceDB(Zanzibar模型) -learn[11]
-- 16:00	learn factory, constructor, prototype -js[2]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	XSTATE https://xstate.js.org -learn[0]
-- 14:00	Flink Complex Event Processing，直接运行 DMN 4Flink 或 Rego-on-Flink 扩展。 -learn[9]
-- 14:30	OpenFGA/SpiceDB(Zanzibar模型) -learn[11]
-- 16:00	按petri网定义设计几个实例 -learn[2]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	Flink Complex Event Processing，直接运行 DMN 4Flink 或 Rego-on-Flink 扩展。 -learn[9]
-- 14:30	OpenFGA/SpiceDB(Zanzibar模型) -learn[11]
-- 16:00	按petri网定义设计几个实例 -learn[2]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	Flink Complex Event Processing，直接运行 DMN 4Flink 或 Rego-on-Flink 扩展。 -learn[9]
-- 14:30	OpenFGA/SpiceDB(Zanzibar模型) -learn[11]
-- 16:00	按petri网定义设计几个实例 -learn[2]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	按petri网定义设计几个实例 -learn[2]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2026.03.12.任务排序的建议&body=date: 2026.03.12.%0D%0Afile: ../../blog/release/time/d.20260312.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 14:00~14:29	learn: [Flink Complex Event Processing，直接运行 DMN 4Flink 或 Rego-on-Flink 扩展。](../../draft/2026/20260312.01.md)
+- 14:30~14:59	learn: [OpenFGA/SpiceDB(Zanzibar模型)](../../draft/2026/20260312.02.md)
+- 16:00~16:59	learn: [按petri网定义设计几个实例](../../draft/2026/20260312.03.md)
+- 19:00~19:59	check: [零散笔记](../../draft/2026/20260312.04.md)

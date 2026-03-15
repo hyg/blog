@@ -7,56 +7,56 @@
 
 - 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
 - 14:00	XSTATE https://xstate.js.org -learn[0]
-- 16:00	Zapier -learn[3]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	XSTATE https://xstate.js.org -learn[0]
-- 14:00	openpgp v6.1.1. -js[0]
-- 16:00	Zapier -learn[3]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	XSTATE https://xstate.js.org -learn[0]
-- 16:00	Zapier -learn[3]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	Zapier -learn[3]
+- 07:45	learn factory, constructor, prototype -js[0]
 - 09:30	XSTATE https://xstate.js.org -learn[0]
 - 14:00	学习优秀的petri网设计案例 -learn[2]
-- 14:30	新版raw.js的子命令-营养成分详情 -js[2]
-- 16:00	Polygon/Arbitrum -learn[4]
+- 14:30	新版raw.js的子命令-营养成分详情 -js[3]
+- 16:00	Zapier -learn[3]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
 - 09:30	XSTATE https://xstate.js.org -learn[0]
 - 14:00	学习优秀的petri网设计案例 -learn[2]
-- 14:30	新版raw.js的子命令-营养成分详情 -js[2]
-- 16:00	Zapier -learn[3]
+- 14:30	新版raw.js的子命令-营养成分详情 -js[3]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	学习优秀的petri网设计案例 -learn[2]
-- 14:30	新版raw.js的子命令-营养成分详情 -js[2]
-- 16:00	Zapier -learn[3]
+- 14:30	新版raw.js的子命令-营养成分详情 -js[3]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	学习优秀的petri网设计案例 -learn[2]
-- 14:30	新版raw.js的子命令-营养成分详情 -js[2]
-- 16:00	Zapier -learn[3]
+- 14:30	新版raw.js的子命令-营养成分详情 -js[3]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	Zapier -learn[3]
+- 16:00	learn factory, constructor, prototype -js[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

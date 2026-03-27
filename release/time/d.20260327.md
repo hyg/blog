@@ -60,6 +60,11 @@ waiting list:
 	- ssh-agent可以打开puttygen创建的密钥，可以从plink——pagenat迁移回openssh+ssh-agent方案。
 		- setup-ssh-agent.bat
 		- setup-ssh-simple.bat
+	- GIT_SSH_COMMAND环境变量和代码里的变量，都要设置正确。
+		- git config --global core.sshCommand "\"C:\\Windows\\System32\\OpenSSH\\ssh.exe\" -o StrictHostKeyChecking=accept-new" 2>&1
+		- 更新了 util.js，在加载 simple-git 之前设置 process.env.GIT_SSH_COMMAND
+	- git和windows各有自己的ssh.exe
+	- simple-git的push不在ssh-agent的子进程里，需要用别的方式push。。。
 ```
 方法 1：用 PuTTYgen 导出 OpenSSH 格式
 
@@ -97,6 +102,30 @@ waiting list:
     3. 修改 util.js
 
      1 const GIT_SSH_COMMAND = 'ssh -o StrictHostKeyChecking=accept-new';
+ 
+ 
+    /**
+     * 新安装 Windows 环境的 SSH 配置步骤：
+     *
+     * 1. 启用 ssh-agent 服务（管理员 PowerShell）：
+     *    Set-Service ssh-agent -StartupType Automatic
+     *    Start-Service ssh-agent
+     *
+     * 2. 生成或导入 SSH 密钥，添加到 ssh-agent：
+     *    ssh-keygen -t ed25519 -C "your@email.com"
+     *    ssh-add C:\Users\<用户名>\.ssh\id_ed25519
+     *
+     * 3. 配置 git 使用 Windows 自带的 OpenSSH（不是 Git 自带的 ssh）：
+     *    git config --global core.sshCommand "C:\Windows\System32\OpenSSH\ssh.exe -o StrictHostKeyChecking=accept-new"
+     *
+     * 4. 将公钥注册到远程平台（gitee / github / bitbucket 等）。
+     *
+     * 原理：
+     * - 命令行 git push：读取 core.sshCommand，由 Windows ssh 连接 ssh-agent 完成认证。
+     * - bun over（Node.js）：simple-git 的 push 不继承控制台 stdin，ssh 无法交互输入密码短语，
+     *   因此本函数用 execSync 调 git push 并设 stdio:'inherit'，同时通过 GIT_SSH_COMMAND
+     *   指定 Windows ssh，确保子进程也能连接 ssh-agent。
+     */
 ```
 
 - AI负责自然语言理解和近义词匹配。

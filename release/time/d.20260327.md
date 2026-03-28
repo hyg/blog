@@ -64,7 +64,7 @@ waiting list:
 		- git config --global core.sshCommand "\"C:\\Windows\\System32\\OpenSSH\\ssh.exe\" -o StrictHostKeyChecking=accept-new" 2>&1
 		- 更新了 util.js，在加载 simple-git 之前设置 process.env.GIT_SSH_COMMAND
 	- git和windows各有自己的ssh.exe
-	- simple-git的push不在stdin的子进程里，无法输入密钥口龙，需要用别的方式push。改为ssh-agent之后可以了。
+	- simple-git的push不在stdin的子进程里，无法输入密钥口令，需要用别的方式push。改为ssh-agent之后测试通过。
 ```
 方法 1：用 PuTTYgen 导出 OpenSSH 格式
 

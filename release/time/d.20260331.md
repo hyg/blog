@@ -6,57 +6,57 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	Polygon/Arbitrum -learn[0]
-- 16:00	The Node.js best practices list (July 2024) -js[3]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 16:00	debug -js[0]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	Polygon/Arbitrum -learn[0]
-- 14:00	openpgp v6.1.1. -js[0]
-- 16:00	The Node.js best practices list (July 2024) -js[3]
+- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:00	微观与宏观衔接的几篇论文 -ego[1]
+- 16:00	debug -js[0]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	Polygon/Arbitrum -learn[0]
-- 16:00	The Node.js best practices list (July 2024) -js[3]
+- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 16:00	debug -js[0]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	The Node.js best practices list (July 2024) -js[3]
-- 09:30	Polygon/Arbitrum -learn[0]
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[7]
-- 16:00	The Open Quantum Safe (OQS) project -learn[4]
+- 07:45	debug -js[0]
+- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:00	学习优秀的petri网设计案例 -learn[0]
+- 14:30	新版raw.js的子命令-营养成分详情 -js[1]
+- 16:00	eventemitter sample -ego[5]
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	Polygon/Arbitrum -learn[0]
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[7]
-- 16:00	The Node.js best practices list (July 2024) -js[3]
+- 09:30	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
+- 14:00	学习优秀的petri网设计案例 -learn[0]
+- 14:30	新版raw.js的子命令-营养成分详情 -js[1]
+- 16:00	debug -js[0]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[7]
-- 16:00	The Node.js best practices list (July 2024) -js[3]
+- 14:00	学习优秀的petri网设计案例 -learn[0]
+- 14:30	新版raw.js的子命令-营养成分详情 -js[1]
+- 16:00	debug -js[0]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[7]
-- 16:00	The Node.js best practices list (July 2024) -js[3]
+- 14:00	学习优秀的petri网设计案例 -learn[0]
+- 14:30	新版raw.js的子命令-营养成分详情 -js[1]
+- 16:00	debug -js[0]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	The Node.js best practices list (July 2024) -js[3]
+- 16:00	debug -js[0]
 
 ---
 如果绑定模版1f可能安排以下任务：

@@ -56,4 +56,8 @@ waiting list:
 ## check: [零散笔记]
 
 - 收拢ego项目vat分支。
-	- 
+	- opencode -s ses_2bb7d1a2fffeIbtirBmuxjMy5P
+1. 新增模块：task.js、account.js、draft.js、front.js、allocator.js、derivation.js、migrate.js
+2. 测试覆盖：34个单元测试全部通过
+3. 数据迁移：season.todo → task.yaml（PSMD、ego、infra、learn、js、raw、xuemen）
+4. 新季度配置：2026S2.yaml（含pricing）

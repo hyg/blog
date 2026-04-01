@@ -7,29 +7,29 @@
 
 - 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
 - 14:00	Polygon/Arbitrum -learn[0]
-- 16:00	学习 nodejs test框架 -js[3]
+- 16:00	The Open Quantum Safe (OQS) project -learn[4]
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	Polygon/Arbitrum -learn[0]
 - 14:00	openpgp v6.1.1. -js[0]
-- 16:00	学习 nodejs test框架 -js[3]
+- 16:00	The Open Quantum Safe (OQS) project -learn[4]
 
 ---
 如果绑定模版2c可能安排以下任务：
 
 - 14:00	Polygon/Arbitrum -learn[0]
-- 16:00	学习 nodejs test框架 -js[3]
+- 16:00	The Open Quantum Safe (OQS) project -learn[4]
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	学习 nodejs test框架 -js[3]
+- 07:45	The Open Quantum Safe (OQS) project -learn[4]
 - 09:30	Polygon/Arbitrum -learn[0]
 - 14:00	新版raw.js的子命令-营养成分排序 -js[2]
 - 14:30	XACML（存量） -learn[7]
-- 16:00	The Open Quantum Safe (OQS) project -learn[4]
+- 16:00	lint -js[4]
 
 ---
 如果绑定模版1b可能安排以下任务：
@@ -37,26 +37,26 @@
 - 09:30	Polygon/Arbitrum -learn[0]
 - 14:00	新版raw.js的子命令-营养成分排序 -js[2]
 - 14:30	XACML（存量） -learn[7]
-- 16:00	学习 nodejs test框架 -js[3]
+- 16:00	The Open Quantum Safe (OQS) project -learn[4]
 
 ---
 如果绑定模版1c可能安排以下任务：
 
 - 14:00	新版raw.js的子命令-营养成分排序 -js[2]
 - 14:30	XACML（存量） -learn[7]
-- 16:00	学习 nodejs test框架 -js[3]
+- 16:00	The Open Quantum Safe (OQS) project -learn[4]
 
 ---
 如果绑定模版1d可能安排以下任务：
 
 - 14:00	新版raw.js的子命令-营养成分排序 -js[2]
 - 14:30	XACML（存量） -learn[7]
-- 16:00	学习 nodejs test框架 -js[3]
+- 16:00	The Open Quantum Safe (OQS) project -learn[4]
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	学习 nodejs test框架 -js[3]
+- 16:00	The Open Quantum Safe (OQS) project -learn[4]
 
 ---
 如果绑定模版1f可能安排以下任务：

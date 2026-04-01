@@ -10,11 +10,11 @@
 | 11:57~12:41 | 45 | 午餐 |  |
 | 12:42~13:26 | 45 | 会议、自习 |  |
 | 13:27~15:58 | 152 | 休整 |  |
-| 16:00~16:59 | 60 | 静默工作 | js:The Node.js best practices list (July 2024) [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2026/20260401160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.04.01.[js:The Node.js best practices list (July 2024)]任务&body=日期: 20260401%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260401160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 16:00~16:59 | 60 | 静默工作 | PSMD:权利分配语法 & engine [在线](http://simp.ly/p/4QDThK) [离线](../../draft/2026/20260401160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.04.01.[PSMD:权利分配语法 & engine]任务&body=日期: 20260401%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260401160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
 | 17:00~18:59 | 120 | 晚餐 |  |
 | 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
 
-- 16:00~16:59	js: [The Node.js best practices list (July 2024)](../../draft/2026/20260401.01.md)
+- 16:00~16:59	undefined: [undefined](../../draft/2026/20260401.01.md)
 - 19:00~19:59	check: [零散笔记](../../draft/2026/20260401.02.md)

@@ -1,0 +1,12 @@
+# 触发器：推送到主分支
+master:
+  push:
+    # 从私有仓库导入环境变量：
+    # 参考：https://docs.cnb.cool/en/build/env.html#importing-environment-variables
+    - imports: https://cnb.cool/mars22/env/-/blob/main/envs.yml
+      stages:
+        # 将构建输出部署到 EdgeOne Pages
+        # 参考：https://www.npmjs.com/package/edgeone
+        - name: Deploy to EdgeOne Pages
+          image: node:20
+          script: npx edgeone pages deploy / -n blog -t $EDGEONE_API_TOKEN

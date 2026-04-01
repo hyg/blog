@@ -1,66 +1,24 @@
 # 2026.04.02.
+日计划
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，安排常规工作，每天早起根据身心状况绑定模版。
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，本月安排常规工作，今天绑定模版2(2c)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	Polygon/Arbitrum -learn[0]
-- 16:00	The Open Quantum Safe (OQS) project -learn[4]
-
----
-如果绑定模版2b可能安排以下任务：
-
-- 09:30	Polygon/Arbitrum -learn[0]
-- 14:00	openpgp v6.1.1. -js[0]
-- 16:00	The Open Quantum Safe (OQS) project -learn[4]
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	Polygon/Arbitrum -learn[0]
-- 16:00	The Open Quantum Safe (OQS) project -learn[4]
+| 时间片 | 时长 | 用途 | 手稿 |
+| --- | --- | :---: | --- |
+| 07:25~07:39 | 15 | 休整 |  |
+| 07:40~08:39 | 60 | 备餐、运动 |  |
+| 08:40~09:24 | 45 | 早餐 |  |
+| 09:25~10:09 | 45 | 会议、自习 |  |
+| 10:10~10:58 | 49 | 休整 |  |
+| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
+| 14:00~15:29 | 90 | 工作 | PSMD:权利分配语法 & engine [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2026/20260402140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.04.02.[PSMD:权利分配语法 & engine]任务&body=日期: 20260402%0D%0A序号: 6%0D%0A手稿:../../draft/2026/20260402140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 15:30~15:59 | 30 | 休整 |  |
+| 16:00~16:59 | 60 | 工作 | ego:JT的发行和回收 [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2026/20260402160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.04.02.[ego:JT的发行和回收]任务&body=日期: 20260402%0D%0A序号: 8%0D%0A手稿:../../draft/2026/20260402160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
+| 17:00~18:59 | 120 | 晚餐 |  |
+| 19:00~19:59 | 60 | 讨论、整理提交 |  |
 
 ---
-如果绑定模版1a可能安排以下任务：
 
-- 07:45	The Open Quantum Safe (OQS) project -learn[4]
-- 09:30	Polygon/Arbitrum -learn[0]
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[7]
-- 16:00	lint -js[4]
-
----
-如果绑定模版1b可能安排以下任务：
-
-- 09:30	Polygon/Arbitrum -learn[0]
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[7]
-- 16:00	The Open Quantum Safe (OQS) project -learn[4]
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[7]
-- 16:00	The Open Quantum Safe (OQS) project -learn[4]
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[7]
-- 16:00	The Open Quantum Safe (OQS) project -learn[4]
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	The Open Quantum Safe (OQS) project -learn[4]
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2026.04.02.任务排序的建议&body=date: 2026.04.02.%0D%0Afile: ../../blog/release/time/d.20260402.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- 14:00~15:29	PSMD: [权利分配语法 & engine](../../draft/2026/20260402.01.md)
+- 16:00~16:59	ego: [JT的发行和回收](../../draft/2026/20260402.02.md)
+- 19:00~19:59	check: [零散笔记](../../draft/2026/20260402.03.md)

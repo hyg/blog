@@ -5,58 +5,58 @@
 ---
 如果绑定模版2a可能安排以下任务：
 
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD[0]
-- 14:00	XSTATE https://xstate.js.org -learn[0]
-- 16:00	CometAPI -learn[3]
+- 07:45	权利分配语法 & engine -PSMD
+- 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD
+- 16:00	部署语法 -PSMD
 
 ---
 如果绑定模版2b可能安排以下任务：
 
-- 09:30	XSTATE https://xstate.js.org -learn[0]
-- 14:00	整理代码，理顺food.js几个成员函数之间的调用关系 -raw[0]
-- 16:00	CometAPI -learn[3]
+- 09:30	以1406为例检查知识图谱和blawx的语法 -PSMD
+- 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD
+- 16:00	部署语法 -PSMD
 
 ---
 如果绑定模版2c可能安排以下任务：
 
-- 14:00	XSTATE https://xstate.js.org -learn[0]
-- 16:00	CometAPI -learn[3]
+- 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD
+- 16:00	部署语法 -PSMD
 
 ---
 如果绑定模版1a可能安排以下任务：
 
-- 07:45	CometAPI -learn[3]
-- 09:30	XSTATE https://xstate.js.org -learn[0]
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[5]
-- 16:00	领域特定语言（DSL）,Xtext,ANTLR -learn[4]
+- 07:45	部署语法 -PSMD
+- 09:30	以1406为例检查知识图谱和blawx的语法 -PSMD
+- 14:00	权利分配语法 & engine -PSMD
+- 14:30	权利分配语法 & engine -PSMD
+- 16:00	部署语法 -PSMD
 
 ---
 如果绑定模版1b可能安排以下任务：
 
-- 09:30	XSTATE https://xstate.js.org -learn[0]
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[5]
-- 16:00	CometAPI -learn[3]
+- 09:30	以1406为例检查知识图谱和blawx的语法 -PSMD
+- 14:00	权利分配语法 & engine -PSMD
+- 14:30	权利分配语法 & engine -PSMD
+- 16:00	部署语法 -PSMD
 
 ---
 如果绑定模版1c可能安排以下任务：
 
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[5]
-- 16:00	CometAPI -learn[3]
+- 14:00	权利分配语法 & engine -PSMD
+- 14:30	权利分配语法 & engine -PSMD
+- 16:00	部署语法 -PSMD
 
 ---
 如果绑定模版1d可能安排以下任务：
 
-- 14:00	新版raw.js的子命令-营养成分排序 -js[2]
-- 14:30	XACML（存量） -learn[5]
-- 16:00	CometAPI -learn[3]
+- 14:00	权利分配语法 & engine -PSMD
+- 14:30	权利分配语法 & engine -PSMD
+- 16:00	部署语法 -PSMD
 
 ---
 如果绑定模版1e可能安排以下任务：
 
-- 16:00	CometAPI -learn[3]
+- 16:00	部署语法 -PSMD
 
 ---
 如果绑定模版1f可能安排以下任务：

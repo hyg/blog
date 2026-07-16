@@ -1,66 +1,34 @@
 # 2026.07.15.
+日小结
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，安排常规工作，每天早起根据身心状况绑定模版。
+<a id="top"></a>
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，本月安排常规工作，今天绑定模版1(1f)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD
-- 14:00	新版实时手稿 -ego
-- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra
+<a id="index"></a>
+- 18:35~18:54	check: [零散笔记](#20260715183500)
 
 ---
-如果绑定模版2b可能安排以下任务：
+season stat:
 
-- 09:30	权利分配语法 & engine -PSMD
-- 14:00	新版实时手稿 -ego
-- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	权利分配语法 & engine -PSMD
-- 16:00	JT的发行和回收 -ego
-
----
-如果绑定模版1a可能安排以下任务：
-
-- 07:45	部署语法 -PSMD
-- 09:30	新版实时手稿 -ego
-- 14:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra
-- 14:30	复习五元庄第十二式 -raw
-- 16:00	The Node.js best practices list (July 2024) -js
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 0 | 13530 | 0 |
+| PSMD | 4000 | 0 | 4000 | 0 |
+| ego | 2530 | 0 | 2530 | 0 |
+| infra | 2000 | 0 | 2000 | 0 |
+| xuemen | 1000 | 0 | 1000 | 0 |
+| raw | 1000 | 0 | 1000 | 0 |
+| learn | 2000 | 0 | 2000 | 0 |
+| js | 1000 | 0 | 1000 | 0 |
 
 ---
-如果绑定模版1b可能安排以下任务：
+<a href="mailto:huangyg@mars22.com?subject=关于2026.07.15.[无名任务]任务&body=日期: 2026.07.15.%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260715.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20260715183500"></a>
+## 18:35 ~ 18:54
+## check: [零散笔记]
 
-- 09:30	权利分配语法 & engine -PSMD
-- 14:00	微观与宏观衔接的几篇论文 -ego
-- 14:30	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra
-- 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw
-
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	整理闫岸家政能力讨论 -PSMD
-- 14:30	微观与宏观衔接的几篇论文 -ego
-- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	整理闫岸家政能力讨论 -PSMD
-- 14:30	微观与宏观衔接的几篇论文 -ego
-- 16:00	范例--利用js模块组合实现合同条款的组合。 -infra
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	部署语法 -PSMD
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2026.07.15.任务排序的建议&body=date: 2026.07.15.%0D%0Afile: ../../blog/release/time/d.20260715.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+- https://www.techtimes.com/articles/320264/20260712/vint-cerf-retires-google-warning-ai-agents-need-real-protocols.htm
+	- TCP/IP was neutral by design, owned by no one, governed through open process. The new agent protocols are open-licensed, Linux Foundation-hosted, and shaped by the largest AI companies simultaneously. That is not the same thing. Cerf knew exactly what the distinction costs. He spent fifty years building infrastructure designed to prevent it.
+	- Vint Cerf基本上是直接开骂了。
+	- 有些小编还解读成：“他预测，如同早期的互联网协议战争一样，率先定义这些 AI 互操作性标准的公司，将在未来的智能体经济体系中拥有巨大的影响力。”
+		- https://mp.weixin.qq.com/s/Y6yn6QkM7sCujOTDLSZC5A

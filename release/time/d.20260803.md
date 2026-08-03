@@ -1,26 +1,43 @@
 # 2026.08.03.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，本月安排常规工作，今天绑定模版2(2a)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 03:57~04:11 | 15 | 休整 |  |
-| 04:12~05:11 | 60 | 备餐、运动 |  |
-| 05:12~05:56 | 45 | 早餐 |  |
-| 05:57~06:41 | 45 | 会议、自习 |  |
-| 06:42~07:43 | 62 | 休整 |  |
-| 07:45~10:59 | 195 | 工作 | PSMD:term + COM matedata -> deploy metadata -> deploy view [在线](http://simp.ly/p/3GXNTh) [离线](../../draft/2026/20260803074500.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.08.03.[PSMD:term + COM matedata -> deploy metadata -> deploy view]任务&body=日期: 20260803%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260803074500.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
-| 14:00~15:29 | 90 | 工作 | ego:新版实时手稿 [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2026/20260803140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.08.03.[ego:新版实时手稿]任务&body=日期: 20260803%0D%0A序号: 7%0D%0A手稿:../../draft/2026/20260803140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 15:30~15:59 | 30 | 休整 |  |
-| 16:00~16:59 | 60 | 工作 | infra:范例--利用js模块组合实现合同条款的组合。 [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2026/20260803160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.08.03.[infra:范例--利用js模块组合实现合同条款的组合。]任务&body=日期: 20260803%0D%0A序号: 9%0D%0A手稿:../../draft/2026/20260803160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 07:45~10:59	PSMD: [term + COM matedata -> deploy metadata -> deploy view](#20260803074500)
+- 19:00~19:29	check: [零散笔记](#20260803190000)
 
 ---
+season stat:
 
-- 07:45~10:59	PSMD: [term + COM matedata -> deploy metadata -> deploy view](../../draft/2026/20260803.01.md)
-- 14:00~15:29	ego: [新版实时手稿](../../draft/2026/20260803.02.md)
-- 16:00~16:59	infra: [范例--利用js模块组合实现合同条款的组合。](../../draft/2026/20260803.03.md)
-- 19:00~19:59	check: [零散笔记](../../draft/2026/20260803.04.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 0 | 13530 | 0 |
+| PSMD | 4000 | 0 | 4000 | 0 |
+| ego | 2530 | 0 | 2530 | 0 |
+| infra | 2000 | 0 | 2000 | 0 |
+| xuemen | 1000 | 0 | 1000 | 0 |
+| raw | 1000 | 0 | 1000 | 0 |
+| learn | 2000 | 0 | 2000 | 0 |
+| js | 1000 | 0 | 1000 | 0 |
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2026.08.03.[无名任务]任务&body=日期: 2026.08.03.%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260803.01.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20260803074500"></a>
+## 07:45 ~ 10:59
+## PSMD: [term + COM matedata -> deploy metadata -> deploy view]
+
+- 工作分为几个层次：
+	- 人工手写deploy metadata + COD engine -> COD
+	- 人工手写COM metadata + term(少量配置项) + COM engine -> deploy metadata
+	- 人工手写COM、COD两套metadata语法+engine。
+- 下个时间片设计代码框架和开发环境。
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2026.08.03.[无名任务]任务&body=日期: 2026.08.03.%0D%0A序号: 11%0D%0A手稿:../../draft/2026/20260803.04.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20260803190000"></a>
+## 19:00 ~ 19:29
+## check: [零散笔记]
+
+- 这一轮大模型能力升级，还不足以完成三会级别的复杂任务。

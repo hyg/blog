@@ -1,26 +1,44 @@
 # 2026.08.22.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，本月安排常规工作，今天绑定模版2(2a)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 04:20~04:34 | 15 | 休整 |  |
-| 04:35~05:34 | 60 | 备餐、运动 |  |
-| 05:35~06:19 | 45 | 早餐 |  |
-| 06:20~07:04 | 45 | 会议、自习 |  |
-| 07:05~07:43 | 39 | 休整 |  |
-| 07:45~10:59 | 195 | 工作 | PSMD:term + COM matedata -> deploy metadata -> deploy view [在线](http://simp.ly/p/3GXNTh) [离线](../../draft/2026/20260822074500.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.08.22.[PSMD:term + COM matedata -> deploy metadata -> deploy view]任务&body=日期: 20260822%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260822074500.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
-| 14:00~15:29 | 90 | 工作 | ego:新版实时手稿 [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2026/20260822140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.08.22.[ego:新版实时手稿]任务&body=日期: 20260822%0D%0A序号: 7%0D%0A手稿:../../draft/2026/20260822140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 15:30~15:59 | 30 | 休整 |  |
-| 16:00~16:59 | 60 | 工作 | infra:范例--利用js模块组合实现合同条款的组合。 [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2026/20260822160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.08.22.[infra:范例--利用js模块组合实现合同条款的组合。]任务&body=日期: 20260822%0D%0A序号: 9%0D%0A手稿:../../draft/2026/20260822160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 07:45~10:59	PSMD: [消费者自主健康管理平台创业召集通知](#20260822074500)
+- 19:00~19:59	check: [零散笔记](#20260822190000)
 
 ---
+season stat:
 
-- 07:45~10:59	PSMD: [term + COM matedata -> deploy metadata -> deploy view](../../draft/2026/20260822.01.md)
-- 14:00~15:29	ego: [新版实时手稿](../../draft/2026/20260822.02.md)
-- 16:00~16:59	infra: [范例--利用js模块组合实现合同条款的组合。](../../draft/2026/20260822.03.md)
-- 19:00~19:59	check: [零散笔记](../../draft/2026/20260822.04.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 1050 | 12480 | 0 |
+| PSMD | 4000 | 705 | 3295 | 0 |
+| ego | 2530 | 285 | 2245 | 0 |
+| infra | 2000 | 60 | 1940 | 0 |
+| xuemen | 1000 | 0 | 1000 | 0 |
+| raw | 1000 | 0 | 1000 | 0 |
+| learn | 2000 | 0 | 2000 | 0 |
+| js | 1000 | 0 | 1000 | 0 |
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2026.08.22.[无名任务]任务&body=日期: 2026.08.22.%0D%0A序号: 6%0D%0A手稿:../../draft/2026/20260822.a.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20260822074500"></a>
+## 07:45 ~ 10:59
+## PSMD: [消费者自主健康管理平台创业召集通知]
+
+- https://hoxdao-urc.feishu.cn/docx/JjtWdWeluoajaNxCG2qcvfqknfb
+- https://hoxdao-urc.feishu.cn/docx/KJtjdIJMhoSRdyxY8XKcxWRynVh
+- https://hoxdao-urc.feishu.cn/docx/YRQkdQQbqoQmQPx83FXcvH10nCc
+- https://hoxdao-urc.feishu.cn/docx/SJX9dDRcZotkdkxlhXac7T26nxd
+	- 已经提交几处评论。
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2026.08.22.[无名任务]任务&body=日期: 2026.08.22.%0D%0A序号: 12%0D%0A手稿:../../draft/2026/20260822.04.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20260822190000"></a>
+## 19:00 ~ 19:59
+## check: [零散笔记]
+
+- 健康电商再次有hox冲动，而且比以前更干脆。
+- 康齐那边也开始理解agent电商这个方向。

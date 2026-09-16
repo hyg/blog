@@ -1,26 +1,96 @@
 # 2026.09.16.
-日计划
+日小结
 
+<a id="top"></a>
 根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，本月安排休整和总结，今天绑定模版2(2b)。
 
-| 时间片 | 时长 | 用途 | 手稿 |
-| --- | --- | :---: | --- |
-| 05:45~05:59 | 15 | 休整 |  |
-| 06:00~06:59 | 60 | 备餐、运动 |  |
-| 07:00~07:44 | 45 | 早餐 |  |
-| 07:45~08:29 | 45 | 会议、自习 |  |
-| 08:30~09:28 | 59 | 休整 |  |
-| 09:30~10:59 | 90 | 工作 | PSMD:权利分配语法 & engine [在线](http://simp.ly/p/WZ077p) [离线](../../draft/2026/20260916093000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.09.16.[PSMD:权利分配语法 & engine]任务&body=日期: 20260916%0D%0A序号: 5%0D%0A手稿:../../draft/2026/20260916093000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 11:00~13:59 | 180 | 备餐、午餐午休 |  |
-| 14:00~15:29 | 90 | 工作 | ego:新版实时手稿 [在线](http://simp.ly/p/lsBYG9) [离线](../../draft/2026/20260916140000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.09.16.[ego:新版实时手稿]任务&body=日期: 20260916%0D%0A序号: 7%0D%0A手稿:../../draft/2026/20260916140000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 15:30~15:59 | 30 | 休整 |  |
-| 16:00~16:59 | 60 | 工作 | infra:范例--利用js模块组合实现合同条款的组合。 [在线](http://simp.ly/p/MpcbHD) [离线](../../draft/2026/20260916160000.md) <a href="mailto:huangyg@mars22.com?subject=关于2026.09.16.[infra:范例--利用js模块组合实现合同条款的组合。]任务&body=日期: 20260916%0D%0A序号: 9%0D%0A手稿:../../draft/2026/20260916160000.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[想法]</a> |
-| 17:00~18:59 | 120 | 晚餐 |  |
-| 19:00~19:59 | 60 | 讨论、整理提交 |  |
+<a id="index"></a>
+- 19:00~19:59	check: [零散笔记](#20260916190000)
 
 ---
+season stat:
 
-- 09:30~10:59	PSMD: [权利分配语法 & engine](../../draft/2026/20260916.01.md)
-- 14:00~15:29	ego: [新版实时手稿](../../draft/2026/20260916.02.md)
-- 16:00~16:59	infra: [范例--利用js模块组合实现合同条款的组合。](../../draft/2026/20260916.03.md)
-- 19:00~19:59	check: [零散笔记](../../draft/2026/20260916.04.md)
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 1170 | 12360 | 0 |
+| PSMD | 4000 | 825 | 3175 | 0 |
+| ego | 2530 | 285 | 2245 | 0 |
+| infra | 2000 | 60 | 1940 | 0 |
+| xuemen | 1000 | 0 | 1000 | 0 |
+| raw | 1000 | 0 | 1000 | 0 |
+| learn | 2000 | 0 | 2000 | 0 |
+| js | 1000 | 0 | 1000 | 0 |
+
+---
+<a href="mailto:huangyg@mars22.com?subject=关于2026.09.16.[无名任务]任务&body=日期: 2026.09.16.%0D%0A序号: 11%0D%0A手稿:../../draft/2026/20260916.04.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20260916190000"></a>
+## 19:00 ~ 19:59
+## check: [零散笔记]
+
+
+- jev仍然没有撼动ego、PSMD的agent版新框架。
+	- 可以减轻选择、路由环节的负担，提高准确率。
+- cordis可以作为插件系统的底座之一，插件系统本身在传统软件主程序看来是可插拔的子模块。这样可以提高未来兼容性。
+- openai新版的agent API不影响新框架，不适合访问本地数据，与本地应用配合。可以作为受托方承接一部分独立性较高的子任务。
+- 至此新框架基本可以定稿。
+
+- https://typesafe.ai/
+	- https://docs.typesafe.ai/introduction
+	- https://docs.typesafe.ai/introduction/quickstart
+		- AI primitives:Choice\Score\Noul
+			- https://docs.typesafe.ai/primitives
+		- API: https://docs.typesafe.ai/api
+```
+POST https://api.typesafe.ai/v1/systemone
+Authorization: Bearer <API_KEY>
+Content-Type: application/json
+```
+```
+curl -X POST https://api.typesafe.ai/v1/systemone \
+  -H "Authorization: Bearer $TYPESAFE_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d @- <<'EOF'
+  {
+    "state": "Hi, I've been trying to connect my Stripe account for 3 days and it keeps failing. I'm losing sales. Please help ASAP.",
+    "model": "jev-latest",
+    "questions": {
+      "urgency": {
+        "type": "noul",
+        "instructions": "Does this message express urgency?"
+      }
+    }
+  }
+EOF
+```
+```
+{
+  "state": "Hi, I've been trying to connect my Stripe account for 3 days and it keeps failing. I'm losing sales. Please help ASAP.",
+  "model": "jev-latest",
+  "questions": {
+    "department": {
+      "type": "choice",
+      "instructions": "Which team should handle this",
+      "criteria": {
+        "billing": "Payment or subscription issues",
+        "technical": "Bugs or integration problems",
+        "sales": "Pricing or account questions"
+      }
+    },
+    "frustration": {
+      "type": "score",
+      "instructions": "How frustrated the customer appears",
+      "criteria": [
+        "Calm, just stating facts",
+        "Frustrated but civil",
+        "Very angry, strong language"
+      ]
+    },
+    "is_urgent": {
+      "type": "noul",
+      "instructions": "The message conveys urgency or time-sensitivity"
+    }
+  }
+}
+```
+- https://link.springer.com/article/10.1007/s44163-026-02122-1
+	- 准备轮动：语言模型->物理AI

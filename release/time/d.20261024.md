@@ -27,7 +27,8 @@ season stat:
 ## 17:19 ~ 18:18
 ## check: [零散笔记]
 
-- data: 除了SOP、COD
-- SOP: 产生任务
-- COD: 产生SOP和职位
-- COM：COD的抽象模型
+- 粗略的划分，准备按真实合同检验
+	- data: 除了SOP、COD
+	- SOP: 产生任务，输出data
+	- COD: 产生SOP和职位（规定的data）
+	- COM：COD的抽象模型

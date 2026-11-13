@@ -6,14 +6,14 @@
 如果绑定模版2a可能安排以下任务：
 
 - 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD
-- 14:00	新版实时手稿 -ego
+- 14:00	新版本任务、子任务的数据结构 -ego
 - 16:00	范例--利用js模块组合实现合同条款的组合逻辑 -infra
 
 ---
 如果绑定模版2b可能安排以下任务：
 
 - 09:30	以1406为例检查知识图谱和blawx的语法 -PSMD
-- 14:00	新版实时手稿 -ego
+- 14:00	新版本任务、子任务的数据结构 -ego
 - 16:00	范例--利用js模块组合实现合同条款的组合逻辑 -infra
 
 ---
@@ -26,7 +26,7 @@
 如果绑定模版1a可能安排以下任务：
 
 - 07:45	evaluate toolset -PSMD
-- 09:30	新版实时手稿 -ego
+- 09:30	新版本任务、子任务的数据结构 -ego
 - 14:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra
 - 14:30	复习五元庄第十二式 -raw
 - 16:00	The Node.js best practices list (July 2024) -js

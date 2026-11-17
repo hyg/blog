@@ -1,66 +1,39 @@
 # 2026.11.17.
+日小结
 
-根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，安排常规工作，每天早起根据身心状况绑定模版。
+<a id="top"></a>
+根据[ego模型时间接口](https://gitee.com/hyg/blog/blob/master/timeflow.md)，本月安排常规工作，今天绑定模版1(1e)。
 
----
-如果绑定模版2a可能安排以下任务：
-
-- 07:45	term + COM matedata -> deploy metadata -> deploy view -PSMD
-- 14:00	新版本任务、子任务的数据结构 -ego
-- 16:00	范例--利用js模块组合实现合同条款的组合逻辑 -infra
+<a id="index"></a>
+- 19:00~19:59	check: [零散笔记](#20261117190000)
 
 ---
-如果绑定模版2b可能安排以下任务：
+season stat:
 
-- 09:30	以1406为例检查知识图谱和blawx的语法 -PSMD
-- 14:00	新版本任务、子任务的数据结构 -ego
-- 16:00	范例--利用js模块组合实现合同条款的组合逻辑 -infra
-
----
-如果绑定模版2c可能安排以下任务：
-
-- 14:00	以1406为例检查知识图谱和blawx的语法 -PSMD
-- 16:00	整理edgeone、cnb、gitee的发布通道 -ego
-
----
-如果绑定模版1a可能安排以下任务：
-
-- 07:45	evaluate toolset -PSMD
-- 09:30	新版本任务、子任务的数据结构 -ego
-- 14:00	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra
-- 14:30	复习五元庄第十二式 -raw
-- 16:00	The Node.js best practices list (July 2024) -js
+| task | alloc | sold | hold | todo |
+| :---: | ---: | ---: | ---: | ---: |
+| total | 13530 | 600 | 12930 | 0 |
+| PSMD | 4000 | 210 | 3790 | 0 |
+| ego | 2530 | 60 | 2470 | 0 |
+| infra | 2000 | 0 | 2000 | 0 |
+| xuemen | 1000 | 330 | 670 | 0 |
+| raw | 1000 | 0 | 1000 | 0 |
+| learn | 2000 | 0 | 2000 | 0 |
+| js | 1000 | 0 | 1000 | 0 |
 
 ---
-如果绑定模版1b可能安排以下任务：
+<a href="mailto:huangyg@mars22.com?subject=关于2026.11.17.[无名任务]任务&body=日期: 2026.11.17.%0D%0A序号: 7%0D%0A手稿:../../draft/2026/20261117.02.md%0D%0A---请勿修改邮件主题及以上内容 从下一行开始写您的想法---%0D%0A">[email]</a> | [top](#top) | [index](#index)
+<a id="20261117190000"></a>
+## 19:00 ~ 19:59
+## check: [零散笔记]
 
-- 09:30	以1406为例检查知识图谱和blawx的语法 -PSMD
-- 14:00	微观与宏观衔接的几篇论文 -ego
-- 14:30	设计静态数据（git库）和实时交互的分工。如何共同支撑PSMD和ego项目。 -infra
-- 16:00	新版食材排序，包括升序、降序、特定值距离、多种营养成分特定值组合距离。 -raw
+- 关于英伟达董事提名、选举权。
+    - 三大投资机构是13G，只能被动投资。如果使用提名权会被迫切换到13D。
+    - 但是提名权条款被保护得很严格。
+        - 这几家机构不动用这条权力，但是非常在乎。比如这份文件，就专门详细界定提名董事的细节，防止（董事会）给股东提名董事增加障碍。
+https://corporate.vanguard.com/content/dam/corp/advocate/investment-stewardship/pdf/perspectives-and-commentary/shareholder_proposal_regarding_company_bylaws_at_servicenow_inc.pdf
+        - 这份文件侧面证实了，收到某股东对股东提名董事的程序提出feedback ，并承诺就相关章程修改与股东进行有针对性的沟通
+https://content-archive.fast-edgar.com/20260512/A9LUN22CZ222H252222A22Z2MTP8ZH222282/#3
+We recognize the importance of stockholders’ ability to nominate directors to our Board. Accordingly, our Board will consider feedback received through our stockholder engagement process regarding the process and disclosure requirements of our Bylaws for nominating directors and other proposals. Our Board will engage with stockholders of various holdings size regarding any proposed amendments to our Bylaws that would require a nominating stockholder to disclose to us (i) such stockholder’s plans to nominate candidates to the boards of other public companies, or disclose prior director nominations or proposals that such stockholder privately submitted to other public companies, or (ii) information about such stockholder’s limited partners or business associates beyond the existing requirements of our Bylaws.
 
----
-如果绑定模版1c可能安排以下任务：
-
-- 14:00	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD
-- 14:30	微观与宏观衔接的几篇论文 -ego
-- 16:00	范例--利用js模块组合实现合同条款的组合逻辑 -infra
-
----
-如果绑定模版1d可能安排以下任务：
-
-- 14:00	debug- D:\huangyg\git\PSMD\data\term.25c83dac.yaml interface字段混乱。 -PSMD
-- 14:30	微观与宏观衔接的几篇论文 -ego
-- 16:00	范例--利用js模块组合实现合同条款的组合逻辑 -infra
-
----
-如果绑定模版1e可能安排以下任务：
-
-- 16:00	evaluate toolset -PSMD
-
----
-如果绑定模版1f可能安排以下任务：
-
-
----
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2026.11.17.任务排序的建议&body=date: 2026.11.17.%0D%0Afile: ../../blog/release/time/d.20261117.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+        - 用Engagement report可以查到大量私下沟通，相当比例是关于董事会的。但他们一般不会对特定董事发表意见，而是通过整体意见表达立场。

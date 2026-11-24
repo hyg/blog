@@ -63,4 +63,4 @@
 
 
 ---
-对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2026.11.25.任务排序的建议&body=date: 2026.11.25.%0D%0Afile: ../../blog/release/time/d.20261125.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。
+对任务排序的建议请点击这个链接<a href="mailto:huangyg@mars22.com?subject=关于2026.11.25.任务排序的建议&body=date: 2026.11.25.%0D%0Afile: /home/huangyg/git/blog/release/time/d.20261125.md%0D%0A---请勿修改邮件主题及以上内容---%0D%0A">发送电子邮件</a>，日计划确定后会在本页面发布。

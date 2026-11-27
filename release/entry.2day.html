@@ -36,6 +36,10 @@
 			tomorrowurl = "https://raw.githubusercontent.com/hyg/blog/refs/heads/master/release/time/d." + datestr(1) + ".md";
 			seasonurl = "https://raw.githubusercontent.com/hyg/ego/refs/heads/vat/" + seasonpath;
 
+			todayurl = "https://blogrepo.edgeone.cool/release/time/d." + datestr() + ".md";
+			tomorrowurl = "https://blogrepo.edgeone.cool/release/time/d." + datestr(1) + ".md";
+			seasonurl = "https://mars22.edgeone.cool/" + seasonpath;
+
 			getTextFileFromURL(todayurl, "today");
 			getTextFileFromURL(tomorrowurl, "tomorrow");
 			if (seasonurl != '') {

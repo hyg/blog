@@ -40,6 +40,10 @@
 				todayurl = "https://blog-repo.netlify.app/release/time/d." + datestr() + ".md?p=" + random;
 				tomorrowurl = "https://blog-repo.netlify.app/release/time/d." + datestr(1) + ".md?p=" + random;
 				seasonurl = "https://ego-vat.netlify.app/" + seasonpath + "?p=" + random
+			} else if (document.domain == "blog-gh.netlify.app") {
+				todayurl = "https://blog-gh.netlify.app/release/time/d." + datestr() + ".md?p=" + random;
+				tomorrowurl = "https://blog-gh.netlify.app/release/time/d." + datestr(1) + ".md?p=" + random;
+				seasonurl = "https://ego-gh.netlify.app/" + seasonpath + "?p=" + random
 			} else if (document.domain == "blog.huangyg.workers.dev") {
 				todayurl = "https://blog.huangyg.workers.dev/release/time/d." + datestr() + ".md?p=" + random;
 				tomorrowurl = "https://blog.huangyg.workers.dev/release/time/d." + datestr(1) + ".md?p=" + random;

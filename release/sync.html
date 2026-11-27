@@ -29,7 +29,11 @@
 			} else if (document.domain == "today.mars22.com") {
 				todayurl = "http://today.mars22.com/blog/release/time/d." + datestr() + ".md";
 				tomorrowurl = "http://today.mars22.com/blog/release/time/d." + datestr(1) + ".md";
-				seasonurl = "http://today.mars22.com/ego/" + seasonpath;
+				seasonurl = "http://today.mars22.com/ego/" + seasonpath
+			} else if (document.domain == "blogrepo.edgeone.cool") {
+				todayurl = "http://blogrepo.edgeone.cool/release/time/d." + datestr() + ".md";
+				tomorrowurl = "http://blogrepo.edgeone.cool/release/time/d." + datestr(1) + ".md";
+				seasonurl = "http://mars22.edgeone.cool/" + seasonpath
 			}
 
 			getTextFileFromURL(drafturl, "draft");

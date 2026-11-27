@@ -16,8 +16,10 @@
 		var season = Math.ceil(parseInt(month) / 3);
 		var seasonpath = "data/season/" + year + "S" + season + ".yaml";
 
+		let random = Math.random();
+
 		window.onload = function () {
-			//alert(document.domain);
+			alert(document.domain);
 			if (document.domain == "hyg.codeberg.page") {
 				todayurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr() + ".md";
 				tomorrowurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr(1) + ".md";
@@ -30,15 +32,27 @@
 				todayurl = "http://today.mars22.com/blog/release/time/d." + datestr() + ".md";
 				tomorrowurl = "http://today.mars22.com/blog/release/time/d." + datestr(1) + ".md";
 				seasonurl = "http://today.mars22.com/ego/" + seasonpath;
+			} else if (document.domain == "blogrepo.edgeone.cool") {
+				todayurl = "https://blogrepo.edgeone.cool/release/time/d." + datestr() + ".md?p=" + random;
+				tomorrowurl = "https://blogrepo.edgeone.cool/release/time/d." + datestr(1) + ".md?p=" + random;
+				seasonurl = "https://mars22.edgeone.cool/" + seasonpath + "?p=" + random
+			} else if (document.domain == "blog-repo.netlify.app") {
+				todayurl = "https://blog-repo.netlify.app/release/time/d." + datestr() + ".md?p=" + random;
+				tomorrowurl = "https://blog-repo.netlify.app/release/time/d." + datestr(1) + ".md?p=" + random;
+				seasonurl = "https://ego-vat.netlify.app/" + seasonpath + "?p=" + random
+			} else if (document.domain == "blog.huangyg.workers.dev") {
+				todayurl = "https://blog.huangyg.workers.dev/release/time/d." + datestr() + ".md?p=" + random;
+				tomorrowurl = "https://blog.huangyg.workers.dev/release/time/d." + datestr(1) + ".md?p=" + random;
+				seasonurl = "https://ego-vat.netlify.app/" + seasonpath + "?p=" + random
+			} else if (document.domain == "blog-blond-zeta.vercel.app") {
+				todayurl = "https://blog-blond-zeta.vercel.app/release/time/d." + datestr() + ".md?p=" + random;
+				tomorrowurl = "https://blog-blond-zeta.vercel.app/release/time/d." + datestr(1) + ".md?p=" + random;
+				seasonurl = "https://ego-rust.vercel.app/" + seasonpath + "?p=" + random
+			} else {
+				todayurl = "https://blog-repo.netlify.app/release/time/d." + datestr() + ".md?p=" + random;
+				tomorrowurl = "https://blog-repo.netlify.app/release/time/d." + datestr(1) + ".md?p=" + random;
+				seasonurl = "https:///ego-vat.netlify.app/" + seasonpath + "?p=" + random
 			}
-
-			todayurl = "https://raw.githubusercontent.com/hyg/blog/refs/heads/master/release/time/d." + datestr() + ".md";
-			tomorrowurl = "https://raw.githubusercontent.com/hyg/blog/refs/heads/master/release/time/d." + datestr(1) + ".md";
-			seasonurl = "https://raw.githubusercontent.com/hyg/ego/refs/heads/vat/" + seasonpath;
-
-			todayurl = "https://blogrepo.edgeone.cool/release/time/d." + datestr() + ".md";
-			tomorrowurl = "https://blogrepo.edgeone.cool/release/time/d." + datestr(1) + ".md";
-			seasonurl = "https://mars22.edgeone.cool/" + seasonpath;
 
 			getTextFileFromURL(todayurl, "today");
 			getTextFileFromURL(tomorrowurl, "tomorrow");

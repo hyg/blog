@@ -7,7 +7,8 @@
     <script src="marked.min.js"></script>
     <script>
 
-        location.href = "https://blogrepo.edgeone.cool/release/time/d."+datestr()+".md";
+        let random = Math.random();
+        location.href = "https://blogrepo.edgeone.cool/release/time/d."+datestr()+".md?p="+random;
 
         function datestr(diff = 0) {
             var theDate = new Date();

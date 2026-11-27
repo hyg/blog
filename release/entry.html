@@ -7,7 +7,26 @@
     <script src="marked.min.js"></script>
     <script>
 
-        location.href = "https://codeberg.org/hyg/blog/src/branch/master/release/time/d."+datestr()+".md";
+        //location.href = "https://codeberg.org/hyg/blog/src/branch/master/release/time/d."+datestr()+".md";
+
+		let random = Math.random();
+		if (document.domain == "hyg.codeberg.page") {
+               location.href = "https://codeberg.org/hyg/blog/src/branch/master/release/time/d."+datestr()+".md";
+		} else if (document.domain == "hyg.github.io") {
+               location.href = "http://hyg.github.io/blog/release/time/d." + datestr() + ".md";
+		} else if (document.domain == "today.mars22.com") {
+               location.href = "http://today.mars22.com/blog/release/time/d." + datestr() + ".md";
+		} else if (document.domain == "blogrepo.edgeone.cool") {
+               location.href = "https://blogrepo.edgeone.cool/release/time/d." + datestr() + ".md?p=" + random;
+		} else if (document.domain == "blog-repo.netlify.app") {
+            location.href = "https://blog-repo.netlify.app/release/time/d." + datestr() + ".md?p=" + random;
+		} else if (document.domain == "blog.huangyg.workers.dev") {
+            location.href = "https://blog.huangyg.workers.dev/release/time/d." + datestr() + ".md?p=" + random;
+		} else if (document.domain == "blog-blond-zeta.vercel.app") {
+            location.href = "https://blog-blond-zeta.vercel.app/release/time/d." + datestr() + ".md?p=" + random;
+		} else {
+            location.href = "https://codeberg.org/hyg/blog/src/branch/master/release/time/d."+datestr()+".md";
+		}
 
         function datestr(diff = 0) {
             var theDate = new Date();

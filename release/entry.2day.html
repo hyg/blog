@@ -19,7 +19,7 @@
 		let random = Math.random();
 
 		window.onload = function () {
-			alert(document.domain);
+			//alert(document.domain);
 			if (document.domain == "hyg.codeberg.page") {
 				todayurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr() + ".md";
 				tomorrowurl = "https://hyg.codeberg.page/blog/@master/release/time/d." + datestr(1) + ".md";
@@ -47,7 +47,7 @@
 			} else if (document.domain == "blog.huangyg.workers.dev") {
 				todayurl = "https://blog.huangyg.workers.dev/release/time/d." + datestr() + ".md?p=" + random;
 				tomorrowurl = "https://blog.huangyg.workers.dev/release/time/d." + datestr(1) + ".md?p=" + random;
-				seasonurl = "https://ego-vat.netlify.app/" + seasonpath + "?p=" + random
+				seasonurl = "https://ego.huangyg.workers.dev/" + seasonpath + "?p=" + random
 			} else if (document.domain == "blog-blond-zeta.vercel.app") {
 				todayurl = "https://blog-blond-zeta.vercel.app/release/time/d." + datestr() + ".md?p=" + random;
 				tomorrowurl = "https://blog-blond-zeta.vercel.app/release/time/d." + datestr(1) + ".md?p=" + random;
